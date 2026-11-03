@@ -2865,3 +2865,125 @@
 > - **Vérification** : dans le navigateur intégré, la police GT Ultra se charge, le texte est « Zorah Project Study » et le séparateur est `|`. (3 November 2026, 17:50:47 +0100)
 >
 > La règle est consignée dans le feedback du projet. Elle remplace ma note « Zora dicté, à confirmer ». (3 November 2026, 17:50:47 +0100)
+
+## 3 November 2026, 18:11:23 +0100 : Prompt
+
+<!-- feedback-event:2a149a5910f74f5be8d96afe5914fdefd9f8a9e3834ef057df28ab0fdbaa9385 (3 November 2026, 18:11:23 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 18:11:23 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:11:23 +0100)
+
+> "99.9% precision in the composition" ajoute ça a la fin du prompt ai generation et ajoute-le en fait dans n'importe quel prompt de ZenRay Houdini où ça parle de reproduire à partir de l'IA. Ce genre de phrase, ça permet à l'agent qui fait des boucles de génération d'images d'être beaucoup plus performant. Donc ajoute-le un peu partout. dans les prompts sans te tromper puis redonne moi les prompts changé (3 November 2026, 18:11:23 +0100)
+
+## 3 November 2026, 18:11:46 +0100 : Prompt
+
+<!-- feedback-event:dc061faf2f1b7e29dd5aca9b1de981359a2bb522afedcc209ed430c7ec84ca05 (3 November 2026, 18:11:46 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 18:11:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:11:46 +0100)
+
+> The user sent a new message while you were working: (3 November 2026, 18:11:46 +0100)
+> notamment base color et height (3 November 2026, 18:11:46 +0100)
+>
+> This is how Claude Code surfaces messages the user sends mid-turn — within the running turn, often alongside the next tool result, rather than as a separate conversation turn. Address the message above as you continue this turn. (3 November 2026, 18:11:46 +0100)
+
+## 3 November 2026, 18:11:47 +0100 : Iteration
+
+<!-- feedback-event:63bbca65d408bb6e5e745638a77e7415e92470a4b16da5f6fd5942c4e1f0f0d1 (3 November 2026, 18:11:47 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 18:11:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:11:47 +0100)
+
+> Je reprends avec la priorité sur base color et height. Je commence par lire leurs prompts actuels. (3 November 2026, 18:11:47 +0100)
+
+## 3 November 2026, 18:12:12 +0100 : Iteration
+
+<!-- feedback-event:856edf04d03511280f13a7d57b44d366a89bda1499226af0915842922ce28588 (3 November 2026, 18:12:12 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 18:12:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:12:12 +0100)
+
+> Je modifie d'abord les prompts de height et de base color, puis les autres prompts de reproduction. Chaque remplacement est vérifié par une assertion avant écriture. (3 November 2026, 18:12:12 +0100)
+
+## 3 November 2026, 18:13:18 +0100 : Prompt
+
+<!-- feedback-event:d15421c13b8b40ab363182049c7fbba8953c5f87b4e9f9bef73b0841b7f7acba (3 November 2026, 18:13:18 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 18:13:18 +0100)
+
+> Demande : ajouter « 99.9% precision in the composition » à la fin de chaque prompt de génération d'image de reproduction ZenRay Houdini, en priorité height et base color. Appliqué à 17 prompts de reproduction, exploration et édition exclus. (3 November 2026) (3 November 2026, 18:13:18 +0100)
+
+## 3 November 2026, 18:13:18 +0100 : Standing rule
+
+<!-- feedback-event:42b130390662abc579e7ce73822cbd29e5c90cbc41dfca7e8f9d719b0d0b308f (3 November 2026, 18:13:18 +0100) -->
+- Project: zorah-materials; kind: rule. (3 November 2026, 18:13:18 +0100)
+
+> Règle : toute phrase de précision (« 99.9% precision in the composition ») se place à la fin de chaque prompt de génération d'image qui reproduit ou décrit une référence, pour que l'agent des boucles de génération reste précis. (3 November 2026) (3 November 2026, 18:13:18 +0100)
+
+## 3 November 2026, 18:13:30 +0100 : Iteration
+
+<!-- feedback-event:144453989394aa4ce4ac9abced7fc0037dacfb7438775a362131775e0a1b8794 (3 November 2026, 18:13:30 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 18:13:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:13:30 +0100)
+
+> La phrase est ajoutée à la fin des prompts de reproduction, height et base color en premier. Les skills sont synchronisés. Voici les deux prompts prioritaires, complets. (3 November 2026, 18:13:30 +0100)
+>
+> **Height** (`templates/zenray-uv-height-inputs/prompt.md`) : (3 November 2026, 18:13:30 +0100)
+>
+> ```text (3 November 2026, 18:13:30 +0100)
+> Entrées = [six vues de l’asset avec îlots numérotés] + [planche UV avec les mêmes numéros] + [concept visuel choisi, une seule proposition] ; sortie = carte Height adaptée exactement au dépliage UV fourni, aspect export brut Substance Designer ; résolution cible = [2048 × 2048 ou 4096 × 4096] ; encodage cible = niveaux de gris linéaires, 16 bits ; utiliser les numéros pour identifier chaque surface et le concept pour déterminer ses matières et ses détails ; verrouiller positions, orientations, proportions et contours des îlots ; représenter uniquement le relief de surface : gris moyen = niveau neutre, blanc = relief, noir = creux ; conserver une échelle de hauteur cohérente ; ne pas reproduire dans la height les volumes déjà présents dans le maillage ; assurer la continuité des motifs et du relief entre les bords qui se rejoignent sur le modèle ; remplir les îlots et prolonger leurs bordures dans les marges ; sans réorganisation des UV ; sans quadrillage ; sans numéros ; sans éclairage ; sans ombres ; sans AO ; sans reflets ; sans couleur ; sans perspective ; sans texte ; sans légende. 99.9% precision in the composition. (3 November 2026, 18:13:30 +0100)
+> ``` (3 November 2026, 18:13:30 +0100)
+>
+> **Base color** (`templates/zenray-uv-height-inputs/prompt_basecolor.md`) : (3 November 2026, 18:13:30 +0100)
+>
+> ```text (3 November 2026, 18:13:30 +0100)
+> Entrées = [carte Height générée pour ce dépliage UV, celle que l’on vient d’obtenir] + [concept visuel choisi, une seule proposition, le même que pour la height] ; sortie = carte Base Color (albédo) du même dépliage UV, superposable pixel pour pixel à la Height fournie, aspect export brut Substance Designer ; résolution cible = identique à la Height ; encodage cible = sRGB, 8 bits par canal ; la Height est la référence de forme : chaque planche, joint, fissure, nœud, veine, éclat et bord y garde exactement sa position, son orientation et son contour ; le concept est la référence de couleur : en reprendre les teintes, la saturation, la valeur moyenne et la variation de chaque matière ; colorer chaque détail selon son relief (creux et joints plus sombres et plus sales, arêtes usées plus claires, planches voisines légèrement différentes) ; conserver les îlots, leurs contours et leurs marges tels que dans la Height, bordures prolongées dans les marges ; assurer la continuité des couleurs entre les bords qui se rejoignent sur le modèle ; couleur propre de la surface uniquement ; sans réorganisation des UV ; sans déplacement ni ajout de détail absent de la Height ; sans quadrillage ; sans numéros ; sans éclairage ; sans ombres ; sans AO ; sans reflets ; sans dégradé de lumière ; sans perspective ; sans texte ; sans légende. 99.9% precision in the composition. (3 November 2026, 18:13:30 +0100)
+> ``` (3 November 2026, 18:13:30 +0100)
+>
+> **Base color, version plate** (`templates/zenray-height-basecolor/prompt_flat_basecolor.md`) : (3 November 2026, 18:13:30 +0100)
+>
+> ```text (3 November 2026, 18:13:30 +0100)
+> From the first image only, the reference, generate a seamless flat base color (albedo) map of that same surface, 1:1, 4096x4096, full frame, seen straight on, with any perspective removed. If the reference shows a sphere next to a flat panel, ignore the sphere and read the panel. The second image is the final height map of this exact surface: keep every band, step, edge and detail exactly at its position in that height map, with the same scale and direction, and keep the map seamless on all four sides. Pigment colour only, as if under perfectly even light, taking the hues, saturation and variation of the reference. No lighting, no shadows, no ambient occlusion, no specular highlights, no reflections, no gloss, no relief shading, no perspective, no border, no watermark, no text, no legend. 99.9% precision in the composition. (3 November 2026, 18:13:30 +0100)
+> ``` (3 November 2026, 18:13:30 +0100)
+>
+> **Les autres prompts changés** : leur texte complet est dans les fichiers. (3 November 2026, 18:13:30 +0100)
+> - `zenray-houdini/SKILL.md`, cinq blocs de 4 vues, 6 vues et height générique, lignes 2255, 2261, 2269, 2273 et 2298. (3 November 2026, 18:13:30 +0100)
+> - `zenray-houdini-prompt-materials-breakdown/SKILL.md`, `zenray-houdini-prompt-components-grey-mesh/SKILL.md` (deux prompts), `zenray-houdini-generate-isolated-components/SKILL.md`, `prompt-components-houdini/SKILL.md`. (3 November 2026, 18:13:30 +0100)
+> - `zenray-houdini-materials-identification/references/sphere-gallery-prompt.md`, `zenray-houdini/references/component-segmentation/TreeTricolorPrompt.md` et `RawMaterialPrompt.md`. (3 November 2026, 18:13:30 +0100)
+> - Le prompt height du projet Zorah, dans [height-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/height-prompt-zorah.md). (3 November 2026, 18:13:30 +0100)
+>
+> Les prompts d'exploration et d'édition ne reproduisent rien, je ne les ai pas touchés. Les copies d'archive dans `Library/` non plus. (3 November 2026, 18:13:30 +0100)
+
+## 3 November 2026, 18:16:05 +0100 : Prompt
+
+<!-- feedback-event:3bfb30cab41bcf236308378eb2de72865e14652a913a0207a5eb5ddb060cefba (3 November 2026, 18:16:05 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 18:16:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:16:05 +0100)
+
+> Mais t'es ultra con dans le prompt. Pourquoi tu parles du dépliage UV du modèle alors que là on reproduit uniquement les 8 en fonction d'une map? Arrête d'être bête s'il te plaît. (3 November 2026, 18:16:05 +0100)
+
+## 3 November 2026, 18:16:26 +0100 : Standing rule
+
+<!-- feedback-event:7951e52c30bce595fde95eb402c0a4adaa5b7c019c0c4fc4625d77d0cde9732f (3 November 2026, 18:16:26 +0100) -->
+- Project: zorah-materials; kind: rule. (3 November 2026, 18:16:26 +0100)
+
+> Correction de Matthieu : pour reproduire une height ou une base color depuis une map, le prompt n'a qu'une entrée, la référence (et la height pour la base color). Aucun dépliage UV, aucune six vues, aucune planche UV. Les templates zenray-uv-height-inputs/prompt.md et prompt_basecolor.md sont réservés au pipeline UV d'un asset et ne servent pas à ce chantier. (3 November 2026) (3 November 2026, 18:16:26 +0100)
+
+## 3 November 2026, 18:16:31 +0100 : Iteration
+
+<!-- feedback-event:f9cf0252ec31f0ce1049f6143350f4402e6c6049be614f67ac9b0e183e0c8902 (3 November 2026, 18:16:31 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 18:16:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:16:31 +0100)
+
+> Tu as raison, je me suis trompé. Les deux prompts que je t'ai redonnés (`prompt.md` et `prompt_basecolor.md`) sont ceux du pipeline dépliage UV d'un asset : six vues, îlots, planche UV. Ils ne servent pas à reproduire une map. J'ai noté la règle dans le feedback du projet. (3 November 2026, 18:16:31 +0100)
+>
+> Pour une reproduction depuis une map, le prompt n'a qu'une entrée, la référence. Voici les deux prompts corrects, avec la phrase en fin de prompt. (3 November 2026, 18:16:31 +0100)
+>
+> **Height, depuis la map** (fichier `Prompts/height-prompt-zorah.md`) : (3 November 2026, 18:16:31 +0100)
+>
+> ```text (3 November 2026, 18:16:31 +0100)
+> Entrée = l'image jointe (référence) ; sortie = texture répétable Height de [matériau], aspect export brut Substance Designer AAA ; résolution = 4096 × 4096, format carré 1:1 ; encodage cible = niveaux de gris linéaires, 16 bits ; représenter uniquement la hauteur : blanc = haut, noir = creux ; conserver la même échelle de hauteur partout ; respecter la référence ; remplir entièrement le cadre ; raccord sur les quatre bords ; sans éclairage ; sans ombres ; sans AO ; sans reflets ; sans couleur ; sans perspective ; sans texte ; sans légende. 99.9% precision in the composition. (3 November 2026, 18:16:31 +0100)
+> ``` (3 November 2026, 18:16:31 +0100)
+>
+> **Base color, depuis la map et sa height** (la version plate, déjà sans UV) : (3 November 2026, 18:16:31 +0100)
+>
+> ```text (3 November 2026, 18:16:31 +0100)
+> From the first image only, the reference, generate a seamless flat base color (albedo) map of that same surface, 1:1, 4096x4096, full frame, seen straight on, with any perspective removed. If the reference shows a sphere next to a flat panel, ignore the sphere and read the panel. The second image is the final height map of this exact surface: keep every band, step, edge and detail exactly at its position in that height map, with the same scale and direction, and keep the map seamless on all four sides. Pigment colour only, as if under perfectly even light, taking the hues, saturation and variation of the reference. No lighting, no shadows, no ambient occlusion, no specular highlights, no reflections, no gloss, no relief shading, no perspective, no border, no watermark, no text, no legend. 99.9% precision in the composition. (3 November 2026, 18:16:31 +0100)
+> ``` (3 November 2026, 18:16:31 +0100)
+>
+> Les deux sont sans mention de dépliage UV ni de six vues. Les fichiers `prompt.md` et `prompt_basecolor.md` restent pour le pipeline UV d'un asset, je ne les utilise pas pour ce chantier. (3 November 2026, 18:16:31 +0100)
