@@ -3178,3 +3178,74 @@
 > - **La répétition l'oblige à réorganiser.** « Texture répétable, raccord sur les quatre bords » le pousse à déplacer les blocs pour qu'ils se raccordent, ce que la référence ne fait pas. (3 November 2026, 19:25:30 +0100)
 >
 > Autrement dit, le nouveau prompt échange de la fidélité de placement contre une height plus juste. Si tu poses tes nouvelles sorties dans le dossier, je peux mesurer l'écart de position par rapport à la référence et vérifier chacune avec `CheckAiHeight`. (3 November 2026, 19:25:30 +0100)
+
+## 3 November 2026, 19:41:00 +0100 : Prompt
+
+<!-- feedback-event:4f295a4632e114fbb5f44838687d74312681dcbb6d425bc91b7afbab04f61ea6 (3 November 2026, 19:41:00 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 19:41:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 19:41:00 +0100)
+
+> <pasted_content id="7e38"> (3 November 2026, 19:41:00 +0100)
+> Je pense qu'on devrait repartir sur un prompt beaucoup plus simple. Parce que de toute manière, là... les maps générées reprennent même pas tous les détails du truc de base. Donc il y a un gros problème en fait. Ce qu'il faudrait, c'est que... c'est faire un prompt hyper simple, à mon avis, sur la 8, pour que ce soit extrêmement... extrêmement clair, quoi. Pour que ce soit extrêmement clair en termes de prompt. Essayons vraiment un prompt hyper simple en mode juste tu reproduis exactement pixel perfect la 8. Comme ça je teste pour visuellement voir le truc. Parce que là le problème c'est qu'il chope pas assez de détails, tu vois. Éclairage ou non, tu vois. Même sans parler de reproduire la 8, tu vois, il faudrait juste qu'il... Je sais pas, qu'il fasse une sorte de... Enfin, ouais. Je sais pas, limite qu'il le fasse en Python, je sais pas. Je sais pas à quel point c'est possible, quoi. Le but, c'est de rétro-engineering une map, tu vois, mais bon. (3 November 2026, 19:41:00 +0100)
+> </pasted_content id="7e38"> (3 November 2026, 19:41:00 +0100)
+>
+>  vise simple pour l'instant ... (3 November 2026, 19:41:00 +0100)
+
+## 3 November 2026, 19:41:24 +0100 : Iteration
+
+<!-- feedback-event:b6857bd4afd1f3a216530ab32dbb9c0bafbed2e08f551944df0fe9569d454578 (3 November 2026, 19:41:24 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 19:41:24 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 19:41:24 +0100)
+
+> Bonne idée, on repart simple. Je découpe d'abord le carré plat de chaque référence. ChatGPT n'aura plus à deviner quelle partie lire, sans cylindre ni bandeau : c'est la condition pour qu'il garde les positions. (3 November 2026, 19:41:24 +0100)
+
+## 3 November 2026, 19:41:51 +0100 : Iteration
+
+<!-- feedback-event:2fcaa795680e0769e1b970afdd2faa4d5bc6c064294bec6c15217d2fecd56980 (3 November 2026, 19:41:51 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 19:41:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 19:41:51 +0100)
+
+> Les carrés 06 et 08 sont trop étroits : leur rouille sombre trompe le seuil. Les planches ont toutes la même mise en page, je reprends donc le cadre mesuré sur 01 pour toutes. (3 November 2026, 19:41:51 +0100)
+
+## 3 November 2026, 19:42:24 +0100 : Prompt
+
+<!-- feedback-event:6ddb5afd2987a35796a1190be6576096028f605748b2e39ea1bc9a1a958d30db (3 November 2026, 19:42:24 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 19:42:24 +0100)
+
+> Demande : repartir sur un prompt height hyper simple, reproduire la height pixel perfect ; les maps du prompt v2 ne reprennent pas tous les détails ; essayer aussi le calcul en Python. Prompt v3 (génération et Python) écrit ; carrés plats découpés dans textures/panels. (3 November 2026) (3 November 2026, 19:42:24 +0100)
+
+## 3 November 2026, 19:42:16 +0100 : Iteration
+
+<!-- feedback-event:8fa2d65017ff6b2065155dfb19bc2fc8a3d4b30730f28f93137ec67a01dd5e5e (3 November 2026, 19:42:16 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 19:42:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 19:42:16 +0100)
+
+> Les huit carrés sont bons, tous en 1869 × 1868. J'écris le prompt simple v3 dans le fichier des prompts, en gardant la v2 en historique. (3 November 2026, 19:42:16 +0100)
+
+## 3 November 2026, 19:42:38 +0100 : Iteration
+
+<!-- feedback-event:e0af2b95f49762af9a3470ef3f05d243e797bdbf6e63e01343316400d0c01e5d (3 November 2026, 19:42:38 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 19:42:38 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 19:42:38 +0100)
+
+> Voici deux prompts simples. Je ne les ai pas encore testés dans ChatGPT. (3 November 2026, 19:42:38 +0100)
+>
+> Avant tout, joins le carré découpé, pas la planche entière. Les huit carrés sont dans `Sources/artstation-eRZ01X/textures/panels/`, de `zorah-01-panel.png` à `zorah-08-panel.png`, tous en 1869 × 1868, sans cylindre ni bandeau. Avec la planche entière, ChatGPT doit deviner quelle partie lire, et c'est déjà une source de décalage. (3 November 2026, 19:42:38 +0100)
+>
+> **A. Génération d'image :** (3 November 2026, 19:42:38 +0100)
+>
+> ```text (3 November 2026, 19:42:38 +0100)
+> Fais la height map de cette image : même cadrage, chaque détail exactement à la même place, pixel pour pixel. Niveaux de gris : blanc = haut, noir = creux. Sans lumière, sans ombre, sans couleur. then redo with 99.9% precision in the composition. (3 November 2026, 19:42:38 +0100)
+> ``` (3 November 2026, 19:42:38 +0100)
+>
+> **B. Calcul en Python**, pour rétro-concevoir la map : (3 November 2026, 19:42:38 +0100)
+>
+> ```text (3 November 2026, 19:42:38 +0100)
+> N'utilise pas la génération d'image. En Python, calcule la height map de cette image : niveaux de gris, puis retire l'éclairage de grande échelle par un filtre passe-haut, même taille, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 19:42:38 +0100)
+> ``` (3 November 2026, 19:42:38 +0100)
+>
+> Oui, la voie Python est possible, et c'est la seule qui soit vraiment au pixel près : elle calcule la height à partir des pixels eux-mêmes, sans rien redessiner. Tous les détails restent donc à leur place exacte. Le passe-haut retire le cône de lumière, mais il laisse le relief éclairé de près, par exemple le liseré d'une arête. En revanche, elle ne sait pas qu'une tache sombre n'est pas un creux : la rouille de 07 et 08 deviendra du relief. C'est le principe et la limite de « Bitmap to Material » dans Substance. (3 November 2026, 19:42:38 +0100)
+>
+> La génération d'image, elle, comprend mieux ce qui est en creux, mais elle redessine, et c'est pour ça qu'elle déplace les détails. Teste les deux sur la même référence, puis passe chaque sortie dans `CheckAiHeight.py`. (3 November 2026, 19:42:38 +0100)
+>
+> Les deux prompts sont notés dans [height-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/height-prompt-zorah.md), avec la v2 gardée en historique. (3 November 2026, 19:42:38 +0100)
