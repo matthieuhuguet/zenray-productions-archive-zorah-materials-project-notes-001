@@ -4239,3 +4239,145 @@
 > ``` (3 November 2026, 21:46:15 +0100)
 >
 > Si la référence est totalement droite, n'envoie que le second paragraphe, celui qui demande Python. (3 November 2026, 21:46:15 +0100)
+
+## 3 November 2026, 21:57:41 +0100 : Prompt
+
+<!-- feedback-event:2b7bfcfe1f2bbef0332df3ccd0556195b543271c307acfde27c348f7508464bf (3 November 2026, 21:57:41 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 21:57:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 21:57:41 +0100)
+
+> Fais la height map de cette image : même cadrage, chaque détail exactement à la même place, pixel pour pixel. Niveaux de gris : blanc = haut, noir = creux. Sans lumière, sans ombre, sans couleur. then redo with 99.9% precision in the composition. (3 November 2026, 21:57:41 +0100)
+> N'utilise pas la génération d'image. En Python, calcule la height map de cette image : niveaux de gris, puis retire l'éclairage de grande échelle par un filtre passe-haut, même taille, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 21:57:41 +0100)
+>
+> Une fois la height map obtenu dans une deuxième étape seulement : With AI gen create image Corrige les défauts d'ombrage de cette height map, sans rien changer d'autre. then in python redo with 99.9% ICI FAUT CHANGER LE TEXTE POUR ANTICIPER CE BUG "le problème de cette étape, c'est qu'il va réajouter le bug d'ombrage. Donc en fait, il faut surtout faire un filtre high pass haut pour essayer de gommer les derniers bugs d'ombrage. Et ce, en Python directement, pour avoir une précision complète. Mais sans remettre les problèmes d'ombrage. Si tu re-input via Python l'image, tu vas remettre des problèmes d'ombrage. Donc en fait, il faut surtout faire un filtre high pass pour que la HEIGHTMAP soit finalisée, tu vois. precision in the composition. Respecte absolument l'ordre du prompt. de manière à ce que peu importe le prompt, peu importe la génération, la HEIGHTMAP finale soit toujours la même. (3 November 2026, 21:57:41 +0100)
+
+## 3 November 2026, 21:58:13 +0100 : Prompt
+
+<!-- feedback-event:3f27c93e47602ab555fe06f403d36dd335a657dd9f913bb938ad2e77f7a6e8fe (3 November 2026, 21:58:13 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 21:58:13 +0100)
+
+> Prompt une étape à écrire : height Python, puis seulement dans une deuxième étape « With AI gen create image Corrige les défauts d'ombrage de cette height map, sans rien changer d'autre », puis en Python un filtre passe-haut pour gommer les derniers défauts d'ombrage sans repartir de l'image (sinon l'ombrage revient). Respecte absolument l'ordre du prompt, pour que la height finale soit toujours la même, quelle que soit la génération. (3 November 2026, 21:58:13 +0100)
+
+## 3 November 2026, 21:58:26 +0100 : Iteration
+
+<!-- feedback-event:e8ca39a023ea7d969e316faf874d0449fa026142ac83c7ba2e5a892d02eb3365 (3 November 2026, 21:58:26 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 21:58:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 21:58:26 +0100)
+
+> Voici le prompt en une seule étape, à envoyer avec la référence découpée : (3 November 2026, 21:58:26 +0100)
+>
+> ``` (3 November 2026, 21:58:26 +0100)
+> Respecte absolument l'ordre de ce prompt, une étape après l'autre. (3 November 2026, 21:58:26 +0100)
+>
+> Étape 1. Fais la height map de cette image : même cadrage, chaque détail exactement à la même place, pixel pour pixel. Niveaux de gris : blanc = haut, noir = creux. Sans lumière, sans ombre, sans couleur. then redo with 99.9% precision in the composition. (3 November 2026, 21:58:26 +0100)
+> Pour cette étape, n'utilise pas la génération d'image. En Python, calcule la height map de cette image : niveaux de gris, puis retire l'éclairage de grande échelle par un filtre passe-haut, même taille, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 21:58:26 +0100)
+>
+> Étape 2, seulement une fois la height map de l'étape 1 obtenue. With AI gen create image : corrige les défauts d'ombrage de cette height map, sans rien changer d'autre. (3 November 2026, 21:58:26 +0100)
+> Puis en Python, sur cette height générée seulement, sans jamais relire l'image de départ (elle remettrait les défauts d'ombrage) : filtre passe-haut gaussien de sigma égal à la largeur de l'image divisée par 32, recentré sur le gris moyen, pour gommer les derniers défauts d'ombrage. Même taille, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 21:58:26 +0100)
+> ``` (3 November 2026, 21:58:26 +0100)
+>
+> J'ai fait quatre changements par rapport à ton texte : (3 November 2026, 21:58:26 +0100)
+>
+> 1. **« Étape 1 » et « Étape 2 »**, et « Pour cette étape » devant « n'utilise pas la génération d'image ». Sans ces repères, le prompt interdirait la génération puis la demanderait, et ChatGPT pourrait sauter l'une des deux. (3 November 2026, 21:58:26 +0100)
+> 2. **« sans jamais relire l'image de départ »**. C'est le bug que tu anticipes : si Python repart de la référence, l'ombrage revient. (3 November 2026, 21:58:26 +0100)
+> 3. **Un sigma fixe, largeur / 32**, qui vaut 64 px sur une image de 2048 px. Avec la même valeur, le passe-haut donne le même résultat quelle que soit la génération, ce qui sert ton objectif d'une height finale « toujours la même ». C'est la valeur mesurée avec Delight sur la 6 : elle retirait les taches du spot en gardant 99,8 % de ressemblance. Elle ne garantit pas que la génération de l'étape 2 sera identique d'une fois à l'autre. (3 November 2026, 21:58:26 +0100)
+> 4. **« Respecte absolument l'ordre »** est placé en tête, pour que ChatGPT le lise avant le reste. (3 November 2026, 21:58:26 +0100)
+>
+> Je l'ai rangé, marqué « à tester », dans [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md). Je ne le consignerai dans le skill qu'après ta validation. (3 November 2026, 21:58:26 +0100)
+
+## 3 November 2026, 21:59:47 +0100 : Prompt
+
+<!-- feedback-event:6cfa87afb9f9643870b06f885f143e5d62e25b098707c109096590e5084baa0d (3 November 2026, 21:59:47 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 21:59:47 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 21:59:47 +0100)
+
+> Mais est-ce qu'on est sûr que c'est vraiment le mot-clé sigma qui va faire en sorte que, peu importe le prompt que je lance, ça fasse la même 8 à chaque fois? Parce qu'en fait, le problème actuel, c'est qu'à chaque fois que je relance une nouvelle génération, ça fait une 8 map différente actuellement, puisque ça utilise l'AI gen, tu vois. En fait, le but du Python en étape finale, c'est que toutes les 8 au final se ressemblent puisqu'elles réutilisent l'étape 1, tu vois. Mais le but de l'AI gen, c'est de gommer le gommage, tu vois. Ce que l'AI gen réussit à faire, tu vois. (3 November 2026, 21:59:47 +0100)
+
+## 3 November 2026, 22:00:43 +0100 : Iteration
+
+<!-- feedback-event:69c379411dce4dd0ebbfdbf4c7b7d58363dacba83a708b64e013f8907d080c25 (3 November 2026, 22:00:43 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 22:00:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:00:43 +0100)
+
+> Je teste ta question sur tes vraies générations (check2, check3, vscheck2) : est-ce que les mélanger avec l'étape 1 rend des heights identiques ? (3 November 2026, 22:00:43 +0100)
+
+## 3 November 2026, 22:01:40 +0100 : Log
+
+<!-- feedback-event:3233281e6e5357411bcaf4ff23ce55cdb560dd8d2885a433af2ee154b470abc9 (3 November 2026, 22:01:40 +0100) -->
+- Project: zorah-materials; kind: log. (3 November 2026, 22:01:40 +0100)
+
+> Est-ce que c'est vraiment sigma qui fera la même height à chaque fois ? Chaque nouvelle génération donne une height différente. Le but du Python final : que toutes les heights se ressemblent puisqu'elles réutilisent l'étape 1 ; le but de l'AI gen : gommer l'ombrage. Mesure 22:05 sur check2, check3, vscheck2 : générations brutes 0,72 à 0,78 entre elles, détails 0,43 à 0,46 contre l'étape 1 ; fusion passe-haut(étape 1) + passe-bas(IA) à sigma 16 px : 0,987 à 0,990 entre elles, détails 0,9996, arc -0,026 vers -0,011 à -0,015. Script : Scripts/FrequencyMerge.py. (3 November 2026, 22:01:40 +0100)
+
+## 3 November 2026, 22:01:57 +0100 : Iteration
+
+<!-- feedback-event:b8e4fda31e65c4295bdfb030fe037b5594214f4b124499c58f8a1913bc762376 (3 November 2026, 22:01:57 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 22:01:57 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:01:57 +0100)
+
+> Non, le sigma seul ne le garantit pas, et ton intuition est juste. Dans mon prompt précédent, le passe-haut final s'appliquait à l'image générée, donc tous les détails venaient de l'IA et changeaient à chaque génération. Je l'ai vérifié sur tes trois générations (check2, check3, vscheck2) : elles ne se ressemblent entre elles qu'à 0,72 à 0,78, et leurs détails ne correspondent à ceux de l'étape 1 qu'à 0,43 à 0,46, parce que l'IA redessine les pores et les rayures. (3 November 2026, 22:01:57 +0100)
+>
+> Pour obtenir la même height à chaque fois, le Python final doit répartir les rôles. Les détails fins viennent de l'étape 1 (son passe-haut), et seul l'ombrage, plus grossier, vient de l'IA (le passe-bas de l'image générée). J'ai mesuré ce mélange sur tes trois générations avec un sigma de 16 px pour 2048 : (3 November 2026, 22:01:57 +0100)
+>
+> | Ce qu'on mesure | Générations brutes | Après le mélange | (3 November 2026, 22:01:57 +0100)
+> |---|---|---| (3 November 2026, 22:01:57 +0100)
+> | Ressemblance entre les trois | 0,72 à 0,78 | 0,987 à 0,990 | (3 November 2026, 22:01:57 +0100)
+> | Détails identiques à l'étape 1 | 0,43 à 0,46 | 0,9996 | (3 November 2026, 22:01:57 +0100)
+> | Arc (0 = plat, −0,026 avant l'IA) | −0,010 à −0,015 | −0,011 à −0,015, correction gardée | (3 November 2026, 22:01:57 +0100)
+>
+> Le sigma règle le partage entre les deux sources. Plus il est petit, plus l'IA corrige, mais plus les résultats diffèrent d'une génération à l'autre. Plus il est grand, plus ils sont identiques, mais la correction se perd : à 64 px, l'arc revient à −0,022. Il y a aussi une limite : l'IA ne retire qu'environ la moitié de l'arc, et c'est l'écart entre ses générations qui fait encore varier un peu le résultat. (3 November 2026, 22:01:57 +0100)
+>
+> Voici l'étape 2 corrigée pour le prompt : (3 November 2026, 22:01:57 +0100)
+>
+> ``` (3 November 2026, 22:01:57 +0100)
+> Étape 2, seulement une fois la height map de l'étape 1 obtenue. With AI gen create image : corrige les défauts d'ombrage de cette height map, sans rien changer d'autre. (3 November 2026, 22:01:57 +0100)
+> Puis en Python, sans relire l'image de départ : redimensionne l'image générée à la taille de l'étape 1 ; final = (height de l'étape 1 moins son flou gaussien de sigma égal à la largeur divisée par 128) plus (flou gaussien de même sigma de l'image générée). Les détails viennent de l'étape 1, seul l'ombrage vient de l'image générée. PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 22:01:57 +0100)
+> ``` (3 November 2026, 22:01:57 +0100)
+>
+> Le plus sûr reste de faire ce mélange sur le Mac plutôt que dans ChatGPT, qui réécrit son code Python à chaque fois. Le script existe déjà et donne toujours le même résultat pour les mêmes images : tu ne fais que la génération dans ChatGPT, et le mélange se fait en local. J'ai copié tes images de Téléchargements dans le projet sans les supprimer. (3 November 2026, 22:01:57 +0100)
+>
+> Fichiers : (3 November 2026, 22:01:57 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Scripts/FrequencyMerge.py](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Scripts/FrequencyMerge.py) (3 November 2026, 22:01:57 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/frequency-merge-3-November-2026/frequency_merge.json](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/frequency-merge-3-November-2026/frequency_merge.json) (3 November 2026, 22:01:57 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/frequency-merge-3-November-2026/merge_board.png](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/frequency-merge-3-November-2026/merge_board.png) (3 November 2026, 22:01:57 +0100)
+
+## 3 November 2026, 22:03:52 +0100 : Prompt
+
+<!-- feedback-event:6da1bef4face470708492af16087fa332f08efedab67c1c08cb3fb04486252d5 (3 November 2026, 22:03:52 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:03:52 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:03:52 +0100)
+
+> DONNE le concept plutôt que donner une méthode ... un concept juste à 80 % du temps bat toujours un script unique donc si la méthode est sigma + pass haut alors l'AI saura l'intérpr^éter. (3 November 2026, 22:03:52 +0100)
+
+## 3 November 2026, 22:04:03 +0100 : Prompt
+
+<!-- feedback-event:f8d9023616703bd3ca8cafd65cad63181571cfcbd59a254fa243df1abe43dd0a (3 November 2026, 22:04:03 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:04:03 +0100)
+
+> DONNE le concept plutôt que donner une méthode ... un concept juste à 80 % du temps bat toujours un script unique donc si la méthode est sigma + passe-haut alors l'AI saura l'interpréter. (3 November 2026, 22:04:03 +0100)
+
+## 3 November 2026, 22:04:03 +0100 : Standing rule
+
+<!-- feedback-event:40a38c7f7e0e9fa6eb39e4bf6b67742dc44c9953acadd0bb3e1f09a9f599b8ff (3 November 2026, 22:04:03 +0100) -->
+- Project: zorah-materials; kind: rule. (3 November 2026, 22:04:03 +0100)
+
+> 3 November 2026 : dans un prompt pour ChatGPT, donner le concept (ex. séparation de fréquences : détails de l'étape 1, ombrage de l'image générée), jamais la méthode chiffrée (sigma, formule) ; l'IA en déduit la méthode. (3 November 2026, 22:04:03 +0100)
+
+## 3 November 2026, 22:04:12 +0100 : Iteration
+
+<!-- feedback-event:aa83eca8e8115c97577b18c5f69113a97916c148cced444aec2fa8a3f63529bd (3 November 2026, 22:04:12 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 22:04:12 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:04:12 +0100)
+
+> Compris. Le prompt ne donne plus que le concept, la séparation de fréquences : les détails viennent de l'étape 1 et l'ombrage vient de l'image générée. Le sigma et le passe-haut, c'est ChatGPT qui les déduira : (3 November 2026, 22:04:12 +0100)
+>
+> ``` (3 November 2026, 22:04:12 +0100)
+> Respecte absolument l'ordre de ce prompt, une étape après l'autre. (3 November 2026, 22:04:12 +0100)
+>
+> Étape 1. Fais la height map de cette image : même cadrage, chaque détail exactement à la même place, pixel pour pixel. Niveaux de gris : blanc = haut, noir = creux. Sans lumière, sans ombre, sans couleur. then redo with 99.9% precision in the composition. (3 November 2026, 22:04:12 +0100)
+> Pour cette étape, n'utilise pas la génération d'image. En Python, calcule la height map de cette image : niveaux de gris, puis retire l'éclairage de grande échelle par un filtre passe-haut, même taille, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 22:04:12 +0100)
+>
+> Étape 2, seulement une fois la height map de l'étape 1 obtenue. With AI gen create image : corrige les défauts d'ombrage de cette height map, sans rien changer d'autre. (3 November 2026, 22:04:12 +0100)
+> Puis en Python, par séparation de fréquences et sans relire l'image de départ : les détails fins viennent de la height de l'étape 1, l'ombrage corrigé vient de l'image générée. Même taille, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 22:04:12 +0100)
+> ``` (3 November 2026, 22:04:12 +0100)
+>
+> J'ai noté la règle « le concept plutôt que la méthode » dans les règles du projet Zorah, pour les prompts suivants. (3 November 2026, 22:04:12 +0100)
