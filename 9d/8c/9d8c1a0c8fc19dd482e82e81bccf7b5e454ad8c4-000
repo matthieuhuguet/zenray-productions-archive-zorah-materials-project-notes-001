@@ -2987,3 +2987,75 @@
 > ``` (3 November 2026, 18:16:31 +0100)
 >
 > Les deux sont sans mention de dépliage UV ni de six vues. Les fichiers `prompt.md` et `prompt_basecolor.md` restent pour le pipeline UV d'un asset, je ne les utilise pas pour ce chantier. (3 November 2026, 18:16:31 +0100)
+
+## 3 November 2026, 18:40:22 +0100 : Prompt
+
+<!-- feedback-event:a915281bdb04248dc8882e96eb89d3305c8c57d4405063161a3aecc430bfbda2 (3 November 2026, 18:40:22 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 18:40:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:40:22 +0100)
+
+> j'aimerai juste ajouter "then redo" with ... 99.9% precision in the composition. a tous les prompts stp (3 November 2026, 18:40:22 +0100)
+
+## 3 November 2026, 18:40:49 +0100 : Standing rule
+
+<!-- feedback-event:32ed91b52c6eb855bcc45232fe5147f6e18651d2ee3cb29ef1cb94e5c3aaaa1f (3 November 2026, 18:40:49 +0100) -->
+- Project: zorah-materials; kind: rule. (3 November 2026, 18:40:49 +0100)
+
+> Demande de Matthieu : la phrase de précision devient « then redo with 99.9% precision in the composition. » et s'ajoute à tous les prompts ZenRay Houdini, y compris exploration et édition. Remplace la version « 99.9% precision in the composition. » du même jour. (3 November 2026) (3 November 2026, 18:40:49 +0100)
+
+## 3 November 2026, 18:40:56 +0100 : Iteration
+
+<!-- feedback-event:f6b3f3ed7f1fe0f52170e59aa53e3e8e8b86fae9f5fdadac80b2a39fb0d233da (3 November 2026, 18:40:56 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 18:40:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:40:56 +0100)
+
+> C'est fait. Chaque prompt ZenRay Houdini se termine maintenant par : (3 November 2026, 18:40:56 +0100)
+>
+> > then redo with 99.9% precision in the composition. (3 November 2026, 18:40:56 +0100)
+>
+> - **Ce qui a changé** : j'ai remplacé la phrase précédente « 99.9% precision in the composition. » par cette version, sans la doubler. (3 November 2026, 18:40:56 +0100)
+> - **Où** : 17 prompts, dont les quatre d'exploration et d'édition, que j'avais laissés de côté jusqu'ici. J'ai aussi mis à jour le prompt height de Zorah. (3 November 2026, 18:40:56 +0100)
+> - **Synchronisation** : les six skills concernés sont resynchronisés. (3 November 2026, 18:40:56 +0100)
+> - **Exclus** : les copies d'archive dans `Library/`, que je n'ai pas touchées. (3 November 2026, 18:40:56 +0100)
+>
+> Le texte complet des prompts est dans les fichiers modifiés. Je ne le redonne pas ici, ce serait la même phrase répétée dix-sept fois. (3 November 2026, 18:40:56 +0100)
+
+## 3 November 2026, 18:42:46 +0100 : Prompt
+
+<!-- feedback-event:5c3f96513382bcb06e72e208ce1f50d836b3bfd85acb3c74613f1f5b6f2229a8 (3 November 2026, 18:42:46 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 18:42:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:42:46 +0100)
+
+> <local-command-caveat>The command below was run directly in Claude Code, not sent to you as a request, and its output goes straight to the user. It's recorded here as context for later messages.</local-command-caveat> (3 November 2026, 18:42:46 +0100)
+
+## 3 November 2026, 18:42:46 +0100 : Prompt
+
+<!-- feedback-event:4c0cee6bc36ee074d0b8171394086b841af0270d5ac8e57671f6789c0f47a306 (3 November 2026, 18:42:46 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 18:42:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:42:46 +0100)
+
+> <command-name>/model</command-name> (3 November 2026, 18:42:46 +0100)
+>             <command-message>model</command-message> (3 November 2026, 18:42:46 +0100)
+>             <command-args>claude-opus-5-5</command-args> (3 November 2026, 18:42:46 +0100)
+
+## 3 November 2026, 18:42:46 +0100 : Prompt
+
+<!-- feedback-event:2c1f765c3a42ac055bd2ef2489de822bdc78d028f4953c251d7f8b32d2f5341e (3 November 2026, 18:42:46 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 18:42:46 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:42:46 +0100)
+
+> <local-command-stdout>Set model to `claude-opus-5-5`</local-command-stdout> (3 November 2026, 18:42:46 +0100)
+
+## 3 November 2026, 18:44:13 +0100 : Prompt
+
+<!-- feedback-event:cd1e6fdf567bc7186c03b623c6a0adaeb483a743a10bf11be4248c6724649d77 (3 November 2026, 18:44:13 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 18:44:13 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 18:44:13 +0100)
+
+> /Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Sources/artstation-eRZ01X/textures/ai-gen/aigen1.png /Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Sources/artstation-eRZ01X/textures/ai-gen/aigen2.png /Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Sources/artstation-eRZ01X/textures/ai-gen/aigen3.png /Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Sources/artstation-eRZ01X/textures/ai-gen/aigen4.png  (3 November 2026, 18:44:13 +0100)
+>
+>
+> A modifier = Entrée = l'image jointe (référence) ; sortie = texture répétable Height de [matériau], aspect export brut Substance Designer AAA ; résolution = 4096 × 4096, format carré 1:1 ; encodage cible = niveaux de gris linéaires, 16 bits ; représenter uniquement la hauteur : blanc = haut, noir = creux ; conserver la même échelle de hauteur partout ; respecter la référence ; remplir entièrement le cadre ; raccord sur les quatre bords ; sans éclairage ; sans ombres ; sans AO ; sans reflets ; sans couleur ; sans perspective ; sans texte ; sans légende. 99.9% precision in the composition. (3 November 2026, 18:44:13 +0100)
+>
+>
+> En fait, ce que j'aimerais identifier par rapport à l'agent, c'est pourquoi est-ce que des fois, la AI Gen 1 et la AI Gen 2, elles sont parfaites en termes de heatmap, et pourquoi est-ce que il me sort la AI Gen 3 et la AI Gen 4. Je comprends pas pourquoi techniquement, il faudrait que tu analyses via des masques, pourquoi il me sort ce genre de heatmap comme si elle avait déjà été éclairée, alors que ce que je cherche, c'est un truc vraiment pas éclairé comme les deux premières. Il faut que tu analyses techniquement pourquoi il fait ce genre d'erreur et que tu me fasses un compte-rendu slash bilan pour changer du coup le prompt de la 8 pour faire en sorte d'avoir un prompt beaucoup plus intelligent qui justement évite les erreurs de 8. Parce que du coup, t'as 4 exemples qui sont plutôt bien. C'est-à-dire que le 1 et le 2, il me sort quelque chose de bien. Et même en termes de. Même en termes de taille, tu vois que c'est beaucoup mieux parce que le 1 et le 2, ils sont supérieurs à 25 émo. Tandis que le 3 et le 4, ils sont inférieurs à 4 mo, tu vois. Donc il y a vraiment une différence de nuance dans ce que l'AI en mode ChatGPT arrive à faire, mais il faut décrire le terme exact qui fait qu'il réussit à le refaire exactement. Donc c'est ça que je recherche. faut que tu analyses l'image parfaitement. via mask / cavity / height / techniquement ... metadonnés bref tout ce que tu peux faire Tu peux aussi faire des web search si jamais tu cherches un terme technique, il n'y a aucun problème. (3 November 2026, 18:44:13 +0100)
