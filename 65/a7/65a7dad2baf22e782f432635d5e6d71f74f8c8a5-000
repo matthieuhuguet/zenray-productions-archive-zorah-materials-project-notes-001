@@ -1,0 +1,10 @@
+# zorah-materials : rules, append only (3 November 2026)
+
+Standing rules of this project, one line each, loaded automatically at session start. Full history and context: FEEDBACK.md in this folder. A rule that changes gets a new line citing the old one. (3 November 2026)
+
+- Dossier atelier : /Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026 (kebab-case, date en lettres anglaises). Le service Assets a enregistré le chemin sans date : /Users/zenray/.claude/tmp/tmp-zorah-materials ; à unifier sur demande de Matthieu. (3 November 2026) (3 November 2026) <!-- rule:a4661ba554d4 -->
+- 8 = height (carte de hauteur). Le prompt est fourni à Matthieu, qui génère l image lui-même dans ChatGPT : l agent ne génère aucune image (règle du 5 October 2026). (3 November 2026) (3 November 2026) <!-- rule:fee86ea9c71e -->
+- Projet Houdini zoramaterials.hip ; reproduction séquentielle, un seul graphe, aucun workflow (règle du 13 October 2026). (3 November 2026) (3 November 2026) <!-- rule:bcaff30384dd -->
+- La référence se mesure et n entre jamais dans le graphe (règle du 5 October 2026). Objectif 0,999 à confirmer : la height mesure 0,99 en corrélation pleine résolution (Copernicus2.md, section 14.2). Nom Zora dicté, source Zorah : dossier zorah retenu, à confirmer. (3 November 2026) (3 November 2026) <!-- rule:727e7515124b -->
+- Bande : tokens en cqw, hauteur 3.984 % de la largeur (153 px sur 3840, mesuré sur zorah-01), fond noir pur, police GT Ultra embarquée en woff2 base64, logo inline. À confirmer : nom Zorah ou Zora, gris du logo (#d0d0d0) et du texte (#9a9a9a), et « applicant » dans la dictée. (3 November 2026) (3 November 2026) <!-- rule:9adc8db0c411 -->
+- Titre de l'œuvre lu depuis Sources/artstation-eRZ01X/artwork.json (« Zorah - Materials », capturé depuis la page ArtStation). La bande prend la première partie avant le tiret : Zorah. Remplace la règle « Zora dicté, à confirmer » du 3 November 2026, 17:25. Séparateur : barre droite |. (3 November 2026) (3 November 2026) <!-- rule:7f5a43f8a825 -->
