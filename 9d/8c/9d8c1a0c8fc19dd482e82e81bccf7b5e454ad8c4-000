@@ -3291,3 +3291,26 @@
 - Source: checkpoint:claude:e3fcfc3d-2756-4ada-8b78-faa7ff7c168a. (3 November 2026, 19:58:12 +0100)
 
 > 3 November 2026, 19:56 +0100 : prompt height final validé par Matthieu (génération d image et calcul Python dans le même message, carré plat de la référence joint), height quasi parfaite selon son test ; consigné dans Prompts/height-prompt-zorah.md, Analysis/ai-height-lighting-3-November-2026, Rules.md et le skill zenray-houdini. Vérificateur CheckAiHeight.py disponible. Prochain geste : heights des huit carrés Zorah, contrôle, puis zoramaterials.hip. (3 November 2026, 19:58:12 +0100)
+
+## 3 November 2026, 19:58:30 +0100 : Iteration
+
+<!-- feedback-event:a4f9b7ea71afa0239d09792adfeb1c57fe3389d49e4a4a2cb68ac6fe7e00db64 (3 November 2026, 19:58:30 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 19:58:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 19:58:30 +0100)
+
+> C'est consigné, à 19:56 +0100, l'heure de ton message. (3 November 2026, 19:58:30 +0100)
+>
+> Le prompt final est noté tel que tu l'as écrit, en deux paragraphes, à envoyer ensemble dans un seul message à ChatGPT : (3 November 2026, 19:58:30 +0100)
+> - avec le carré plat découpé de la référence, dans `textures/panels/zorah-0N-panel.png` ; (3 November 2026, 19:58:30 +0100)
+> - puis le contrôle de la sortie par `CheckAiHeight.py`. (3 November 2026, 19:58:30 +0100)
+>
+> Il est écrit à cinq endroits : (3 November 2026, 19:58:30 +0100)
+> - **Le fichier des prompts du projet** : [height-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/height-prompt-zorah.md). Il est en tête, et les versions 1 à 3 restent dessous en historique. (3 November 2026, 19:58:30 +0100)
+> - **Un fichier texte seul**, à copier tel quel : [PROMPT_FINAL.txt](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/ai-height-lighting-3-November-2026/PROMPT_FINAL.txt). Le rapport a aussi reçu une section 8 qui raconte la solution. (3 November 2026, 19:58:30 +0100)
+> - **La règle permanente du projet**, dans [Rules.md](/Users/zenray/.claude/Memory1/Projects/zorah-materials/Rules.md), chargée à chaque session. Elle remplace les versions 1 à 3. (3 November 2026, 19:58:30 +0100)
+> - **Le skill `zenray-houdini`**, dans une section datée et horodatée. Elle remplace la v2 du jour et le template height du 8 October 2026, et le skill est synchronisé. (3 November 2026, 19:58:30 +0100)
+> - **Le journal global et un checkpoint Assets.** Le checkpoint est écrit en local, sa sauvegarde cloud n'est pas encore confirmée. (3 November 2026, 19:58:30 +0100)
+>
+> J'ai aussi corrigé mes propres horodatages. Plusieurs en-têtes de scripts et les titres des versions 2 et 3 portaient des heures estimées, dont une encore à venir (20:10). Ils portent maintenant l'heure de création lue sur chaque fichier. (3 November 2026, 19:58:30 +0100)
+>
+> Une limite reste notée avec la solution, puisque la partie Python part des pixels de la référence. Une tache sombre, comme la rouille de 07 et 08, risque de devenir un creux, et c'est à surveiller sur ces deux matières. (3 November 2026, 19:58:30 +0100)
