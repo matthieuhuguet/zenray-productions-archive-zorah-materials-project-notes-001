@@ -4171,3 +4171,71 @@
 > Fichiers : (3 November 2026, 21:29:42 +0100)
 > - [/Users/zenray/.claude/skills/zenray-houdini/SKILL.md](/Users/zenray/.claude/skills/zenray-houdini/SKILL.md) (3 November 2026, 21:29:42 +0100)
 > - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md) (3 November 2026, 21:29:42 +0100)
+
+## 3 November 2026, 21:44:41 +0100 : Prompt
+
+<!-- feedback-event:76ec426dc9dd320157c941ca5365043e4aa6f9f4ed8724ac1b342f0cce875684 (3 November 2026, 21:44:41 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 21:44:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 21:44:41 +0100)
+
+> With AI gen create image Corrige les défauts d'ombrage de cette height map, sans rien changer d'autre. then in python redo with 99.9% precision in the composition. Du coup, le prompt qui a marché, c'est celui-ci. Mais je pense pas que l'ajouter au prompt précédent, simplement de la hate, ça marche. J'imagine qu'il faut le faire en deux prompts pour que ça fonctionne. Donc, edit le prompt précédent pour dire ça. Donc, sur cette étape, en fait, une fois qu'on a la hate map qui a tous les détails qui a été généré en Python, eh bien, on fait une passe de AI gen pour faire en sorte d'avoir la map en Python parfaitement. À la limite, sur le prompt précédent, depuis mon image ref en couleur, j'aurais pu tester de faire ça aussi. Donc tu vas déjà tu vas consigner ce prompt qui fonctionne si on le fait en deux étapes, et on va tester de le faire en une seule étape tout à l'heure avec ces nouvelles informations. donc redonne moi le prompt (3 November 2026, 21:44:41 +0100)
+
+## 3 November 2026, 21:45:23 +0100 : Prompt
+
+<!-- feedback-event:d990294a588e7a5d215aab71eadc87ed339d4bcc95aa54129fa273afe88cb068 (3 November 2026, 21:45:23 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 21:45:23 +0100)
+
+> With AI gen create image Corrige les défauts d'ombrage de cette height map, sans rien changer d'autre. then in python redo with 99.9% precision in the composition. Du coup, le prompt qui a marché, c'est celui-ci. Mais je pense pas que l'ajouter au prompt précédent, simplement de la height, ça marche. J'imagine qu'il faut le faire en deux prompts. Edit le prompt précédent pour dire ça. À la limite, depuis mon image ref en couleur, j'aurais pu tester de faire ça aussi. Consigne ce prompt qui fonctionne en deux étapes, on testera en une seule étape tout à l'heure. Redonne-moi le prompt. (3 November 2026, 21:45:23 +0100)
+
+## 3 November 2026, 21:45:23 +0100 : Standing rule
+
+<!-- feedback-event:9748803745ab690b4fd1e9642aa35d1b1c2def6763361b61022b619a99675e12 (3 November 2026, 21:45:23 +0100) -->
+- Project: zorah-materials; kind: rule. (3 November 2026, 21:45:23 +0100)
+
+> 3 November 2026, 21:45 +0100 : étape 3, prompt qui a marché, en deuxième message après la height Python : « With AI gen create image Corrige les défauts d'ombrage de cette height map, sans rien changer d'autre. then in python redo with 99.9% precision in the composition. » Il remplace celui de 21:28. Une seule étape depuis la ref couleur : à tester, non prouvée. (3 November 2026, 21:45:23 +0100)
+
+## 3 November 2026, 21:45:35 +0100 : Iteration
+
+<!-- feedback-event:1be895f61ca9890bf45571084c3593d3715bd36e84d5151dd0f25d949f2bb765 (3 November 2026, 21:45:35 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 21:45:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 21:45:35 +0100)
+
+> J'ai consigné le prompt mot pour mot, tel qu'il a marché, en deux messages dans la même conversation. Le premier message est la height Python de l'étape 2. Le second envoie cette height avec le prompt suivant : (3 November 2026, 21:45:35 +0100)
+>
+> ``` (3 November 2026, 21:45:35 +0100)
+> With AI gen create image Corrige les défauts d'ombrage de cette height map, sans rien changer d'autre. then in python redo with 99.9% precision in the composition. (3 November 2026, 21:45:35 +0100)
+> ``` (3 November 2026, 21:45:35 +0100)
+>
+> Il remplace la version de 21:28 dans le skill (section de 21:45) et dans [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md). L'ancienne version reste dans l'historique. (3 November 2026, 21:45:35 +0100)
+>
+> J'ai noté à part que la version en une seule étape, depuis la référence en couleur, reste à tester. Les deux messages restent la méthode tant que tu ne l'as pas validée. (3 November 2026, 21:45:35 +0100)
+
+## 3 November 2026, 21:45:58 +0100 : Prompt
+
+<!-- feedback-event:734231e4feb59b59380436c28b52fff82ea00522fea9cf159d12cb2078649402 (3 November 2026, 21:45:58 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 21:45:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 21:45:58 +0100)
+
+> Bah du coup, pourquoi tu me redonnes pas l'ancien prompt? Je viens littéralement de te le demander. ... (3 November 2026, 21:45:58 +0100)
+
+## 3 November 2026, 21:46:08 +0100 : Prompt
+
+<!-- feedback-event:1c6bd98a7873ca9114ac56951c5edfd552b3a7a93b6f373945945f929525e049 (3 November 2026, 21:46:08 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 21:46:08 +0100)
+
+> Bah du coup, pourquoi tu me redonnes pas l'ancien prompt? Je viens littéralement de te le demander. (3 November 2026, 21:46:08 +0100)
+
+## 3 November 2026, 21:46:15 +0100 : Iteration
+
+<!-- feedback-event:f2906e622f369d964f1016208f8b1377a520c25db6b9fe2fc2eb214618dafe7a (3 November 2026, 21:46:15 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 21:46:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 21:46:15 +0100)
+
+> Tu as raison, je te le redonne. C'est l'ancien prompt height de l'étape 2, consigné à 19:56, sans aucun changement : (3 November 2026, 21:46:15 +0100)
+>
+> ``` (3 November 2026, 21:46:15 +0100)
+> Fais la height map de cette image : même cadrage, chaque détail exactement à la même place, pixel pour pixel. Niveaux de gris : blanc = haut, noir = creux. Sans lumière, sans ombre, sans couleur. then redo with 99.9% precision in the composition. (3 November 2026, 21:46:15 +0100)
+> N'utilise pas la génération d'image. En Python, calcule la height map de cette image : niveaux de gris, puis retire l'éclairage de grande échelle par un filtre passe-haut, même taille, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 21:46:15 +0100)
+> ``` (3 November 2026, 21:46:15 +0100)
+>
+> Si la référence est totalement droite, n'envoie que le second paragraphe, celui qui demande Python. (3 November 2026, 21:46:15 +0100)
