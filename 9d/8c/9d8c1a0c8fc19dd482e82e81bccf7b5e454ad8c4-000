@@ -4381,3 +4381,50 @@
 > ``` (3 November 2026, 22:04:12 +0100)
 >
 > J'ai noté la règle « le concept plutôt que la méthode » dans les règles du projet Zorah, pour les prompts suivants. (3 November 2026, 22:04:12 +0100)
+
+## 3 November 2026, 22:08:06 +0100 : Prompt
+
+<!-- feedback-event:7cd479b3d1c7a71407cfa17d8c984f866d2b6a00ea834628a0e67c84e42b9c53 (3 November 2026, 22:08:06 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:08:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:08:06 +0100)
+
+> Pourquoi tu enlèves sigma du coup ? laisse le ... en soit ça peut aider. ça reste un concept et filtre high pass tonalité etc c'était juste que sur l'étape 2 tu était trop catégorique spécifique ... maintenant consigne et prompt complet. (3 November 2026, 22:08:06 +0100)
+
+## 3 November 2026, 22:08:50 +0100 : Prompt
+
+<!-- feedback-event:ae46aa1f470ba998152d86c340bcb96dad51d95f9ad78869a7350b72499c874e (3 November 2026, 22:08:50 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:08:50 +0100)
+
+> Pourquoi tu enlèves sigma du coup ? Laisse-le... en soi ça peut aider. Ça reste un concept, et filtre high pass, tonalité, etc. C'était juste que sur l'étape 2 tu étais trop catégorique, spécifique... maintenant consigne et prompt complet. (3 November 2026, 22:08:50 +0100)
+
+## 3 November 2026, 22:08:50 +0100 : Standing rule
+
+<!-- feedback-event:307a5ebb4f245656158659ac9e06f36f41206d5df22d32cfeaed3227f69beae9 (3 November 2026, 22:08:50 +0100) -->
+- Project: zorah-materials; kind: rule. (3 November 2026, 22:08:50 +0100)
+
+> 3 November 2026, 22:08 +0100 : précise la règle concept plutôt que méthode du même soir : les mots-clés de concept (séparation de fréquences, passe-haut, sigma, tonalité) restent dans le prompt ; seules les formules catégoriques et les valeurs imposées en sortent. Prompt complet en une étape consigné dans zenray-houdini SKILL.md 22:08, pas encore testé. (3 November 2026, 22:08:50 +0100)
+
+## 3 November 2026, 22:09:03 +0100 : Iteration
+
+<!-- feedback-event:2286d7568b868f9b36ded3cd928185a16aabf65e65a063646101d0b8efa7dc45 (3 November 2026, 22:09:03 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 22:09:03 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:09:03 +0100)
+
+> Tu as raison, sigma revient. Il est cité comme un concept, à côté du passe-haut, et plus comme une formule imposée. Voici le prompt complet, à envoyer en un seul message avec le panneau de référence découpé : (3 November 2026, 22:09:03 +0100)
+>
+> ``` (3 November 2026, 22:09:03 +0100)
+> Respecte absolument l'ordre de ce prompt, une étape après l'autre. (3 November 2026, 22:09:03 +0100)
+>
+> Étape 1. Fais la height map de cette image : même cadrage, chaque détail exactement à la même place, pixel pour pixel. Niveaux de gris : blanc = haut, noir = creux. Sans lumière, sans ombre, sans couleur. then redo with 99.9% precision in the composition. (3 November 2026, 22:09:03 +0100)
+> Pour cette étape, n'utilise pas la génération d'image. En Python, calcule la height map de cette image : niveaux de gris, puis retire l'éclairage de grande échelle par un filtre passe-haut, même taille, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 22:09:03 +0100)
+>
+> Étape 2, seulement une fois la height map de l'étape 1 obtenue. With AI gen create image : corrige les défauts d'ombrage de cette height map, sans rien changer d'autre. (3 November 2026, 22:09:03 +0100)
+> Puis en Python, par séparation de fréquences (filtre passe-haut, sigma), sans relire l'image de départ : les détails fins viennent de la height de l'étape 1, l'ombrage corrigé vient de l'image générée. Même taille, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 22:09:03 +0100)
+> ``` (3 November 2026, 22:09:03 +0100)
+>
+> J'ai consigné ce prompt dans le skill (section de 22:08), avec la mesure qui justifie la séparation de fréquences : 0,99 de ressemblance entre tes générations, contre 0,75 sans elle. J'y ai précisé la règle : les mots-clés de concept restent dans les prompts, seules les formules catégoriques en sortent. Le fichier du projet est à jour, et l'ancienne version de 21:58 reste dans l'historique. (3 November 2026, 22:09:03 +0100)
+>
+> Comme tu ne l'as pas encore testé, le skill l'indique « pas encore testé ». La méthode prouvée reste les deux messages de 21:45. (3 November 2026, 22:09:03 +0100)
+>
+> - [/Users/zenray/.claude/skills/zenray-houdini/SKILL.md](/Users/zenray/.claude/skills/zenray-houdini/SKILL.md) (3 November 2026, 22:09:03 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md) (3 November 2026, 22:09:03 +0100)
