@@ -5369,3 +5369,431 @@
 > Imagine deux photos du même mur, l'une prise au soleil du matin, plus chaude, l'autre à l'ombre, plus froide. Le transfert de Reinhard rend à la seconde la même clarté moyenne, le même contraste et la même dominante de couleur que la première. Il ne déplace aucun pixel et ne touche à aucun détail. C'est exactement ce qu'on veut pour que a1, a2 et a3 portent la même couleur de matière. (4 November 2026, 00:02:22 +0100)
 >
 > Un piège de vocabulaire, puisque tu viens de la 3D : dans les moteurs de rendu, « Reinhard » désigne souvent tout autre chose. C'est le tone mapping de Reinhard, publié par le même chercheur en 2002, qui compresse les fortes lumières d'un rendu HDR pour l'afficher sur un écran. Les deux portent son nom, mais ce n'est pas la même opération. Dans ton prompt, il s'agit bien du transfert de couleur. (4 November 2026, 00:02:22 +0100)
+
+## 4 November 2026, 00:10:27 +0100 : Prompt
+
+<!-- feedback-event:b7235aeb4257b37d6beee6c4a1fa8c8773e1ffdfe80c9fa0695320381476d581 (4 November 2026, 00:10:27 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 00:10:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 00:10:27 +0100)
+
+> Au niveau du prompt, c'est beaucoup mieux. Enfin, j'ai l'impression que c'est vraiment intelligent l'équivalence de ce que tu as mis par rapport à Reinhardt Lab et Ciel Lab. Malgré tout, j'ai l'impression que la base color arrive assez sombre vis-à-vis d'une flat color, enfin d'une base color dans un autre logiciel. Donc c'est peut-être normal, mais je sais pas, j'ai l'impression que c'est un peu sombre. Parce que je pense pas qu'il y ait forcément d'intérêt à ce que la base color soit aussi sombre. Donc je me pose la question de savoir si c'est vraiment intelligent que ce soit comme ça.  (4 November 2026, 00:10:27 +0100)
+>
+> blob:https://claude.ai/cb3b9275-b2d8-44f6-879b-5aeed669ea5a (4 November 2026, 00:10:27 +0100)
+> blob:https://claude.ai/60997048-d6dc-48e2-b2bc-1d19e531fe6d (4 November 2026, 00:10:27 +0100)
+> blob:https://claude.ai/a27b5101-7e77-4b8b-9713-8e9bc4bf358c  (4 November 2026, 00:10:27 +0100)
+>
+> <pasted_content id="7e38"> (4 November 2026, 00:10:27 +0100)
+> Parce que dans les deux prompts, au final, la couleur semble vraiment pas mal, etc. Mais il y a quand même un petit problème au niveau de... De la luminosité, j'ai l'impression. Peut-être qu'il y a un étalon standard qui permettrait, en une phrase, tu vois, de faire comprendre à l'algorithme Python de ChatGPT, de manière assez universelle, d'essayer d'uniformiser peut-être sur une luminosité un peu plus haute. Mais après, tu peux aussi m'expliquer qu'en fait, finalement, avoir une saturation assez basse sur un fichier qui n'est pas un fichier EXR ou HDR, ça permet d'avoir tout aussi bien quelque chose d'assez précis. C'est juste que je sais pas. J'ai l'impression que parfois, il n'y a pas forcément d'étalon sur la saturation globale de la map. Parce qu'au final, là, tu vois, tu as les trois résultats. Mais est-ce que, tu vois, ils sont pas vraiment harmonisés de base sur le ChatGPT. Donc je me dis, il y a forcément un truc à faire ou une instruction qui manque, tu vois. (4 November 2026, 00:10:27 +0100)
+> </pasted_content id="7e38"> (4 November 2026, 00:10:27 +0100)
+>
+>  Pourtant, là, la troisième génération, elle arrive avec un éclairage beaucoup plus élevé. Donc j'ai l'impression qu'on n'a pas mis de consignes au niveau de l'éclairage global, tu vois. Sur des maps qui se voudront être SDR, j'ai l'impression. pour la base color ... peut-être fais un test par toi-même et essaie de, encore une fois, modifier le prompt via mes images. en les téléchargeant depuis blob (4 November 2026, 00:10:27 +0100)
+
+## 4 November 2026, 00:10:27 +0100 : Prompt
+
+<!-- feedback-event:b875469e6192f68459957a97ee0ffcbc7533e39d2248bc665599956f68c55aa0 (4 November 2026, 00:10:27 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 00:10:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 00:10:27 +0100)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a/images/2.webp, original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (4 November 2026, 00:10:27 +0100)
+> [Image: source: /private/tmp/claude-501/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a/images/3.webp, original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (4 November 2026, 00:10:27 +0100)
+> [Image: source: /private/tmp/claude-501/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a/images/4.webp, original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (4 November 2026, 00:10:27 +0100)
+
+## 4 November 2026, 00:10:31 +0100 : Prompt
+
+<!-- feedback-event:f2cbba5e02781e12b12a597add9eba85f3fd8e679aad866f38dc2a5133a41157 (4 November 2026, 00:10:31 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 00:10:31 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 00:10:31 +0100)
+
+> Au niveau du prompt, c'est beaucoup mieux. Enfin, j'ai l'impression que c'est vraiment intelligent l'équivalence de ce que tu as mis par rapport à Reinhardt Lab et Ciel Lab. Malgré tout, j'ai l'impression que la base color arrive assez sombre vis-à-vis d'une flat color, enfin d'une base color dans un autre logiciel. Donc c'est peut-être normal, mais je sais pas, j'ai l'impression que c'est un peu sombre. Parce que je pense pas qu'il y ait forcément d'intérêt à ce que la base color soit aussi sombre. Donc je me pose la question de savoir si c'est vraiment intelligent que ce soit comme ça.  (4 November 2026, 00:10:31 +0100)
+>
+> blob:https://claude.ai/cb3b9275-b2d8-44f6-879b-5aeed669ea5a (4 November 2026, 00:10:31 +0100)
+> blob:https://claude.ai/60997048-d6dc-48e2-b2bc-1d19e531fe6d (4 November 2026, 00:10:31 +0100)
+> blob:https://claude.ai/a27b5101-7e77-4b8b-9713-8e9bc4bf358c  (4 November 2026, 00:10:31 +0100)
+>
+> <pasted_content id="7e38"> (4 November 2026, 00:10:31 +0100)
+> Parce que dans les deux prompts, au final, la couleur semble vraiment pas mal, etc. Mais il y a quand même un petit problème au niveau de... De la luminosité, j'ai l'impression. Peut-être qu'il y a un étalon standard qui permettrait, en une phrase, tu vois, de faire comprendre à l'algorithme Python de ChatGPT, de manière assez universelle, d'essayer d'uniformiser peut-être sur une luminosité un peu plus haute. Mais après, tu peux aussi m'expliquer qu'en fait, finalement, avoir une saturation assez basse sur un fichier qui n'est pas un fichier EXR ou HDR, ça permet d'avoir tout aussi bien quelque chose d'assez précis. C'est juste que je sais pas. J'ai l'impression que parfois, il n'y a pas forcément d'étalon sur la saturation globale de la map. Parce qu'au final, là, tu vois, tu as les trois résultats. Mais est-ce que, tu vois, ils sont pas vraiment harmonisés de base sur le ChatGPT. Donc je me dis, il y a forcément un truc à faire ou une instruction qui manque, tu vois. (4 November 2026, 00:10:31 +0100)
+> </pasted_content id="7e38"> (4 November 2026, 00:10:31 +0100)
+>
+>  Pourtant, là, la troisième génération, elle arrive avec un éclairage beaucoup plus élevé. Donc j'ai l'impression qu'on n'a pas mis de consignes au niveau de l'éclairage global, tu vois. Sur des maps qui se voudront être SDR, j'ai l'impression. pour la base color ... peut-être fais un test par toi-même et essaie de, encore une fois, modifier le prompt via mes images. en les téléchargeant depuis blob (4 November 2026, 00:10:31 +0100)
+>
+> [Image: source: /private/tmp/claude-501/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a/images/2.webp, original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (4 November 2026, 00:10:31 +0100)
+> [Image: source: /private/tmp/claude-501/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a/images/3.webp, original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (4 November 2026, 00:10:31 +0100)
+> [Image: source: /private/tmp/claude-501/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a/images/4.webp, original 2000x2000, displayed at 1932x1932. Multiply coordinates by 1.04 to map to original image.] (4 November 2026, 00:10:31 +0100)
+
+## 4 November 2026, 00:11:21 +0100 : Prompt
+
+<!-- feedback-event:7b6ac5ffd34eb816f796f59cb8357273b5db43144a57037f5e1825966f387581 (4 November 2026, 00:11:21 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 00:11:21 +0100)
+
+> Prompt base color V2 beaucoup mieux, l'équivalence Reinhard Lab et CIELAB est intelligente. Mais la base color arrive assez sombre par rapport à une base color d'un autre logiciel ; les trois générations ne sont pas harmonisées en luminosité (la troisième bien plus claire) : il manque une consigne d'éclairage global, un étalon standard en une phrase pour des maps SDR. Teste toi-même et modifie le prompt avec mes images. (4 November 2026, 00:11:21 +0100)
+
+## 4 November 2026, 00:12:59 +0100 : Log
+
+<!-- feedback-event:0aff75cf0ed2fae2e949efec6206d1cbe898775ee9d5693bdaa0ee32a6c03fee (4 November 2026, 00:12:59 +0100) -->
+- Project: zorah-materials; kind: log. (4 November 2026, 00:12:59 +0100)
+
+> 4 November 2026, 00:14 +0100 : base colors V2 (b1 b2 b3) mesurées à 99, 99 et 140 sRGB ; calage d'exposition en lumière linéaire sur un albédo PBR (116, 135, 160) : écart entre générations 29,3 vers 5,7 à 7,6. Prompt base color V3 (étape 4 + calage sur 135 sRGB) écrit, à tester. Script : Scripts/BaseColorExposure.py. (4 November 2026, 00:12:59 +0100)
+
+## 4 November 2026, 00:13:05 +0100 : Log
+
+<!-- feedback-event:c587de297c7ec70df6f3471af4dc3cbf18d18776fab4816b73fb725a954f65c3 (4 November 2026, 00:13:05 +0100) -->
+- Project: zorah-materials; kind: log. (4 November 2026, 00:13:05 +0100)
+
+> Correction (4 November 2026, 00:12 +0100) : l'entrée « 4 November 2026, 00:14 +0100 : base colors V2 mesurées » porte une heure estimée ; l'heure réelle est 00:12. (4 November 2026, 00:13:05 +0100)
+
+## 4 November 2026, 00:13:08 +0100 : Prompt
+
+<!-- feedback-event:7be51f6754eed52f534d7dc9efc9279c00471f2ecbc4db2c1cb48d8ed5079c0a (4 November 2026, 00:13:08 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 00:13:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 00:13:08 +0100)
+
+> Je pense que c'est jamais une bonne idée d'avoir une valeur absolue pour n'importe quel concept. Donc évite ce genre de conclusion et de méthodologie. ... En revanche, si tu utilises quelque chose de dynamique, ça peut le faire, mais j'ai l'impression qu'utiliser une valeur absolue, ce sera pas universel de toute manière pour les autres maps et tout. Parce que tu pourras pas identifier précisément un matériau tout le temps, tu vois. trouve peut être un autre concept ... en terme de luminosité ...  (4 November 2026, 00:13:08 +0100)
+>
+> <pasted_content id="7e38"> (4 November 2026, 00:13:08 +0100)
+> Au niveau du prompt, c'est beaucoup mieux. Enfin, j'ai l'impression que c'est vraiment intelligent l'équivalence de ce que tu as mis par rapport à Reinhardt Lab et Ciel Lab. Malgré tout, j'ai l'impression que la base color arrive assez sombre vis-à-vis d'une flat color, enfin d'une base color dans un autre logiciel. Donc c'est peut-être normal, mais je sais pas, j'ai l'impression que c'est un peu sombre. Parce que je pense pas qu'il y ait forcément d'intérêt à ce que la base color soit aussi sombre. Donc je me pose la question de savoir si c'est vraiment intelligent que ce soit comme ça.  (4 November 2026, 00:13:08 +0100)
+>
+> blob:https://claude.ai/cb3b9275-b2d8-44f6-879b-5aeed669ea5a (4 November 2026, 00:13:08 +0100)
+> blob:https://claude.ai/60997048-d6dc-48e2-b2bc-1d19e531fe6d (4 November 2026, 00:13:08 +0100)
+> blob:https://claude.ai/a27b5101-7e77-4b8b-9713-8e9bc4bf358c  (4 November 2026, 00:13:08 +0100)
+>
+> Parce que dans les deux prompts, au final, la couleur semble vraiment pas mal, etc. Mais il y a quand même un petit problème au niveau de... De la luminosité, j'ai l'impression. Peut-être qu'il y a un étalon standard qui permettrait, en une phrase, tu vois, de faire comprendre à l'algorithme Python de ChatGPT, de manière assez universelle, d'essayer d'uniformiser peut-être sur une luminosité un peu plus haute. Mais après, tu peux aussi m'expliquer qu'en fait, finalement, avoir une saturation assez basse sur un fichier qui n'est pas un fichier EXR ou HDR, ça permet d'avoir tout aussi bien quelque chose d'assez précis. C'est juste que je sais pas. J'ai l'impression que parfois, il n'y a pas forcément d'étalon sur la saturation globale de la map. Parce qu'au final, là, tu vois, tu as les trois résultats. Mais est-ce que, tu vois, ils sont pas vraiment harmonisés de base sur le ChatGPT. Donc je me dis, il y a forcément un truc à faire ou une instruction qui manque, tu vois. Pourtant, là, la troisième génération, elle arrive avec un éclairage beaucoup plus élevé. Donc j'ai l'impression qu'on n'a pas mis de consignes au niveau de l'éclairage global, tu vois. Sur des maps qui se voudront être SDR, j'ai l'impression. pour la base color ... peut-être fais un test par toi-même et essaie de, encore une fois, modifier le prompt via mes images. en les téléchargeant depuis blob (4 November 2026, 00:13:08 +0100)
+> </pasted_content id="7e38"> (4 November 2026, 00:13:08 +0100)
+
+## 4 November 2026, 00:13:51 +0100 : Prompt
+
+<!-- feedback-event:63a698aa58dac05e2caafbbb4b08880189096860fd0e90068c3fc9bf3a31b9f7 (4 November 2026, 00:13:51 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 00:13:51 +0100)
+
+> Jamais une bonne idée d'avoir une valeur absolue pour n'importe quel concept : éviter ce genre de conclusion et de méthodologie ; un calage dynamique peut le faire ; on ne peut pas toujours identifier le matériau ; trouve un autre concept en termes de luminosité. (4 November 2026, 00:13:51 +0100)
+
+## 4 November 2026, 00:13:51 +0100 : Standing rule
+
+<!-- feedback-event:1b28b1a8ff116598388af7aaea8c4854871a19d3f252c9e63f2b3ebfd0319f8c (4 November 2026, 00:13:51 +0100) -->
+- Project: zorah-materials; kind: rule. (4 November 2026, 00:13:51 +0100)
+
+> 4 November 2026 : aucune valeur absolue dans une méthode ou un prompt (albédo chiffré, gris moyen imposé) ; un étalon se dérive de l'image elle-même (dynamique, relatif à la référence). (4 November 2026, 00:13:51 +0100)
+
+## 4 November 2026, 00:14:09 +0100 : Prompt
+
+<!-- feedback-event:4cbe7a5e1fcfb1553bb9eda111c28a2758ec060d46409060dbc917225a20d36a (4 November 2026, 00:14:09 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 00:14:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 00:14:09 +0100)
+
+> <command-message>zenray-methodology</command-message> (4 November 2026, 00:14:09 +0100)
+> <command-name>/zenray-methodology</command-name> (4 November 2026, 00:14:09 +0100)
+> <command-args>teste au moins 8 solutions via tournoi (4 November 2026, 00:14:09 +0100)
+>
+> Je pense que c'est jamais une bonne idée d'avoir une valeur absolue pour n'importe quel concept. Donc évite ce genre de conclusion et de méthodologie. ... En revanche, si tu utilises quelque chose de dynamique, ça peut le faire, mais j'ai l'impression qu'utiliser une valeur absolue, ce sera pas universel de toute manière pour les autres maps et tout. Parce que tu pourras pas identifier précisément un matériau tout le temps, tu vois. trouve peut être un autre concept ... en terme de luminosité ... Au niveau du prompt, c'est beaucoup mieux. Enfin, j'ai l'impression que c'est vraiment intelligent l'équivalence de ce que tu as mis par rapport à Reinhardt Lab et Ciel Lab. Malgré tout, j'ai l'impression que la base color arrive assez sombre vis-à-vis d'une flat color, enfin d'une base color dans un autre logiciel. Donc c'est peut-être normal, mais je sais pas, j'ai l'impression que c'est un peu sombre. Parce que je pense pas qu'il y ait forcément d'intérêt à ce que la base color soit aussi sombre. Donc je me pose la question de savoir si c'est vraiment intelligent que ce soit comme ça.  (4 November 2026, 00:14:09 +0100)
+>
+> blob:https://claude.ai/cb3b9275-b2d8-44f6-879b-5aeed669ea5a (4 November 2026, 00:14:09 +0100)
+> blob:https://claude.ai/60997048-d6dc-48e2-b2bc-1d19e531fe6d (4 November 2026, 00:14:09 +0100)
+> blob:https://claude.ai/a27b5101-7e77-4b8b-9713-8e9bc4bf358c  (4 November 2026, 00:14:09 +0100)
+>
+> Parce que dans les deux prompts, au final, la couleur semble vraiment pas mal, etc. Mais il y a quand même un petit problème au niveau de... De la luminosité, j'ai l'impression. Peut-être qu'il y a un étalon standard qui permettrait, en une phrase, tu vois, de faire comprendre à l'algorithme Python de ChatGPT, de manière assez universelle, d'essayer d'uniformiser peut-être sur une luminosité un peu plus haute. Mais après, tu peux aussi m'expliquer qu'en fait, finalement, avoir une saturation assez basse sur un fichier qui n'est pas un fichier EXR ou HDR, ça permet d'avoir tout aussi bien quelque chose d'assez précis. C'est juste que je sais pas. J'ai l'impression que parfois, il n'y a pas forcément d'étalon sur la saturation globale de la map. Parce qu'au final, là, tu vois, tu as les trois résultats. Mais est-ce que, tu vois, ils sont pas vraiment harmonisés de base sur le ChatGPT. Donc je me dis, il y a forcément un truc à faire ou une instruction qui manque, tu vois. Pourtant, là, la troisième génération, elle arrive avec un éclairage beaucoup plus élevé. Donc j'ai l'impression qu'on n'a pas mis de consignes au niveau de l'éclairage global, tu vois. Sur des maps qui se voudront être SDR, j'ai l'impression. pour la base color ... peut-être fais un test par toi-même et essaie de, encore une fois, modifier le prompt via mes images. en les téléchargeant depuis blob</command-args> (4 November 2026, 00:14:09 +0100)
+
+## 4 November 2026, 00:14:09 +0100 : Prompt
+
+<!-- feedback-event:925dfaf112d0ba9f20c134b341184a32690c4e860f3c0dab8330e159ab665654 (4 November 2026, 00:14:09 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 00:14:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 00:14:09 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-methodology (4 November 2026, 00:14:09 +0100)
+>
+> # Méthodologie : itérer sur la méthode, pas sur le résultat (10 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> Ce skill fixe la conduite à tenir lorsqu'un travail bloque. Il vaut pour toute tâche où un résultat ne vient pas, qu'il s'agisse d'une image, d'un code, d'un modèle 3D, d'une texture, d'une mise en page ou de données (10 October 2026). (4 November 2026, 00:14:09 +0100)
+>
+> Il ne remplace ni `debug-par-la-preuve`, qui remonte d'un symptôme à la cause d'un bug, ni `tasks-sequence`, qui découpe une demande en étapes. Il répond à une autre question, celle de la méthode à construire (10 October 2026). (4 November 2026, 00:14:09 +0100)
+>
+> ## Le principe (10 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> - Un réglage ne modifie que des valeurs, jamais la forme de ce qu'on construit. Si la structure de la méthode est fausse, aucune valeur ne peut la sauver (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - Quand on bloque, on n'itère donc pas sur le résultat d'une seule méthode. On itère sur la méthode elle-même, jusqu'à en trouver une qui débloque, et l'on ne règle finement que celle-là (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - Une comparaison aide à le comprendre : une clé qui ne tourne pas dans une serrure ne se lime pas indéfiniment. On en essaie une autre, on garde celle qui ouvre, puis on ajuste (10 October 2026). (4 November 2026, 00:14:09 +0100)
+>
+> ## La procédure (10 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> 1. Il faut d'abord cesser de retoucher les valeurs de la méthode bloquée, puis nommer le blocage par un symptôme précis et mesuré (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> 2. Ensuite, on dresse la liste d'au moins seize méthodes différentes qui pourraient fonctionner. Chacune repose sur un principe distinct, et non sur un simple autre réglage. Ces méthodes se consignent dans la feuille du chantier (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> 3. On ne teste alors que les quatre premières phases de chaque méthode. Une phase est un pas de la méthode, tandis qu'une passe désigne un essai complet du graphe, construit d'un seul coup. Chaque phase donne une planche et une mesure (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> 4. Les masques noir et blanc servent à mesurer. Leur seuil provient de la seule référence, et ils désignent la prochaine itération. Aucun score ne sert de porte, et la référence ne se copie jamais dans le graphe (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> 5. Il reste à comparer les planches côte à côte, à l'œil, avant toute conclusion (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> 6. On tranche alors selon le critère que Matthieu fixe après les quatre phases (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> 7. Seulement après, on règle la méthode retenue par ses paramètres (10 October 2026). (4 November 2026, 00:14:09 +0100)
+>
+> ## Garde-fous (10 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> - Le nombre de passes ne constitue pas une méthode. Dès lors, pour une passe donnée, il faut chercher le nombre maximal de couches qu'elle peut porter : on teste 4096, 2048, 1024, puis 512, en mesurant le temps de calcul et les plantages (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - Chaque méthode est limitée à trente-deux passes. Au-delà, on change radicalement de méthode, car une simple variante de la même ne sauve rien (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - Lorsqu'une itération s'étire, résiste ou tourne sans gain mesurable, on suspend la boucle. On cherche alors pourquoi la méthode coince, on relit les consignes pour vérifier qu'on ne les trahit pas, puis l'on propose une méthode meilleure avant de reprendre (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - Après deux essais ratés par le texte, on demande plutôt une capture annotée, qui débloque souvent plus vite qu'une description détaillée (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - La voie la plus rapide passe en premier : une mesure, une capture de la vue ou un rendu léger, plutôt qu'une longue attente. Une relance planifiée ne descend pas sous soixante secondes. Lorsque la consigne fixe une durée, on ne s'arrête pas après chaque passe (10 October 2026). (4 November 2026, 00:14:09 +0100)
+>
+> ## Le registre (10 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> - Chaque chantier tient une feuille explicative qui recense chaque méthode, son résultat et la raison de son abandon. Une piste écartée ne se rejoue jamais (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - Chaque demande de Matthieu se consigne dans le FEEDBACK du projet, sous un identifiant d'événement stable (10 October 2026). (4 November 2026, 00:14:09 +0100)
+>
+> ## Le lien avec le HDA (10 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> - La méthode joue le rôle de la définition, puisqu'elle porte la structure. Les paramètres en sont les instances, que l'on règle seulement après avoir choisi la bonne définition (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - En revanche, une valeur se modifie en un seul endroit, et l'on ne paramètre que ce qui varie déjà (10 October 2026). (4 November 2026, 00:14:09 +0100)
+>
+> ## La preuve (10 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> - Chaque méthode dispose d'une planche et d'une mesure. Un vérificateur se teste dans les deux sens : il doit rendre le vert sur un cas juste, la référence comparée à elle-même (IoU de 1, zéro erreur), et le rouge sur un cas cassé, la référence inversée (IoU de 0). L'IoU, ou intersection sur union, mesure le recouvrement de deux masques (10 October 2026). (4 November 2026, 00:14:09 +0100)
+>
+> ## Exemple vécu : la fenêtre de Louisiana Bayou (10 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> - Feuille de suivi : [WindowMethodSheet.md](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/WindowMethodSheet.md) (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - Mesure par masques : [MaskMeasure.py](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/Scripts/MaskMeasure.py). Lanceur par passe : [PassLoop.py](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/Scripts/PassLoop.py) (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - Saturation mesurée : 256 familles de peinture, sur 512 au total, couvraient 85 % du canevas à l'union par max. Une couverture calibrée pour chaque famille ramène cette part à 34 % (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - Recalcul mesuré : 512 familles de type absolu ont pris 31,7 s, contre 16,1 s pour 256, d'où une limite propre à chaque type de famille (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - Capacité mesurée : 4136 nœuds recalculés en 8,25 s, puis 8232 nœuds en 66,8 s (10 October 2026). (4 November 2026, 00:14:09 +0100)
+>
+> ## Voir aussi (10 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> - `zenray-houdini` : outillage Houdini, avec un renvoi vers ce skill en tête de sa section PRIORITÉ 0 (10 October 2026). (4 November 2026, 00:14:09 +0100)
+> - `progress` : consigner chaque méthode testée et son verdict dans le journal (10 October 2026). (4 November 2026, 00:14:09 +0100)
+>
+> ## 10 October 2026 : méthode complète de la boucle M01 (consigne de Matthieu, 23:58) (4 November 2026, 00:14:09 +0100)
+>
+> - 10 October 2026 : CORRECTION de la règle 4, « Aucun score ne sert de porte ». Le score sert désormais de critère d'arrêt de la boucle et règle la couverture de chaque région ; la décision finale reste visuelle, et elle se consigne à côté du score. (10 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 10 October 2026 : CORRECTION de la règle « trente-deux passes par méthode ». La boucle M01 va au moins à 96 passes, avec un plafond de sécurité de 300. (10 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 10 October 2026 : N et M sont des indications que la boucle détermine. Pour la fenêtre : N = 512 familles, soit 4096 nodes ; M = au moins 96 passes, puis arrêt au verdict ou au plateau. (10 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 10 October 2026 : vérification par cellules : grille de 4 lignes et 2 colonnes, seuils provisoires de 0,01 par cellule et 0,02 par région, à tester contre le verdict à l'œil. (10 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 10 October 2026 : un essai qui empire est consigné puis désactivé. La passe P10 (768 familles, profondeur pilotée) est passée de 0,076 à 0,175 ; elle ne se refait pas sans étude. (10 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 10 October 2026 : relance par processus en arrière-plan, avec une pause de 15 secondes entre deux passes. Le cron est exclu : son minimum est une minute. (10 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 10 October 2026 : la boucle s'arrête seule et s'annonce quand elle piétine (plateau), conformément à la pause réflexive du 06 October 2026. (10 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> ## 11 October 2026 : CORRECTION, piétinement alternant et pivot autonome (boucle M01) (4 November 2026, 00:14:09 +0100)
+>
+> - 11 October 2026 : PIÉTINEMENT. Une boucle dont la répartition des familles se recalcule à chaque passe peut alterner entre deux états : bon, mauvais, bon, mauvais (P11 à P16 : 0,07 puis 0,15). Un gain plus faible ne suffit pas à le supprimer. (11 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 11 October 2026 : PIVOT, selon la règle de pause réflexive. On fige la variable qui oscille (répartition égale par compartiment) et on ne laisse varier que la couverture, avec un gain amorti. Après le pivot, les passes P17 à P19 sont stables à 0,060. (11 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 11 October 2026 : la profondeur de trou devient une variable de la boucle, bornée à 0,10 et 0,45. C'est le seul levier qui fait monter la part sombre de la zone « haut » ; la couverture seule plafonne. (11 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 11 October 2026 : N, nombre de familles, est le plus grand nombre dont la cuisson reste sous 20 s (règle de Matthieu). Un essai à une seule passe ne tranche pas ; il faut plusieurs passes avant de juger. (11 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> ## 11 October 2026 : renvoi, bilan de la fenêtre et méthode par composantes (4 November 2026, 00:14:09 +0100)
+>
+> - 11 October 2026 : le bilan complet et daté est dans `~/.claude/skills/zenray-houdini/references/WindowBilan1.md`. Il contient les seize méthodes, la boucle de P9 à P38, le score à 12 composantes et la méthode proposée. (11 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 11 October 2026 : le score (`Metrics2.py`) n'est plus seulement un journal. Il devient la mesure qui guide les paramètres : chaque composante en écart pilote un paramètre dédié, la répartition est figée, les réglages sont amortis. Le seul contrôleur par fractions plafonne. (11 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> ## 11 October 2026 : test des leviers, couplage mesuré, plan d'expérience proposé (4 November 2026, 00:14:09 +0100)
+>
+> - 11 October 2026 : un levier par composante ne suffit pas. L'étirement horizontal pilote l'anisotropie et l'orientation, mais il fait fusionner les taches et baisser l'énergie des bords. Mesuré : EQUIV de 0,552 à 0,562 seulement. (11 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 11 October 2026 : méthode suivante proposée : un plan d'expérience (huit à seize passes) pour mesurer la sensibilité des douze composantes à quatre paramètres, puis un pas amorti. Détail et chiffres dans `~/.claude/skills/zenray-houdini/references/WindowBilan1.md`, section 11. (11 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+> ## 26 October 2026 : arbre en tournoi, une seule méthode vainqueur (consigne de Matthieu) (4 November 2026, 00:14:09 +0100)
+>
+> - 26 October 2026 : mots de Matthieu (grammaire seule) : « le but, c'est de comparer beaucoup de méthodes et de faire comme un tournoi dans Dragon Ball Z pour gagner uniquement la méthode vainqueur. » Le tournoi ne réduit pas le nombre de méthodes : on en aligne toujours au moins seize, de principes distincts, comme la procédure le prévoit. (26 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 26 October 2026 : l'arbre est un tableau à élimination directe. Chaque tour oppose les méthodes deux à deux sur la même mesure (masques, planche côte à côte, verdict à l'œil) : 16 → 8 → 4 → 2 → 1. Le perdant sort et se consigne dans la feuille du chantier avec la raison de sa défaite ; il ne se rejoue jamais. (26 October 2026) (4 November 2026, 00:14:09 +0100)
+> - 26 October 2026 : chaque méthode passe ses quatre phases comme la procédure le prévoit, puis le tableau se joue sur leurs planches et leurs mesures. Seule la méthode vainqueur passe ensuite au réglage de ses paramètres. (26 October 2026) (4 November 2026, 00:14:09 +0100)
+>
+>
+> ARGUMENTS: teste au moins 8 solutions via tournoi (4 November 2026, 00:14:09 +0100)
+>
+> Je pense que c'est jamais une bonne idée d'avoir une valeur absolue pour n'importe quel concept. Donc évite ce genre de conclusion et de méthodologie. ... En revanche, si tu utilises quelque chose de dynamique, ça peut le faire, mais j'ai l'impression qu'utiliser une valeur absolue, ce sera pas universel de toute manière pour les autres maps et tout. Parce que tu pourras pas identifier précisément un matériau tout le temps, tu vois. trouve peut être un autre concept ... en terme de luminosité ... Au niveau du prompt, c'est beaucoup mieux. Enfin, j'ai l'impression que c'est vraiment intelligent l'équivalence de ce que tu as mis par rapport à Reinhardt Lab et Ciel Lab. Malgré tout, j'ai l'impression que la base color arrive assez sombre vis-à-vis d'une flat color, enfin d'une base color dans un autre logiciel. Donc c'est peut-être normal, mais je sais pas, j'ai l'impression que c'est un peu sombre. Parce que je pense pas qu'il y ait forcément d'intérêt à ce que la base color soit aussi sombre. Donc je me pose la question de savoir si c'est vraiment intelligent que ce soit comme ça.  (4 November 2026, 00:14:09 +0100)
+>
+> blob:https://claude.ai/cb3b9275-b2d8-44f6-879b-5aeed669ea5a (4 November 2026, 00:14:09 +0100)
+> blob:https://claude.ai/60997048-d6dc-48e2-b2bc-1d19e531fe6d (4 November 2026, 00:14:09 +0100)
+> blob:https://claude.ai/a27b5101-7e77-4b8b-9713-8e9bc4bf358c  (4 November 2026, 00:14:09 +0100)
+>
+> Parce que dans les deux prompts, au final, la couleur semble vraiment pas mal, etc. Mais il y a quand même un petit problème au niveau de... De la luminosité, j'ai l'impression. Peut-être qu'il y a un étalon standard qui permettrait, en une phrase, tu vois, de faire comprendre à l'algorithme Python de ChatGPT, de manière assez universelle, d'essayer d'uniformiser peut-être sur une luminosité un peu plus haute. Mais après, tu peux aussi m'expliquer qu'en fait, finalement, avoir une saturation assez basse sur un fichier qui n'est pas un fichier EXR ou HDR, ça permet d'avoir tout aussi bien quelque chose d'assez précis. C'est juste que je sais pas. J'ai l'impression que parfois, il n'y a pas forcément d'étalon sur la saturation globale de la map. Parce qu'au final, là, tu vois, tu as les trois résultats. Mais est-ce que, tu vois, ils sont pas vraiment harmonisés de base sur le ChatGPT. Donc je me dis, il y a forcément un truc à faire ou une instruction qui manque, tu vois. Pourtant, là, la troisième génération, elle arrive avec un éclairage beaucoup plus élevé. Donc j'ai l'impression qu'on n'a pas mis de consignes au niveau de l'éclairage global, tu vois. Sur des maps qui se voudront être SDR, j'ai l'impression. pour la base color ... peut-être fais un test par toi-même et essaie de, encore une fois, modifier le prompt via mes images. en les téléchargeant depuis blob (4 November 2026, 00:14:09 +0100)
+
+## 4 November 2026, 00:14:11 +0100 : Prompt
+
+<!-- feedback-event:611997a334408af3c11ee2df901de3213ff22fe500672e1c152284c02ed113de (4 November 2026, 00:14:11 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 00:14:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 00:14:11 +0100)
+
+> <command-message>zenray-methodology</command-message> (4 November 2026, 00:14:11 +0100)
+> <command-name>/zenray-methodology</command-name> (4 November 2026, 00:14:11 +0100)
+> <command-args>teste au moins 8 solutions via tournoi (4 November 2026, 00:14:11 +0100)
+>
+> Je pense que c'est jamais une bonne idée d'avoir une valeur absolue pour n'importe quel concept. Donc évite ce genre de conclusion et de méthodologie. ... En revanche, si tu utilises quelque chose de dynamique, ça peut le faire, mais j'ai l'impression qu'utiliser une valeur absolue, ce sera pas universel de toute manière pour les autres maps et tout. Parce que tu pourras pas identifier précisément un matériau tout le temps, tu vois. trouve peut être un autre concept ... en terme de luminosité ... Au niveau du prompt, c'est beaucoup mieux. Enfin, j'ai l'impression que c'est vraiment intelligent l'équivalence de ce que tu as mis par rapport à Reinhardt Lab et Ciel Lab. Malgré tout, j'ai l'impression que la base color arrive assez sombre vis-à-vis d'une flat color, enfin d'une base color dans un autre logiciel. Donc c'est peut-être normal, mais je sais pas, j'ai l'impression que c'est un peu sombre. Parce que je pense pas qu'il y ait forcément d'intérêt à ce que la base color soit aussi sombre. Donc je me pose la question de savoir si c'est vraiment intelligent que ce soit comme ça.  (4 November 2026, 00:14:11 +0100)
+>
+> blob:https://claude.ai/cb3b9275-b2d8-44f6-879b-5aeed669ea5a (4 November 2026, 00:14:11 +0100)
+> blob:https://claude.ai/60997048-d6dc-48e2-b2bc-1d19e531fe6d (4 November 2026, 00:14:11 +0100)
+> blob:https://claude.ai/a27b5101-7e77-4b8b-9713-8e9bc4bf358c  (4 November 2026, 00:14:11 +0100)
+>
+> Parce que dans les deux prompts, au final, la couleur semble vraiment pas mal, etc. Mais il y a quand même un petit problème au niveau de... De la luminosité, j'ai l'impression. Peut-être qu'il y a un étalon standard qui permettrait, en une phrase, tu vois, de faire comprendre à l'algorithme Python de ChatGPT, de manière assez universelle, d'essayer d'uniformiser peut-être sur une luminosité un peu plus haute. Mais après, tu peux aussi m'expliquer qu'en fait, finalement, avoir une saturation assez basse sur un fichier qui n'est pas un fichier EXR ou HDR, ça permet d'avoir tout aussi bien quelque chose d'assez précis. C'est juste que je sais pas. J'ai l'impression que parfois, il n'y a pas forcément d'étalon sur la saturation globale de la map. Parce qu'au final, là, tu vois, tu as les trois résultats. Mais est-ce que, tu vois, ils sont pas vraiment harmonisés de base sur le ChatGPT. Donc je me dis, il y a forcément un truc à faire ou une instruction qui manque, tu vois. Pourtant, là, la troisième génération, elle arrive avec un éclairage beaucoup plus élevé. Donc j'ai l'impression qu'on n'a pas mis de consignes au niveau de l'éclairage global, tu vois. Sur des maps qui se voudront être SDR, j'ai l'impression. pour la base color ... peut-être fais un test par toi-même et essaie de, encore une fois, modifier le prompt via mes images. en les téléchargeant depuis blob</command-args> (4 November 2026, 00:14:11 +0100)
+>
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-methodology (4 November 2026, 00:14:11 +0100)
+>
+> # Méthodologie : itérer sur la méthode, pas sur le résultat (10 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> Ce skill fixe la conduite à tenir lorsqu'un travail bloque. Il vaut pour toute tâche où un résultat ne vient pas, qu'il s'agisse d'une image, d'un code, d'un modèle 3D, d'une texture, d'une mise en page ou de données (10 October 2026). (4 November 2026, 00:14:11 +0100)
+>
+> Il ne remplace ni `debug-par-la-preuve`, qui remonte d'un symptôme à la cause d'un bug, ni `tasks-sequence`, qui découpe une demande en étapes. Il répond à une autre question, celle de la méthode à construire (10 October 2026). (4 November 2026, 00:14:11 +0100)
+>
+> ## Le principe (10 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> - Un réglage ne modifie que des valeurs, jamais la forme de ce qu'on construit. Si la structure de la méthode est fausse, aucune valeur ne peut la sauver (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - Quand on bloque, on n'itère donc pas sur le résultat d'une seule méthode. On itère sur la méthode elle-même, jusqu'à en trouver une qui débloque, et l'on ne règle finement que celle-là (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - Une comparaison aide à le comprendre : une clé qui ne tourne pas dans une serrure ne se lime pas indéfiniment. On en essaie une autre, on garde celle qui ouvre, puis on ajuste (10 October 2026). (4 November 2026, 00:14:11 +0100)
+>
+> ## La procédure (10 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> 1. Il faut d'abord cesser de retoucher les valeurs de la méthode bloquée, puis nommer le blocage par un symptôme précis et mesuré (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> 2. Ensuite, on dresse la liste d'au moins seize méthodes différentes qui pourraient fonctionner. Chacune repose sur un principe distinct, et non sur un simple autre réglage. Ces méthodes se consignent dans la feuille du chantier (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> 3. On ne teste alors que les quatre premières phases de chaque méthode. Une phase est un pas de la méthode, tandis qu'une passe désigne un essai complet du graphe, construit d'un seul coup. Chaque phase donne une planche et une mesure (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> 4. Les masques noir et blanc servent à mesurer. Leur seuil provient de la seule référence, et ils désignent la prochaine itération. Aucun score ne sert de porte, et la référence ne se copie jamais dans le graphe (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> 5. Il reste à comparer les planches côte à côte, à l'œil, avant toute conclusion (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> 6. On tranche alors selon le critère que Matthieu fixe après les quatre phases (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> 7. Seulement après, on règle la méthode retenue par ses paramètres (10 October 2026). (4 November 2026, 00:14:11 +0100)
+>
+> ## Garde-fous (10 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> - Le nombre de passes ne constitue pas une méthode. Dès lors, pour une passe donnée, il faut chercher le nombre maximal de couches qu'elle peut porter : on teste 4096, 2048, 1024, puis 512, en mesurant le temps de calcul et les plantages (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - Chaque méthode est limitée à trente-deux passes. Au-delà, on change radicalement de méthode, car une simple variante de la même ne sauve rien (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - Lorsqu'une itération s'étire, résiste ou tourne sans gain mesurable, on suspend la boucle. On cherche alors pourquoi la méthode coince, on relit les consignes pour vérifier qu'on ne les trahit pas, puis l'on propose une méthode meilleure avant de reprendre (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - Après deux essais ratés par le texte, on demande plutôt une capture annotée, qui débloque souvent plus vite qu'une description détaillée (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - La voie la plus rapide passe en premier : une mesure, une capture de la vue ou un rendu léger, plutôt qu'une longue attente. Une relance planifiée ne descend pas sous soixante secondes. Lorsque la consigne fixe une durée, on ne s'arrête pas après chaque passe (10 October 2026). (4 November 2026, 00:14:11 +0100)
+>
+> ## Le registre (10 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> - Chaque chantier tient une feuille explicative qui recense chaque méthode, son résultat et la raison de son abandon. Une piste écartée ne se rejoue jamais (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - Chaque demande de Matthieu se consigne dans le FEEDBACK du projet, sous un identifiant d'événement stable (10 October 2026). (4 November 2026, 00:14:11 +0100)
+>
+> ## Le lien avec le HDA (10 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> - La méthode joue le rôle de la définition, puisqu'elle porte la structure. Les paramètres en sont les instances, que l'on règle seulement après avoir choisi la bonne définition (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - En revanche, une valeur se modifie en un seul endroit, et l'on ne paramètre que ce qui varie déjà (10 October 2026). (4 November 2026, 00:14:11 +0100)
+>
+> ## La preuve (10 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> - Chaque méthode dispose d'une planche et d'une mesure. Un vérificateur se teste dans les deux sens : il doit rendre le vert sur un cas juste, la référence comparée à elle-même (IoU de 1, zéro erreur), et le rouge sur un cas cassé, la référence inversée (IoU de 0). L'IoU, ou intersection sur union, mesure le recouvrement de deux masques (10 October 2026). (4 November 2026, 00:14:11 +0100)
+>
+> ## Exemple vécu : la fenêtre de Louisiana Bayou (10 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> - Feuille de suivi : [WindowMethodSheet.md](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/WindowMethodSheet.md) (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - Mesure par masques : [MaskMeasure.py](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/Scripts/MaskMeasure.py). Lanceur par passe : [PassLoop.py](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/Scripts/PassLoop.py) (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - Saturation mesurée : 256 familles de peinture, sur 512 au total, couvraient 85 % du canevas à l'union par max. Une couverture calibrée pour chaque famille ramène cette part à 34 % (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - Recalcul mesuré : 512 familles de type absolu ont pris 31,7 s, contre 16,1 s pour 256, d'où une limite propre à chaque type de famille (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - Capacité mesurée : 4136 nœuds recalculés en 8,25 s, puis 8232 nœuds en 66,8 s (10 October 2026). (4 November 2026, 00:14:11 +0100)
+>
+> ## Voir aussi (10 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> - `zenray-houdini` : outillage Houdini, avec un renvoi vers ce skill en tête de sa section PRIORITÉ 0 (10 October 2026). (4 November 2026, 00:14:11 +0100)
+> - `progress` : consigner chaque méthode testée et son verdict dans le journal (10 October 2026). (4 November 2026, 00:14:11 +0100)
+>
+> ## 10 October 2026 : méthode complète de la boucle M01 (consigne de Matthieu, 23:58) (4 November 2026, 00:14:11 +0100)
+>
+> - 10 October 2026 : CORRECTION de la règle 4, « Aucun score ne sert de porte ». Le score sert désormais de critère d'arrêt de la boucle et règle la couverture de chaque région ; la décision finale reste visuelle, et elle se consigne à côté du score. (10 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 10 October 2026 : CORRECTION de la règle « trente-deux passes par méthode ». La boucle M01 va au moins à 96 passes, avec un plafond de sécurité de 300. (10 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 10 October 2026 : N et M sont des indications que la boucle détermine. Pour la fenêtre : N = 512 familles, soit 4096 nodes ; M = au moins 96 passes, puis arrêt au verdict ou au plateau. (10 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 10 October 2026 : vérification par cellules : grille de 4 lignes et 2 colonnes, seuils provisoires de 0,01 par cellule et 0,02 par région, à tester contre le verdict à l'œil. (10 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 10 October 2026 : un essai qui empire est consigné puis désactivé. La passe P10 (768 familles, profondeur pilotée) est passée de 0,076 à 0,175 ; elle ne se refait pas sans étude. (10 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 10 October 2026 : relance par processus en arrière-plan, avec une pause de 15 secondes entre deux passes. Le cron est exclu : son minimum est une minute. (10 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 10 October 2026 : la boucle s'arrête seule et s'annonce quand elle piétine (plateau), conformément à la pause réflexive du 06 October 2026. (10 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> ## 11 October 2026 : CORRECTION, piétinement alternant et pivot autonome (boucle M01) (4 November 2026, 00:14:11 +0100)
+>
+> - 11 October 2026 : PIÉTINEMENT. Une boucle dont la répartition des familles se recalcule à chaque passe peut alterner entre deux états : bon, mauvais, bon, mauvais (P11 à P16 : 0,07 puis 0,15). Un gain plus faible ne suffit pas à le supprimer. (11 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 11 October 2026 : PIVOT, selon la règle de pause réflexive. On fige la variable qui oscille (répartition égale par compartiment) et on ne laisse varier que la couverture, avec un gain amorti. Après le pivot, les passes P17 à P19 sont stables à 0,060. (11 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 11 October 2026 : la profondeur de trou devient une variable de la boucle, bornée à 0,10 et 0,45. C'est le seul levier qui fait monter la part sombre de la zone « haut » ; la couverture seule plafonne. (11 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 11 October 2026 : N, nombre de familles, est le plus grand nombre dont la cuisson reste sous 20 s (règle de Matthieu). Un essai à une seule passe ne tranche pas ; il faut plusieurs passes avant de juger. (11 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> ## 11 October 2026 : renvoi, bilan de la fenêtre et méthode par composantes (4 November 2026, 00:14:11 +0100)
+>
+> - 11 October 2026 : le bilan complet et daté est dans `~/.claude/skills/zenray-houdini/references/WindowBilan1.md`. Il contient les seize méthodes, la boucle de P9 à P38, le score à 12 composantes et la méthode proposée. (11 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 11 October 2026 : le score (`Metrics2.py`) n'est plus seulement un journal. Il devient la mesure qui guide les paramètres : chaque composante en écart pilote un paramètre dédié, la répartition est figée, les réglages sont amortis. Le seul contrôleur par fractions plafonne. (11 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> ## 11 October 2026 : test des leviers, couplage mesuré, plan d'expérience proposé (4 November 2026, 00:14:11 +0100)
+>
+> - 11 October 2026 : un levier par composante ne suffit pas. L'étirement horizontal pilote l'anisotropie et l'orientation, mais il fait fusionner les taches et baisser l'énergie des bords. Mesuré : EQUIV de 0,552 à 0,562 seulement. (11 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 11 October 2026 : méthode suivante proposée : un plan d'expérience (huit à seize passes) pour mesurer la sensibilité des douze composantes à quatre paramètres, puis un pas amorti. Détail et chiffres dans `~/.claude/skills/zenray-houdini/references/WindowBilan1.md`, section 11. (11 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+> ## 26 October 2026 : arbre en tournoi, une seule méthode vainqueur (consigne de Matthieu) (4 November 2026, 00:14:11 +0100)
+>
+> - 26 October 2026 : mots de Matthieu (grammaire seule) : « le but, c'est de comparer beaucoup de méthodes et de faire comme un tournoi dans Dragon Ball Z pour gagner uniquement la méthode vainqueur. » Le tournoi ne réduit pas le nombre de méthodes : on en aligne toujours au moins seize, de principes distincts, comme la procédure le prévoit. (26 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 26 October 2026 : l'arbre est un tableau à élimination directe. Chaque tour oppose les méthodes deux à deux sur la même mesure (masques, planche côte à côte, verdict à l'œil) : 16 → 8 → 4 → 2 → 1. Le perdant sort et se consigne dans la feuille du chantier avec la raison de sa défaite ; il ne se rejoue jamais. (26 October 2026) (4 November 2026, 00:14:11 +0100)
+> - 26 October 2026 : chaque méthode passe ses quatre phases comme la procédure le prévoit, puis le tableau se joue sur leurs planches et leurs mesures. Seule la méthode vainqueur passe ensuite au réglage de ses paramètres. (26 October 2026) (4 November 2026, 00:14:11 +0100)
+>
+>
+> ARGUMENTS: teste au moins 8 solutions via tournoi (4 November 2026, 00:14:11 +0100)
+>
+> Je pense que c'est jamais une bonne idée d'avoir une valeur absolue pour n'importe quel concept. Donc évite ce genre de conclusion et de méthodologie. ... En revanche, si tu utilises quelque chose de dynamique, ça peut le faire, mais j'ai l'impression qu'utiliser une valeur absolue, ce sera pas universel de toute manière pour les autres maps et tout. Parce que tu pourras pas identifier précisément un matériau tout le temps, tu vois. trouve peut être un autre concept ... en terme de luminosité ... Au niveau du prompt, c'est beaucoup mieux. Enfin, j'ai l'impression que c'est vraiment intelligent l'équivalence de ce que tu as mis par rapport à Reinhardt Lab et Ciel Lab. Malgré tout, j'ai l'impression que la base color arrive assez sombre vis-à-vis d'une flat color, enfin d'une base color dans un autre logiciel. Donc c'est peut-être normal, mais je sais pas, j'ai l'impression que c'est un peu sombre. Parce que je pense pas qu'il y ait forcément d'intérêt à ce que la base color soit aussi sombre. Donc je me pose la question de savoir si c'est vraiment intelligent que ce soit comme ça.  (4 November 2026, 00:14:11 +0100)
+>
+> blob:https://claude.ai/cb3b9275-b2d8-44f6-879b-5aeed669ea5a (4 November 2026, 00:14:11 +0100)
+> blob:https://claude.ai/60997048-d6dc-48e2-b2bc-1d19e531fe6d (4 November 2026, 00:14:11 +0100)
+> blob:https://claude.ai/a27b5101-7e77-4b8b-9713-8e9bc4bf358c  (4 November 2026, 00:14:11 +0100)
+>
+> Parce que dans les deux prompts, au final, la couleur semble vraiment pas mal, etc. Mais il y a quand même un petit problème au niveau de... De la luminosité, j'ai l'impression. Peut-être qu'il y a un étalon standard qui permettrait, en une phrase, tu vois, de faire comprendre à l'algorithme Python de ChatGPT, de manière assez universelle, d'essayer d'uniformiser peut-être sur une luminosité un peu plus haute. Mais après, tu peux aussi m'expliquer qu'en fait, finalement, avoir une saturation assez basse sur un fichier qui n'est pas un fichier EXR ou HDR, ça permet d'avoir tout aussi bien quelque chose d'assez précis. C'est juste que je sais pas. J'ai l'impression que parfois, il n'y a pas forcément d'étalon sur la saturation globale de la map. Parce qu'au final, là, tu vois, tu as les trois résultats. Mais est-ce que, tu vois, ils sont pas vraiment harmonisés de base sur le ChatGPT. Donc je me dis, il y a forcément un truc à faire ou une instruction qui manque, tu vois. Pourtant, là, la troisième génération, elle arrive avec un éclairage beaucoup plus élevé. Donc j'ai l'impression qu'on n'a pas mis de consignes au niveau de l'éclairage global, tu vois. Sur des maps qui se voudront être SDR, j'ai l'impression. pour la base color ... peut-être fais un test par toi-même et essaie de, encore une fois, modifier le prompt via mes images. en les téléchargeant depuis blob (4 November 2026, 00:14:11 +0100)
+
+## 4 November 2026, 00:14:44 +0100 : Prompt
+
+<!-- feedback-event:3fa4e24d9ef4fff6492b9d71bd9696bebfcb949dcaeb61708e92288a2bad493b (4 November 2026, 00:14:44 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 00:14:44 +0100)
+
+> /zenray-methodology : teste au moins 8 solutions via tournoi, pour la luminosité des base colors, sans valeur absolue. (4 November 2026, 00:14:44 +0100)
+
+## 4 November 2026, 00:15:21 +0100 : Prompt
+
+<!-- feedback-event:d2bcfd00598b4f4f3c4609ff81a12993573791cd316387a770fb00c9fb2b0193 (4 November 2026, 00:15:21 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 00:15:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 00:15:21 +0100)
+
+> [Image: original 1224x2608, displayed at 939x2000. Multiply coordinates by 1.30 to map to original image.] (4 November 2026, 00:15:21 +0100)
+
+## 4 November 2026, 00:16:05 +0100 : Log
+
+<!-- feedback-event:b62a8a25ede0cd11aba7c3efc886fe3ff348b85eda4e60e16a8ff1ce161c997f (4 November 2026, 00:16:05 +0100) -->
+- Project: zorah-materials; kind: log. (4 November 2026, 00:16:05 +0100)
+
+> 4 November 2026, 00:16 +0100 : tournoi de 8 méthodes dynamiques de luminosité (sans valeur absolue) sur b1 b2 b3 : vainqueur provisoire M4, Retinex à lumière principale de la référence (moyennes 99/99/140 vers 138,5 pour les trois, écart 29,3 vers 6,7, contraste gardé) ; finaliste M6 histogramme de la zone éclairée (154, plus clair). Prompt base color V4 écrit, à tester. Feuille : Analysis/brightness-tournament-4-November-2026/TOURNAMENT.md. (4 November 2026, 00:16:05 +0100)
+
+## 4 November 2026, 00:15:42 +0100 : Iteration
+
+<!-- feedback-event:7124d140ee1aa50689a722a730a755e679cefbc56c0c9bdd2d7a36a3ddbc35ab (4 November 2026, 00:15:42 +0100) -->
+- Project: zorah-materials; kind: iteration. (4 November 2026, 00:15:42 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 00:15:42 +0100)
+
+> Le tournoi est joué. Je rédige la feuille du tournoi et le prompt avec la méthode gagnante. (4 November 2026, 00:15:42 +0100)
+
+## 4 November 2026, 00:16:36 +0100 : Iteration
+
+<!-- feedback-event:715de917995567c933dc506f1a30b0f66b6f133f85858a4d033dbdb8a6c05594 (4 November 2026, 00:16:36 +0100) -->
+- Project: zorah-materials; kind: iteration. (4 November 2026, 00:16:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 00:16:36 +0100)
+
+> Tu as raison, et j'ai retiré la version au chiffre absolu. J'ai joué un tournoi de huit méthodes. Chacune repose sur un principe différent, et toutes mesurent leur cible sur les images elles-mêmes. (4 November 2026, 00:16:36 +0100)
+>
+> | Méthode | Moyennes de b1, b2, b3 (sRGB) | Écart entre générations | Contraste gardé | (4 November 2026, 00:16:36 +0100)
+> |---|---|---|---| (4 November 2026, 00:16:36 +0100)
+> | Entrée | 99 / 99 / 140 | 29,3 | 1,0 | (4 November 2026, 00:16:36 +0100)
+> | M1 moyenne de la référence (ce qui se passait) | 111 pour les trois | 5,5 | 1,0 | (4 November 2026, 00:16:36 +0100)
+> | M2 consensus des variantes | 115 | 5,6 | 1,0 | (4 November 2026, 00:16:36 +0100)
+> | M3 variante la mieux exposée | 140 | 6,8 | 1,0 | (4 November 2026, 00:16:36 +0100)
+> | **M4 Retinex, lumière principale de la référence** | **138,5** | **6,7** | **1,0** | (4 November 2026, 00:16:36 +0100)
+> | M5 white patch sur les tons clairs | 155 à 166 | 10,3 | 1,0 | (4 November 2026, 00:16:36 +0100)
+> | M6 histogramme de la zone la mieux éclairée | 154 | 7,9 | 0,993 | (4 November 2026, 00:16:36 +0100)
+> | M7 sommets de la height | 143 | 6,9 | 1,0 | (4 November 2026, 00:16:36 +0100)
+> | M8 niveaux relatifs | 156 à 160 | 8,0 | 1,0 | (4 November 2026, 00:16:36 +0100)
+>
+> **Le tableau du tournoi :** (4 November 2026, 00:16:36 +0100)
+> - **Quarts de finale.** M1 bat M2, M4 bat M3, M6 bat M5 et M7 bat M8. M3 et M2 dépendent de la chance des générations, et ils ne servent à rien avec une seule image. (4 November 2026, 00:16:36 +0100)
+> - **Demi-finales.** M4 bat M1, qui reste sombre. M6 bat M7, qui exige une height alignée. (4 November 2026, 00:16:36 +0100)
+> - **Finale.** M4 bat M6. Les générations y sont plus proches entre elles, le contraste propre de la pierre reste intact, et le concept tient en une phrase pour ChatGPT. M6 rend plus clair, mais il impose la répartition des tons de la zone éclairée, donc un peu de sa lumière. (4 November 2026, 00:16:36 +0100)
+>
+> **Pourquoi tes base colors étaient sombres.** Le transfert de couleur recopiait la luminosité moyenne de la référence, qui est un rendu avec un spot et beaucoup d'ombre. Le principe de Retinex sépare l'image en deux : sa réflectance, c'est-à-dire la couleur propre de la matière, et son illumination. La base color prend la réflectance, exposée comme si toute la surface recevait la lumière principale de la référence. Aucun chiffre n'est fixé d'avance : la cible vient de chaque référence. (4 November 2026, 00:16:36 +0100)
+>
+> **Sur la saturation**, il n'existe pas d'étalon universel. Elle appartient au matériau, et c'est pour ça qu'on la reprend de la référence par le transfert Reinhard. Une saturation basse en SDR ne fait rien perdre en précision : la précision dépend du nombre de bits, et 8 bits suffisent pour une base color. On voit encore b3 un peu plus pâle que les deux autres, même après le calage. (4 November 2026, 00:16:36 +0100)
+>
+> Voici la nouvelle étape 4 du prompt. Les étapes 1 à 3 de la version 2 ne changent pas : (4 November 2026, 00:16:36 +0100)
+>
+> ```text (4 November 2026, 00:16:36 +0100)
+> Étape 4, seulement une fois l'image de l'étape 3 obtenue. En Python, sur cette image seulement : d'abord une correction de champ plat (flat field) sur la luminance, c'est-à-dire la luminance divisée par son flou très large, pour retirer la lumière qui varie à l'échelle de toute l'image tout en gardant les différences de teinte entre les blocs ou les pierres ; puis un transfert de couleur Reinhard en Lab vers les teintes et la saturation de l'étape 1, sans jamais reprendre ses pixels ; enfin, cale l'exposition à la façon Retinex, sur la référence et jamais sur une valeur fixe : sépare l'image 1 en réflectance et illumination (sa luminance divisée par son flou très large), puis, en lumière linéaire, multiplie les trois canaux par un même facteur pour que la luminosité moyenne de la base color égale la réflectance moyenne de l'image 1 exposée à sa lumière principale, c'est-à-dire au niveau de ses zones les mieux éclairées (haut percentile de l'illumination) ; la teinte et la saturation ne changent pas. Même taille, PNG 8 bits. then redo with 99.9% precision in the composition. (4 November 2026, 00:16:36 +0100)
+> ``` (4 November 2026, 00:16:36 +0100)
+>
+> J'ai noté la règle « aucune valeur absolue dans une méthode » dans les règles du projet. Le verdict final te revient, sur la planche. (4 November 2026, 00:16:36 +0100)
+>
+> Fichiers : (4 November 2026, 00:16:36 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/brightness-tournament-4-November-2026/brightness_tournament_board.png](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/brightness-tournament-4-November-2026/brightness_tournament_board.png) (4 November 2026, 00:16:36 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/brightness-tournament-4-November-2026/TOURNAMENT.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/brightness-tournament-4-November-2026/TOURNAMENT.md) (4 November 2026, 00:16:36 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/basecolor-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/basecolor-prompt-zorah.md) (4 November 2026, 00:16:36 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Scripts/BrightnessTournament.py](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Scripts/BrightnessTournament.py) (4 November 2026, 00:16:36 +0100)
+>
+> Sources des repères PBR (contrôle de plage seulement) : (4 November 2026, 00:16:36 +0100)
+> - [PBR Color Space Conversion and Albedo Chart](https://shinsoj.artstation.com/blog/Q9j6/pbr-color-space-conversion-and-albedo-chart) (4 November 2026, 00:16:36 +0100)
+> - [PBR Color Reference List for Materials, Grzegorz Baran](https://pixelsham.com/2022/09/23/pbr-color-reference-list-for-materials-by-grzegorz-baran) (4 November 2026, 00:16:36 +0100)
