@@ -1,0 +1,43 @@
+{
+ "name": "synthesis-fonts-3-November-2026",
+ "project": "zorah-materials",
+ "repo": "matthieuhuguet/Memory",
+ "branch": "main",
+ "created": "03 November 2026 23:37",
+ "max_mb": 20.0,
+ "files": [
+  {
+   "key": "skills/zenray-edit/designs/_shared/fonts/GT-Ultra-Regular.woff2",
+   "source": "/Users/zenray/.claude/skills/zenray-edit/designs/_shared/fonts/GT-Ultra-Regular.woff2",
+   "bytes": 48344,
+   "sha256": "0624c5538c4fc6e2756795638beb596c3653db41264d1aeef1456b40775b26fc",
+   "status": "copied",
+   "blob": "82276e2e9c9c8265604750ae451ebaf75bdda3d1",
+   "repo_path": "Projects/zorah-materials/handoff/synthesis-fonts-3-November-2026/files/skills/zenray-edit/designs/_shared/fonts/GT-Ultra-Regular.woff2",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zorah-materials/handoff/synthesis-fonts-3-November-2026/files/skills/zenray-edit/designs/_shared/fonts/GT-Ultra-Regular.woff2",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zorah-materials/handoff/synthesis-fonts-3-November-2026/files/skills/zenray-edit/designs/_shared/fonts/GT-Ultra-Regular.woff2"
+  },
+  {
+   "key": "skills/zenray-edit/designs/_shared/fonts/Literata-latin.woff2",
+   "source": "/Users/zenray/.claude/skills/zenray-edit/designs/_shared/fonts/Literata-latin.woff2",
+   "bytes": 110296,
+   "sha256": "55c10c2e8178fb96a0f39842382c2c778dade7860286f47049b574d1df15c80f",
+   "status": "copied",
+   "blob": "0617534c9d26260916376a7363424199b516f12e",
+   "repo_path": "Projects/zorah-materials/handoff/synthesis-fonts-3-November-2026/files/skills/zenray-edit/designs/_shared/fonts/Literata-latin.woff2",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zorah-materials/handoff/synthesis-fonts-3-November-2026/files/skills/zenray-edit/designs/_shared/fonts/Literata-latin.woff2",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zorah-materials/handoff/synthesis-fonts-3-November-2026/files/skills/zenray-edit/designs/_shared/fonts/Literata-latin.woff2"
+  },
+  {
+   "key": "skills/zenray-edit/designs/_shared/fonts/Literata-Italic-latin.woff2",
+   "source": "/Users/zenray/.claude/skills/zenray-edit/designs/_shared/fonts/Literata-Italic-latin.woff2",
+   "bytes": 113196,
+   "sha256": "07cc4f2be8b0f8a354f7dbf91078c1246d445e9b5df392becc4e25dfceea9830",
+   "status": "copied",
+   "blob": "e161a800e6bc7032825f0e934303beb3e2d56ce5",
+   "repo_path": "Projects/zorah-materials/handoff/synthesis-fonts-3-November-2026/files/skills/zenray-edit/designs/_shared/fonts/Literata-Italic-latin.woff2",
+   "github_url": "https://github.com/matthieuhuguet/Memory/blob/main/Projects/zorah-materials/handoff/synthesis-fonts-3-November-2026/files/skills/zenray-edit/designs/_shared/fonts/Literata-Italic-latin.woff2",
+   "raw_url": "https://raw.githubusercontent.com/matthieuhuguet/Memory/main/Projects/zorah-materials/handoff/synthesis-fonts-3-November-2026/files/skills/zenray-edit/designs/_shared/fonts/Literata-Italic-latin.woff2"
+  }
+ ]
+}

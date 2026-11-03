@@ -1,0 +1,31 @@
+# Prompt height depuis une map éclairée, en quatre étapes (3 November 2026, 22:47 +0100)
+
+Validé par Matthieu : « Insane le prompt, c'est magique ». Un seul message à ChatGPT, avec le panneau de référence découpé à plat joint (jamais la planche de présentation entière). Il remplace le prompt height final de 19:56 et les versions en deux messages (21:45) et en une étape (22:08) du 3 November 2026, conservés comme historique dans `SKILL.md`.
+
+```text
+Respecte absolument l'ordre de ce prompt, une étape après l'autre.
+
+Étape 1. Fais la height map de cette image : même cadrage, chaque détail exactement à la même place, pixel pour pixel. Niveaux de gris : blanc = haut, noir = creux. Sans lumière, sans ombre, sans couleur. then redo with 99.9% precision in the composition.
+Pour cette étape, n'utilise pas la génération d'image. En Python, calcule la height map de cette image : niveaux de gris, puis retire l'éclairage de grande échelle par un filtre passe-haut, même taille, PNG 16 bits. then redo with 99.9% precision in the composition.
+
+Étape 2, seulement une fois la height map de l'étape 1 obtenue. With AI gen create image : corrige les défauts d'ombrage de cette height map, sans rien changer d'autre.
+
+Étape 3, seulement une fois l'image de l'étape 2 obtenue. En Python, pars de l'image de l'étape 2 et ajuste seulement ses niveaux de gris (gris moyen, contraste, plage) sur ceux de la height de l'étape 1. Le but de Python est de ne pas reproduire le problème d'ombrage de l'étape 1 : de l'étape 1, ne reprends que ses niveaux de gris, jamais ses pixels, ses détails ni son ombrage. Les reliefs et les creux de l'étape 2 restent tels quels. Même taille que l'étape 1, PNG 16 bits. then redo with 99.9% precision in the composition.
+
+Étape 4, seulement une fois l'image de l'étape 3 obtenue. En Python, sur cette image seulement : retire le fond d'ombrage par soustraction de fond façon rolling ball, la boule roulant par le haut, sur la surface, pour que les rainures et les creux restent sombres et ne soient jamais pris pour le fond. Même taille, PNG 16 bits. then redo with 99.9% precision in the composition.
+```
+
+## Pourquoi chaque étape (3 November 2026, 22:47 +0100)
+
+- Étape 1, Python : chaque détail reste à sa place, puisque le calcul part des pixels ; mais Python lit la luminosité comme une hauteur et garde l'ombrage de la référence.
+- Étape 2, génération : elle seule sait retirer un défaut d'ombrage dont la forme varie (arc par planche, tache de spot, liseré).
+- Étape 3, Python : niveaux de gris de l'étape 1 seulement ; une fusion qui relit les pixels de l'étape 1 remet l'ombrage (test raté de 22:08, la fusion ressemblait à l'étape 1).
+- Étape 4, Python : la rolling ball par le haut retire l'ombrage restant ; par le bas, elle prend les rainures pour le sol et les rend blanches (mesuré, `Scripts/FinalStepOptions.py` du projet Zorah).
+
+## Règles d'écriture qui le rendent robuste (3 November 2026, 22:47 +0100)
+
+- Étapes numérotées, chacune ouverte par « seulement une fois … obtenue », et « Respecte absolument l'ordre » en tête.
+- Chaque étape dit l'outil (génération ou Python) et l'image qu'elle prend, sans quoi une interdiction de génération en étape 1 bloquerait l'étape 2.
+- Le concept et ses mots-clés (passe-haut, niveaux de gris, rolling ball), jamais une formule ni une valeur imposée.
+- Dire ce que l'on reprend et ce que l'on ne reprend jamais, et le sens d'une opération quand il peut s'inverser.
+- Chaque étape finit par `then redo with 99.9% precision in the composition.`

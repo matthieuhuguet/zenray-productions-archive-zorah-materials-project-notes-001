@@ -1,0 +1,53 @@
+# Document de synthèse HTML de projet (1 November 2026)
+
+## Statut et périmètre (1 November 2026)
+
+- Méthode demandée et validée par Matthieu le 1 November 2026 : chaque projet ou chantier, y compris dans TMP, possède un document HTML de synthèse illustré, relié à son identité Assets, à ses fichiers et à son feedback. Elle prolonge les articles au ton neutre ; elle ne crée ni une nouvelle identité par prompt ni un second service d'archivage. (1 November 2026)
+- Ce contrat documentaire gouverne les nouveaux travaux et les reprises. Sa consignation ne prouve ni une implémentation automatique universelle, ni une migration des projets existants, ni une sauvegarde cloud. Les mécanismes manquants restent explicitement à réaliser. (1 November 2026)
+
+## Sources et responsabilités (1 November 2026)
+
+- Assets conserve l'identité, les sources déclarées, les sélections et exclusions, les identifiants de fichiers, l'inventaire et les reçus de sauvegarde. La synthèse consomme cet inventaire ; elle ne parcourt pas arbitrairement tout le disque et ne devient pas un second registre. Un fichier hors mapping ou exclu reste signalé comme non couvert, jamais annoncé sauvegardé. (1 November 2026)
+- FEEDBACK.md conserve les demandes et corrections originales, sans réécriture ; Rules.md conserve les consignes permanentes et les leçons directement applicables. Les connaissances explicatives, résultats, raisonnements techniques vérifiés et visuels alimentent les sources éditables de la synthèse. Ne pas transformer Rules.md en récit exhaustif du projet. (1 November 2026)
+- Project1.md n'est plus une redite à alimenter systématiquement lorsqu'une information possède déjà une source canonique reliée à la synthèse. Les fichiers existants restent lisibles et conservés. Le service crée encore Project1.md et la recherche en utilise le contenu : aucune suppression, aucun renommage ni changement de memoryFile sans migration des lecteurs, liens, recherche et anciens projets, contrôlée séparément. Un nom métier explicite est préférable pour toute nouvelle source documentaire librement nommable. (1 November 2026)
+- Le code inventorie, calcule les différences, génère, contrôle et archive. L'agent lit les sources utiles, identifie les fichiers ambigus, rédige le résumé et explique les changements avec leurs preuves. Un rôle déduit du nom ou de l'extension est une suggestion tant qu'il n'est pas confirmé. Une reconstruction technique seule ne prouve pas une synthèse sémantique à jour. (1 November 2026)
+
+## Lecture et présentation (1 November 2026)
+
+- À l'ouverture : nom parlant du projet, résumé factuel de 1 à 3 paragraphes courts, état et dates de fraîcheur, un visuel principal pertinent et accès aux sections. La page doit permettre de comprendre ce qui existe, comment cela fonctionne et où retrouver les pièces. (1 November 2026)
+- Donner une place importante aux images réelles, comparaisons, schémas SVG intégrés, diagrammes HTML et figures légendées ; choisir chaque visuel pour l'information qu'il apporte. Les diagrammes sont rendus dans le document sans exiger un script distant. Ne pas produire une transcription brute d'un Markdown, un mur de texte, des captures de texte ou des illustrations décoratives sans rapport avec les faits. (1 November 2026)
+- Appliquer zenray-neutral-tone : ton descriptif, neutre et précis, 1 à 3 paragraphes courts par bloc explicatif ; les tableaux et figures structurent le reste. Conserver les prompts originaux mot pour mot dans leur source et les référencer sans les dupliquer systématiquement. Ne jamais inventer de visuels de preuve, d'événement ou de résultat. (1 November 2026)
+- Garder les paramètres éditables dans la définition source et les jetons du gabarit ZenRay Edit, selon la typographie globale courante. Conserver au plus deux visuels côte à côte, un sur petit écran. Replier les inventaires et historiques avec details/summary natifs, lisibles dans le lecteur Assets sans JavaScript. (1 November 2026)
+
+## Inventaire compact et complet (1 November 2026)
+
+- Afficher d'abord un résumé par famille ou dossier avec les nombres de fichiers, puis un tableau replié. Chaque fichier admis de l'inventaire Assets doit être retrouvable une fois sous son identité stable ; les emplacements multiples restent des liens de la même entrée. Familles utiles : sources, scripts, scènes, références, résultats, documents et archives, adaptées au projet. (1 November 2026)
+- Une ligne présente le nom parlant, le rôle confirmé ou inconnu, le type, l'identifiant Assets, le chemin ou lien ouvrable, la date de modification mesurée et la disponibilité locale/cloud. Les détails secondaires, taille, empreinte et provenance, sont repliés. Ne pas fabriquer une date de création à partir de mtime. Un fichier déplacé, supprimé ou indisponible garde sa trace historique sans apparaître comme présent. (1 November 2026)
+- Les gros projets gardent un sommaire compact et un inventaire HTML détaillé relié, découpé si nécessaire par famille ou dossier, avec compte total et couverture vérifiable. Le HTML principal ne doit ni embarquer tous les binaires ni charger toutes les images à l'ouverture. Les index détaillés doivent être archivés et accessibles hors ligne avec le lot ; un lien externe seul ne prouve pas cette disponibilité. (1 November 2026)
+
+## Entrées datées et histoire conservée (1 November 2026)
+
+- Chaque entrée de contenu possède un identifiant stable, une date et heure d'ajout réelles et la provenance utile. Stocker un horodatage ISO 8601 avec décalage UTC ; afficher le jour, le mois en toutes lettres en anglais, l'année, l'heure et le fuseau Europe/Paris. Ne pas inventer l'heure d'un événement ancien : afficher « heure inconnue » ou distinguer événement et consignation. (1 November 2026)
+- Distinguer la date du fait décrit, la date de consignation de l'entrée, la date d'une révision et la date de génération du HTML. Recompiler le document ne redonne pas la date du jour à toutes les entrées. Une correction ajoute une révision datée reliée à l'entrée précédente ; une relance identique ne duplique rien. L'historique conservé est replié, tandis que le résumé montre l'état actuel. (1 November 2026)
+- L'historique du contenu reste dans une source structurée éditable du document, reliée au projet ; le HTML est un rendu régénérable. Il ne remplace ni les messages originaux du feedback, ni le journal global PROGRESS.md, ni l'inventaire Assets. (1 November 2026)
+
+## Mise à jour et publication (1 November 2026)
+
+- Toute modification du projet dans le périmètre enregistré doit être prise en compte : ajout, modification, déplacement, suppression, nouvelle consigne ou nouveau résultat. Comparer aux sources du dernier rendu réussi ; distinguer « à actualiser », « contenu relu », « HTML généré » et « sauvegarde cloud vérifiée ». Si la rédaction n'est pas actualisée, conserver l'ancien document et rendre ce retard visible. (1 November 2026)
+- Réutiliser Registry.json et les générateurs existants de ZenRay Edit pour déclarer les dépendances, la construction et la publication ; relier le HTML à l'article du projet Assets et les articles spécialisés depuis cette synthèse. Une dépendance oubliée ne déclenche rien : la couverture des sources doit être contrôlée. Ne pas créer un watcher concurrent. (1 November 2026)
+- Le suivi technique regroupe les événements rapprochés, exclut ses propres sorties comme déclencheurs de rédaction, sérialise les écritures par document et vérifie la version des sources avant publication. Une modification pendant la construction laisse le document à actualiser ; aucune écriture concurrente ne doit écraser un contenu plus récent. Ces exigences restent à implémenter là où le code courant ne les couvre pas. (1 November 2026)
+- Produire dans l'atelier retourné par Assets ou une source explicitement reliée. Le lecteur privilégie le local disponible puis la dernière archive cloud ; afficher leur fraîcheur distincte et les erreurs. Embarquer les visuels nécessaires dans la limite actuelle de 32 Mio par document lu ; découper les annexes au lieu de grossir sans limite. Aucun secret, cache ou transcript complet n'est ajouté par défaut. (1 November 2026)
+- Une synthèse interne n'est pas automatiquement un article public du portfolio. Respecter les validations propres à une première publication et les autorisations de rafraîchissement déjà données aux articles enregistrés. Aucun déploiement public n'est déclenché par cette règle. (1 November 2026)
+
+## Vérification avant de déclarer terminé (1 November 2026)
+
+- Contrôler la correspondance entre inventaire et tableau, les exclusions justifiées, les rôles inconnus, les liens et les visuels ; vérifier qu'un fichier absent n'est pas annoncé présent et qu'une sauvegarde en attente n'est pas annoncée achevée. (1 November 2026)
+- Vérifier que les dates des anciennes entrées restent identiques après régénération, qu'une correction garde l'ancienne révision et qu'une relance n'ajoute pas de doublon. (1 November 2026)
+- Examiner le rendu réel dans un navigateur intégré ou isolé sur grand et petit écran : résumé lisible, inventaire fermé au départ, figures utiles et lisibles, aucun débordement, navigation utilisable sans scripts dans le lecteur Assets. (1 November 2026)
+- Pour toute implémentation du suivi, vérifier ajout, déplacement, suppression, erreur de construction, source modifiée pendant le rendu et reprise après échec ; prouver les refus attendus autant que les réussites. Relire les reçus des fichiers archivés avant d'annoncer le cloud vérifié. (1 November 2026)
+
+## État vérifié lors de la consignation (1 November 2026)
+
+- AssetsService.mjs crée encore metadata.memoryFile = Project1.md et le fichier initial ; FindInProject.mjs utilise cette mémoire dans sa recherche. Les fichiers historiques sont conservés. (1 November 2026)
+- refresh-articles.mjs traite les articles skill, definition et build déjà déclarés ; il compare leurs entrées configurées et lance leurs constructions. Ce mécanisme ne rédige pas de lui-même une nouvelle synthèse de toutes les modifications d'un projet. (1 November 2026)
+- La présente intervention consigne le contrat et ses points d'entrée. Elle ne met pas en service le suivi universel, l'historique structuré ni l'inventaire HTML de tous les projets existants. (1 November 2026)

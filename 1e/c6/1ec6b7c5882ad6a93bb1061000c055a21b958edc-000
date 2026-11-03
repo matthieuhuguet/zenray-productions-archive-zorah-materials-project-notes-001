@@ -1,0 +1,26 @@
+{
+ "name": "ZorahMaterials06",
+ "work": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ZorahMaterials06",
+ "net": "/obj/ZRH_ZorahMaterials06",
+ "height": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ZorahMaterials06/versions/final/ZorahMaterials06_H2/FINAL_height.png",
+ "pearson_full": 0.8921,
+ "ssim_full": 0.7605,
+ "mae": 0.0382,
+ "seam_xy": [
+  0.85,
+  0.38
+ ],
+ "seam_layer": true,
+ "seamless_verdict": true,
+ "seamless_fails": [],
+ "pearson_untiled": 0.9285,
+ "grid": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ZorahMaterials06/versions/final/ZorahMaterials06_H2/checks/grid_2x2_preview.png",
+ "zoom": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ZorahMaterials06/zoom3_reference_vs_result.png",
+ "boards": [
+  "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ZorahMaterials06/versions/final/ZorahMaterials06_H1/board/Evolution.html",
+  "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ZorahMaterials06/versions/final/ZorahMaterials06_H2/board/Evolution.html"
+ ],
+ "basecolor": null,
+ "minutes": 8.0,
+ "next_step": "La height finale est pr\u00eate, seamless et r\u00e9p\u00e9table :\n/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ZorahMaterials06/versions/final/ZorahMaterials06_H2/FINAL_height.png\n\nReprends-la et envoie-moi la base color : donne au g\u00e9n\u00e9rateur l'image de r\u00e9f\u00e9rence puis cette height, dans cet ordre, avec le prompt ci-dessous.\nR\u00e9f\u00e9rence : ton image de r\u00e9f\u00e9rence d origine\n\nPrompt :\nFrom the first image only, the reference, generate a seamless flat base color (albedo) map of that same surface, 1:1, 4096x4096, full frame, seen straight on, with any perspective removed. If the reference shows a sphere next to a flat panel, ignore the sphere and read the panel. The second image is the final height map of this exact surface: keep every band, step, edge and detail exactly at its position in that height map, with the same scale and direction, and keep the map seamless on all four sides. Pigment colour only, as if under perfectly even light, taking the hues, saturation and variation of the reference. No lighting, no shadows, no ambient occlusion, no specular highlights, no reflections, no gloss, no relief shading, no perspective, no border, no watermark, no text, no legend. then redo with 99.9% precision in the composition.\n\nC'est la seule carte \u00e0 g\u00e9n\u00e9rer : Normal, Height, Roughness, AO, Metallic et ORM se calculent dans le graphe.\nEnsuite : RefineColourOnHeight.py --coarse, HeightToBaseColor.py, BaseColorLines.py, puis HeightTo5MapsCop.py (Copernicus2.md section 14.8)."
+}

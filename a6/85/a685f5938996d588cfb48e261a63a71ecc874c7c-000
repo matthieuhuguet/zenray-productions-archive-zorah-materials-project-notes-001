@@ -1,0 +1,87 @@
+{
+ "_about": "3 November 2026, 23:24 : ZenRay Height map methods by their three names (Python, Substance Designer, Copernicus). Read by FindMethod.py. FR : les méthodes de map de ZenRay Height par leurs trois noms.",
+ "methods": {
+  "rolling_ball_top": {
+   "use": "uniformise any grey height (ChatGPT four-step map included) : rolling ball from above removes the shading background, then three agreement filters (grain blur 1.5 px, 1.5 to 8 px band x1.5, above 32 px x0.5) and fixed levels",
+   "status": "validated 3 November 2026 on a1 a2 a3 of Zorah : similarity 0.67 -> 0.80, shading left 0.08 -> 0.05",
+   "python": [
+    "rolling ball par le haut",
+    "rolling ball haut",
+    "rolling ball",
+    "rolling ball top",
+    "fermeture",
+    "grey closing",
+    "soustraction de fond",
+    "background subtraction",
+    "uniformiseur",
+    "RollingBallTop",
+    "filtres d'accord",
+    "agreement filters",
+    "uniformiser",
+    "uniformise"
+   ],
+   "substance_designer": [
+    "Lighting Cancel Low Frequencies",
+    "Lighting Cancel",
+    "Blur HQ Grayscale",
+    "Highpass Grayscale + Blend"
+   ],
+   "copernicus": [
+    "Dilate Erode",
+    "dilateerode",
+    "closing",
+    "Dilate Erode + Blur + Subtract",
+    "Blur + Blend"
+   ],
+   "note": "Substance Designer has no rolling ball : Lighting Cancel Low Frequencies is the nearest node for the background, Blur HQ Grayscale for the grain blur, Highpass Grayscale with a Blend for the band weights. Copernicus : Dilate Erode (dilate then erode by the same radius = closing), Blur and Subtract for the background, Blur and Blend for the three agreement filters.",
+   "command": "/Users/zenray/.venvs/zenray-uv/bin/python -I /Users/zenray/.claude/skills/zenray-houdini/scripts/height/RollingBallTop.py apply <in.png> <out.png>",
+   "script": "RollingBallTop.py"
+  },
+  "delight_high_pass": {
+   "use": "removes soft light blotches (spot cone) from a height by a high-pass ; leaves edge light and dark pairs",
+   "status": "built 3 November 2026, judged not pushed enough by Matthieu",
+   "python": [
+    "passe-haut",
+    "passe haut",
+    "high pass",
+    "high-pass",
+    "delight",
+    "Delight"
+   ],
+   "substance_designer": [
+    "Highpass",
+    "Highpass Grayscale"
+   ],
+   "copernicus": [
+    "Blur + Subtract",
+    "DelightCop",
+    "DL_delit"
+   ],
+   "note": "Copernicus chain DelightCop.py : wrap, gaussian Blur, statistics mean, Subtract blend.",
+   "command": "/Users/zenray/.venvs/shorts/bin/python -I /Users/zenray/.claude/skills/zenray-houdini/scripts/height/Delight.py apply <in.png> <out.png>",
+   "script": "Delight.py"
+  },
+  "dearc": {
+   "use": "flattens the arc of each plank (bright near joints, dark in the middle) by an anisotropic blur that leaves joints out",
+   "status": "rejected by Matthieu 3 November 2026 (« ça marche pas »), kept as a measure",
+   "python": [
+    "De-arc",
+    "dearc",
+    "flou anisotrope",
+    "anisotropic blur",
+    "arc"
+   ],
+   "substance_designer": [
+    "Anisotropic Blur"
+   ],
+   "copernicus": [
+    "DearcCop",
+    "Blur scale X",
+    "DA_dearc"
+   ],
+   "note": "Anisotropic Blur is the nearest Substance Designer node, not a full equivalent (no joint exclusion).",
+   "command": "/Users/zenray/.venvs/shorts/bin/python -I /Users/zenray/.claude/skills/zenray-houdini/scripts/height/Dearc.py apply <in.png> <out.png>",
+   "script": "Dearc.py"
+  }
+ }
+}

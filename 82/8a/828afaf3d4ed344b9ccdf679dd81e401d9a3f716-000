@@ -1,0 +1,46 @@
+# Prompt base color ChatGPT, Zorah Materials (3 November 2026, 20:46 +0100)
+
+## Prompt base color flat final (3 November 2026, 20:49 +0100), validé par Matthieu le 3 November 2026, 20:52 +0100
+
+Chaîne : référence découpée et éclairée (`textures/panels/zorah-0N-panel.png`), prompt height final, nouvelle height, ZenRay Height, height finale (`FINAL_height.png`). Ce prompt donne alors la base color flat. Ensuite, la base color flat et la height finale repartent ensemble dans Houdini (`HeightToBaseColor.py`) pour la vraie base color.
+
+Joindre deux images, dans cet ordre : la référence découpée, puis la height finale.
+
+```text
+Fais la base color flat de la première image, calée sur la seconde image (la height finale) : même cadrage, chaque détail exactement à la même place, pixel pour pixel. Couleur de la matière seulement. Sans lumière, sans ombre, sans relief. then redo with 99.9% precision in the composition.
+N'utilise pas la génération d'image. En Python, calcule la base color flat de la première image : retire l'éclairage de grande échelle en gardant les couleurs, même taille et même cadrage que la seconde image, PNG 8 bits. then redo with 99.9% precision in the composition.
+```
+
+## Proposition (3 November 2026, 20:46 +0100), remplacée par la proposition 2, trop complexe
+
+Même structure que le prompt height final du 3 November 2026, 19:56 +0100 : un paragraphe de génération, puis un paragraphe Python, envoyés ensemble dans un seul message. Joindre deux images, dans cet ordre : la référence couleur découpée (`Sources/artstation-eRZ01X/textures/panels/zorah-0N-panel.png`, éclairée), puis la height finale sortie de ZenRay Height (`versions/final/<Nom>_H2/FINAL_height.png`, 2048 px).
+
+```text
+Fais la base color (albédo) de la première image : même cadrage que la seconde image, la height finale, chaque détail exactement à la même place, pixel pour pixel. La première image est éclairée par un spot : n'en garde que la couleur propre de la matière, comme sous une lumière parfaitement uniforme. Sans lumière, sans ombre, sans reflet, sans relief. then redo with 99.9% precision in the composition.
+N'utilise pas la génération d'image. En Python, calcule la base color de la première image à la taille de la seconde : divise les trois canaux par la luminosité très floutée, puis remets la couleur moyenne, pour retirer le spot ; ensuite retire l'ombrage du relief en soustrayant la part de la luminosité expliquée par les pentes de la seconde image, la height ; PNG 8 bits sRGB. then redo with 99.9% precision in the composition.
+```
+
+La sortie sert de référence mesurée à `HeightToBaseColor.py`, qui reconstruit la couleur sur la height dans le graphe, raccord compris.
+
+## Ancien prompt (flat base color du skill zenray-houdini), pour comparaison
+
+`templates/zenray-height-basecolor/prompt_flat_basecolor.md` : génération d'image seule, en anglais, qui repeint la couleur en suivant la height.
+
+## Version en quatre étapes dans un seul message (3 November 2026, 23:27 +0100), À TESTER
+
+Demande de Matthieu : même forme que le prompt height en quatre étapes, avec Python et génération dans la boucle. Joindre deux images, dans cet ordre : le panneau de référence découpé (`Sources/artstation-eRZ01X/textures/panels/zorah-0N-panel.png`), puis la height finale de Houdini (`FINAL_height.png` de ZenRay Height).
+
+```text
+Respecte absolument l'ordre de ce prompt, une étape après l'autre. Image 1 = la référence en couleur, éclairée. Image 2 = la height finale de la même surface.
+
+Étape 1. Fais la base color flat de l'image 1, calée sur l'image 2 : même cadrage, chaque détail exactement à la même place que sur la height, pixel pour pixel. Couleur de la matière seulement. Sans lumière, sans ombre, sans relief. then redo with 99.9% precision in the composition.
+Pour cette étape, n'utilise pas la génération d'image. En Python, calcule la base color flat de l'image 1 : retire l'éclairage de grande échelle par un filtre passe-haut sur la luminance, en gardant les couleurs, même taille et même cadrage que l'image 2, PNG 8 bits. then redo with 99.9% precision in the composition.
+
+Étape 2, seulement une fois la base color de l'étape 1 obtenue. With AI gen create image : corrige les défauts d'éclairage de cette base color (ombres, reflets, relief éclairé, taches de lumière), sans rien changer d'autre ; chaque détail de couleur reste à la place de son relief sur l'image 2.
+
+Étape 3, seulement une fois l'image de l'étape 2 obtenue. En Python, pars de l'image de l'étape 2 et ajuste seulement ses couleurs (teinte moyenne, saturation, luminosité, contraste) sur celles de la base color de l'étape 1. Le but de Python est de ne pas reproduire le problème d'éclairage de l'étape 1 : de l'étape 1, ne reprends que ses couleurs et leur répartition, jamais ses pixels, ses ombres ni sa lumière. Les détails de l'étape 2 restent tels quels. Même taille que l'image 2, PNG 8 bits. then redo with 99.9% precision in the composition.
+
+Étape 4, seulement une fois l'image de l'étape 3 obtenue. En Python, sur cette image seulement : retire le fond d'éclairage restant par soustraction de fond façon rolling ball sur la luminance seulement, la boule roulant par le haut, sur la surface, pour que les fissures et les creux restent sombres et ne soient jamais pris pour le fond ; la teinte et la saturation restent telles quelles. Même taille, PNG 8 bits. then redo with 99.9% precision in the composition.
+```
+
+Ensuite : la base color de l'étape 4 et la height finale repartent dans Houdini (`scripts/height/HeightToBaseColor.py`, `Copernicus2.md` section 14.8).

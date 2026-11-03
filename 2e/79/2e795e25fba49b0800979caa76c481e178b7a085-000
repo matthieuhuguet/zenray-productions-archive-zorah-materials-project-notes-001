@@ -1,0 +1,52 @@
+# Prompts chaînés ChatGPT : génération d'image et Python dans un seul message (3 November 2026, 22:47 +0100)
+
+Mots de Matthieu (3 November 2026, 22:47 +0100) : « Insane le prompt, consigne-le vraiment partout, c'est magique ! Ultra fort, un prompt de ce genre, surtout combiné à ChatGPT. »
+
+## Le principe (3 November 2026, 22:47 +0100)
+
+ChatGPT sait à la fois générer une image et exécuter du Python. Chacun a une force et un défaut : Python garde chaque pixel à sa place mais reproduit fidèlement les défauts de l'entrée ; la génération sait corriger un défaut dont la forme varie mais redessine les détails. Un prompt chaîné donne à chacun l'étape qu'il fait bien, dans un seul message, et c'est l'ordre qui fait le résultat.
+
+## Les règles d'écriture (3 November 2026, 22:47 +0100)
+
+1. « Respecte absolument l'ordre de ce prompt, une étape après l'autre. » en tête.
+2. Étapes numérotées ; chacune s'ouvre par « seulement une fois l'image de l'étape N obtenue » et nomme l'image qu'elle prend.
+3. Chaque étape dit son outil : « With AI gen create image » ou « En Python ». Une interdiction (« n'utilise pas la génération ») se borne à son étape (« Pour cette étape »), sinon elle bloque la suivante.
+4. Le concept et ses mots-clés (passe-haut, niveaux de gris, sigma, rolling ball), jamais une formule ni une valeur imposée : l'IA en déduit la méthode et l'adapte à l'image.
+5. Contre les lectures fausses : dire ce que l'on reprend d'une image et ce que l'on n'en reprend jamais (« ne reprends que ses niveaux de gris, jamais ses pixels ») ; dire le sens d'une opération qui peut s'inverser (« la boule roulant par le haut ») ; dire ce qui reste tel quel.
+6. Une étape Python qui relit une image défectueuse remet le défaut : la dernière étape Python part de l'image corrigée seulement.
+7. Chaque étape finit par `then redo with 99.9% precision in the composition.`
+8. Prompt court, une phrase par idée ; tester, puis ajouter une étape seulement quand le test montre le défaut qu'elle corrige.
+
+## Exemple canonique, height depuis une map éclairée (3 November 2026, 22:47 +0100)
+
+Source de vérité : `/Users/zenray/.claude/skills/zenray-houdini/templates/zenray-height-from-map/prompt_height_chain.md`, copié ici tel quel.
+
+```text
+Respecte absolument l'ordre de ce prompt, une étape après l'autre.
+
+Étape 1. Fais la height map de cette image : même cadrage, chaque détail exactement à la même place, pixel pour pixel. Niveaux de gris : blanc = haut, noir = creux. Sans lumière, sans ombre, sans couleur. then redo with 99.9% precision in the composition.
+Pour cette étape, n'utilise pas la génération d'image. En Python, calcule la height map de cette image : niveaux de gris, puis retire l'éclairage de grande échelle par un filtre passe-haut, même taille, PNG 16 bits. then redo with 99.9% precision in the composition.
+
+Étape 2, seulement une fois la height map de l'étape 1 obtenue. With AI gen create image : corrige les défauts d'ombrage de cette height map, sans rien changer d'autre.
+
+Étape 3, seulement une fois l'image de l'étape 2 obtenue. En Python, pars de l'image de l'étape 2 et ajuste seulement ses niveaux de gris (gris moyen, contraste, plage) sur ceux de la height de l'étape 1. Le but de Python est de ne pas reproduire le problème d'ombrage de l'étape 1 : de l'étape 1, ne reprends que ses niveaux de gris, jamais ses pixels, ses détails ni son ombrage. Les reliefs et les creux de l'étape 2 restent tels quels. Même taille que l'étape 1, PNG 16 bits. then redo with 99.9% precision in the composition.
+
+Étape 4, seulement une fois l'image de l'étape 3 obtenue. En Python, sur cette image seulement : retire le fond d'ombrage par soustraction de fond façon rolling ball, la boule roulant par le haut, sur la surface, pour que les rainures et les creux restent sombres et ne soient jamais pris pour le fond. Même taille, PNG 16 bits. then redo with 99.9% precision in the composition.
+```
+
+## Ce que les tests ont appris (3 November 2026, 22:47 +0100)
+
+- Une fusion par fréquences dont l'étape Python relit l'étape 1 rend une image presque identique à l'étape 1, ombrage compris : la règle 6 vient de là.
+- « Rolling ball » sans son sens a rendu les rainures blanches : la règle 5 vient de là.
+- Un prompt trop catégorique (« sigma = largeur / 128 », « final = … ») a été refusé par Matthieu : la règle 4 vient de là.
+- Projet et planches : `/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/` (`Prompts/`, `Analysis/`, `Scripts/`).
+
+## Autres usages, hypothèses non testées (3 November 2026, 22:47 +0100)
+
+La même forme vaut pour toute image où il faut garder la composition exacte et corriger un défaut visuel : base color sans éclairage, détourage, retrait d'un logo ou d'une marque, nettoyage d'une photo de produit. Chaque usage reste à tester avant d'être consigné comme validé.
+
+## Correction (3 November 2026, 23:28 +0100)
+
+- La règle 7 ci-dessus (« Chaque étape finit par then redo… ») est trop large : dans le prompt height validé, l'étape de génération (étape 2) ne porte pas cette phrase, seules les étapes Python et la phrase d'intention de l'étape 1 la portent. Garder cette forme. (3 November 2026, 23:28 +0100)
+- Deuxième usage, à tester : la base color en quatre étapes depuis la référence en couleur et la height finale, `/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/basecolor-prompt-zorah.md`. (3 November 2026, 23:28 +0100)
+- Après le prompt, une map ChatGPT passe par l'uniformiseur de ZenRay Height ; un nom de méthode, quel que soit son logiciel, se résout par `/Users/zenray/.claude/skills/zenray-houdini/scripts/height/FindMethod.py`. (3 November 2026, 23:28 +0100)

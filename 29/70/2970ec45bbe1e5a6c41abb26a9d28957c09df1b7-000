@@ -1,0 +1,33 @@
+{
+ "name": "ZorahMaterials04",
+ "final": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ZorahMaterials04/versions/final/ZorahMaterials04_H5",
+ "height": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ZorahMaterials04/versions/final/ZorahMaterials04_H5/FINAL_height.png",
+ "history": [
+  {
+   "tag": "H3",
+   "pearson_full": 0.9844
+  },
+  {
+   "tag": "H4",
+   "pearson_full": 0.9894
+  },
+  {
+   "tag": "H5",
+   "pearson_full": 0.9906
+  },
+  {
+   "tag": "H6",
+   "pearson_full": 0.9906
+  }
+ ],
+ "pearson_full": 0.9906,
+ "ssim_full": 0.9787,
+ "mae": 0.0062,
+ "seam_xy": [
+  1.84,
+  0.58
+ ],
+ "seam_layer": false,
+ "seamless_verdict": null,
+ "grid": "/Users/zenray/.claude/tmp/tmp-zenray-height/projects/ZorahMaterials04/versions/final/ZorahMaterials04_H5/checks/grid_2x2_preview.png"
+}
