@@ -3147,3 +3147,34 @@
 > | Comprendre l'écart de poids | Oui | Format lu dans les fichiers ; 1 et 2 agrandies ; aigen5 de 28 Mo elle aussi éclairée | (3 November 2026, 18:59:13 +0100)
 > | Un prompt height qui évite ces erreurs | Écrit | Pas encore testé dans ChatGPT | (3 November 2026, 18:59:13 +0100)
 > | Repérer une mauvaise height sans la regarder | Oui | Test automatique : OK sur 1 et 2, REDO sur 3 à 6 | (3 November 2026, 18:59:13 +0100)
+
+## 3 November 2026, 19:25:00 +0100 : Prompt
+
+<!-- feedback-event:10a03cb440a45183684b942f207154a7e78a2d85543475ccb42cf80906eaea4a (3 November 2026, 19:25:00 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 19:25:00 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 19:25:00 +0100)
+
+> Explique-moi simplement en quoi le nouveau prompt est mieux que l'ancien. Je l'ai testé sur ChatGPT, le levels est beaucoup mieux, mais par contre, on n'a pas forcément une reproduction identique en termes de positionnement sur le placement. Mais du coup, je ne te demanderai pas d'écrire un nouveau prompt, mais juste que tu m'expliques pourquoi, selon toi, le nouveau prompt est mieux que l'ancien. ? (3 November 2026, 19:25:00 +0100)
+
+## 3 November 2026, 19:25:30 +0100 : Iteration
+
+<!-- feedback-event:cbce21e28ae83e553103acfa55d01e185c13bc8c676de4509a3604bbee81e4d1 (3 November 2026, 19:25:30 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 19:25:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 19:25:30 +0100)
+
+> L'ancien prompt disait à ChatGPT de produire une height (« blanc = haut, noir = creux ») et de « respecter la référence ». Le nouveau lui dit en plus ce qu'est une height, et c'est là que tout se joue. (3 November 2026, 19:25:30 +0100)
+>
+> 1. **Il sépare la forme et la lumière.** Ta référence est un rendu de présentation, éclairé par un spot venu du haut. « Respecter la référence » revenait donc à recopier son aspect, lumière comprise. Le nouveau prompt demande d'en garder la forme des détails, jamais les gris : le spot ne passe plus dans la height. (3 November 2026, 19:25:30 +0100)
+>
+> 2. **Il donne la vraie définition d'une height.** Un gris dépend de la hauteur, jamais de la pente. Or une arête éclairée, c'est justement une pente tournée vers la lumière. Cette phrase interdit donc le liseré blanc à la racine. L'ancienne règle « blanc = haut » ne l'empêchait pas, puisqu'une arête éclairée est aussi blanche en haut. (3 November 2026, 19:25:30 +0100)
+>
+> 3. **Il dit ce qui est en creux et ce qui est en relief.** Sans cette indication, ChatGPT devait deviner si un joint est un creux ou un trait, et il l'a parfois dessiné en blanc. (3 November 2026, 19:25:30 +0100)
+>
+> Les autres clauses retirent les variations de gris qui ne sont pas du relief : un plateau uniforme par bloc, des taches sans relief, le même gris moyen dans les quatre quarts. C'est ce qui rend ton levels plus propre : les valeurs se resserrent autour d'un vrai niveau de base. (3 November 2026, 19:25:30 +0100)
+>
+> Le placement qui bouge vient, selon moi, du même endroit que le gain. C'est une hypothèse, car je n'ai pas vu tes nouvelles sorties. (3 November 2026, 19:25:30 +0100)
+>
+> - **Il n'a plus de repère de position.** En interdisant de reprendre les gris de la référence, on retire à ChatGPT ce qui lui servait de calque. Il ne recopie plus l'image, il redessine le mur d'après ce qu'il en a compris, un peu comme quelqu'un qui le referait de mémoire. J'ai d'ailleurs écrit « la répartition des détails », pas « la position de chaque détail ». (3 November 2026, 19:25:30 +0100)
+> - **La répétition l'oblige à réorganiser.** « Texture répétable, raccord sur les quatre bords » le pousse à déplacer les blocs pour qu'ils se raccordent, ce que la référence ne fait pas. (3 November 2026, 19:25:30 +0100)
+>
+> Autrement dit, le nouveau prompt échange de la fidélité de placement contre une height plus juste. Si tu poses tes nouvelles sorties dans le dossier, je peux mesurer l'écart de position par rapport à la référence et vérifier chacune avec `CheckAiHeight`. (3 November 2026, 19:25:30 +0100)
