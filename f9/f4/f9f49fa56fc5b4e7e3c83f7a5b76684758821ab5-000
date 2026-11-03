@@ -1,22 +1,22 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-03T21:26:05.499Z",
+ "scannedAt": "2026-11-03T21:35:05.372Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
-   "lines": 288,
-   "work": 5,
+   "lines": 316,
+   "work": 8,
    "prompts": 4,
    "first": "2026-11-03T16:20:22.810Z",
-   "last": "2026-11-03T21:25:21.272Z",
+   "last": "2026-11-03T21:34:39.088Z",
    "strength": "strong",
    "conversationId": "claude:e3fcfc3d-2756-4ada-8b78-faa7ff7c168a",
    "provider": "claude",
    "sessionId": "e3fcfc3d-2756-4ada-8b78-faa7ff7c168a",
    "title": "zorah materials",
-   "updatedAt": "2026-11-03T21:25:23.513Z",
-   "bytes": 38053,
+   "updatedAt": "2026-11-03T21:34:43.414Z",
+   "bytes": 35828931,
    "boundProject": "zorah-materials"
   }
  ]

@@ -4525,3 +4525,173 @@
 > - **« Les reliefs et les creux de l'étape 2 restent tels quels »**. Ça l'empêche de lisser la correction de l'IA en croyant chasser l'ombrage. (3 November 2026, 22:25:21 +0100)
 >
 > Je l'ai rangé, marqué « à tester », dans [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md). (3 November 2026, 22:25:21 +0100)
+
+## 3 November 2026, 22:28:15 +0100 : Prompt
+
+<!-- feedback-event:afc88bc25dd300c0213edaddc73f2eacb58ebf72d63d854ac326cf5db73070cd (3 November 2026, 22:28:15 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:28:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:28:15 +0100)
+
+> peut être que pour l'étape 3 on peut ajouter une étape final qu'on fait dans substance designer pour lisser la heightmap hormis le filtre passe haut c'est quoi 3 propals je tranche. (3 November 2026, 22:28:15 +0100)
+
+## 3 November 2026, 22:28:38 +0100 : Prompt
+
+<!-- feedback-event:58a7a28f5d47ed071e7da81b724bd78dd233ca72737a765161c6b5f50733626b (3 November 2026, 22:28:38 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:28:38 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:28:38 +0100)
+
+> Tool loaded. (3 November 2026, 22:28:38 +0100)
+
+## 3 November 2026, 22:28:50 +0100 : Prompt
+
+<!-- feedback-event:434b18cb9e0a1a2651bf25087a7d6258bd040d3a9cda8a9eb35449ff35e0522a (3 November 2026, 22:28:50 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:28:50 +0100)
+
+> Peut-être que pour l'étape 3 on peut ajouter une étape finale qu'on fait dans Substance Designer pour lisser la heightmap, hormis le filtre passe-haut. C'est quoi, 3 propals, je tranche. (3 November 2026, 22:28:50 +0100)
+
+## 3 November 2026, 22:29:04 +0100 : Iteration
+
+<!-- feedback-event:57d9f89fc24c1ad155b025b07a37c9b17cd4bd6d9d066b5b1b88020fb79b23f1 (3 November 2026, 22:29:04 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 22:29:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:29:04 +0100)
+
+> Voici trois étapes finales tirées de Substance Designer. Chacune vient avec la ligne à ajouter à la fin de l'étape 3, écrite comme un concept et non comme une formule : (3 November 2026, 22:29:04 +0100)
+>
+> **1. Lighting Cancel, mon choix.** Substance Designer a deux nœuds faits exactement pour ce défaut : *Lighting Cancel Low Frequencies* et *Lighting Cancel High Frequencies*. Ils servent à nettoyer les scans photogrammétriques, et c'est le seul des trois qui vise l'ombrage lui-même. Contrairement au passe-haut, ils neutralisent l'éclairage résiduel sans creuser autour des reliefs. Le risque : un défaut aussi gros qu'un vrai relief peut résister. (3 November 2026, 22:29:04 +0100)
+> > `Enfin, comme le Lighting Cancel de Substance Designer, neutralise l'éclairage résiduel à grande et moyenne échelle, sans toucher au relief.` (3 November 2026, 22:29:04 +0100)
+>
+> **2. Lissage hors arêtes.** C'est l'équivalent d'un *Non-Uniform Blur* guidé par un masque d'arêtes. Il lisse les faces planes, là où l'arc et les marbrures restent, et épargne les rainures, les rebords et les trous. C'est ce qui colle le plus à ton mot « lisser ». Le risque : le grain fin des faces s'adoucit aussi. (3 November 2026, 22:29:04 +0100)
+> > `Enfin, lisse les faces planes en préservant les arêtes, les rainures et les creux.` (3 November 2026, 22:29:04 +0100)
+>
+> **3. Plateaux par histogramme.** C'est l'esprit d'*Histogram Scan* et d'*Histogram Range* : chaque face revient au même niveau de gris, comme la sortie height propre d'un graphe Substance. C'est le plus radical contre l'ombrage. Le risque : le relief doux des faces s'aplatit, et la matière perd du volume. (3 November 2026, 22:29:04 +0100)
+> > `Enfin, ramène chaque face au même niveau de gris, comme un plateau, en gardant les creux et les reliefs nets.` (3 November 2026, 22:29:04 +0100)
+>
+> Le nœud Lighting Cancel existe bien dans la bibliothèque de Substance 3D Designer, mais je n'ai pas trouvé de documentation sur son algorithme. Ma description de son effet vient de son nom et de son usage en photogrammétrie, pas d'une source. (3 November 2026, 22:29:04 +0100)
+>
+> Sources : (3 November 2026, 22:29:04 +0100)
+> - [Substance 3D Designer glossary](https://helpx.adobe.com/substance-3d-designer/glossary.html) (3 November 2026, 22:29:04 +0100)
+> - [Substance 3D Designer 15.1 release notes](https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html) (3 November 2026, 22:29:04 +0100)
+
+## 3 November 2026, 22:30:58 +0100 : Prompt
+
+<!-- feedback-event:2190093e6314cf0b9ade55ee5eeedc4daa31b844db1be267554247276f6266b1 (3 November 2026, 22:30:58 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:30:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:30:58 +0100)
+
+> essaie de résonner plutôt en équivalence python sachant que les consignes pourrait être mal interprété ... (3 November 2026, 22:30:58 +0100)
+
+## 3 November 2026, 22:31:19 +0100 : Prompt
+
+<!-- feedback-event:10437c9d9add2f5f49f18aed3d0de18a3c4e12b26360222a8528c47520ef24db (3 November 2026, 22:31:19 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:31:19 +0100)
+
+> Essaie de raisonner plutôt en équivalence Python, sachant que les consignes pourraient être mal interprétées... (3 November 2026, 22:31:19 +0100)
+
+## 3 November 2026, 22:31:51 +0100 : Iteration
+
+<!-- feedback-event:838076e026c10bbb432277509e17fdb51fd09ebcf97220dbfce9a82afc46f48b (3 November 2026, 22:31:51 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 22:31:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:31:51 +0100)
+
+> Matthieu a rangé les heights dans un sous-dossier à 22:12 ; je relance le test sur le nouveau chemin. (3 November 2026, 22:31:51 +0100)
+
+## 3 November 2026, 22:32:11 +0100 : Prompt
+
+<!-- feedback-event:aa86d27282a11953aa0f92465c21802f801eae50c291e3525680b645793ec31f (3 November 2026, 22:32:11 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:32:11 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:32:11 +0100)
+
+> [Image: original 2110x1050, displayed at 2000x995. Multiply coordinates by 1.05 to map to original image.] (3 November 2026, 22:32:11 +0100)
+
+## 3 November 2026, 22:32:55 +0100 : Prompt
+
+<!-- feedback-event:48777b68422eeb46793a0fc031fa83c4a7004becac15e227eb0ad6971b6eaacd (3 November 2026, 22:32:55 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:32:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:32:55 +0100)
+
+> [Image: original 2650x1050, displayed at 2000x792. Multiply coordinates by 1.32 to map to original image.] (3 November 2026, 22:32:55 +0100)
+
+## 3 November 2026, 22:33:12 +0100 : Log
+
+<!-- feedback-event:9f71344959afd5cd110a4037353d033f38efa98bc5f9c0ded71ccf4008c777db (3 November 2026, 22:33:12 +0100) -->
+- Project: zorah-materials; kind: log. (3 November 2026, 22:33:12 +0100)
+
+> 3 November 2026, 22:48 +0100 : test des 3 étapes finales en Python sur check2 (Scripts/FinalStepOptions.py, planche Analysis/final-step-options-3-November-2026/final_step_board.png) : rolling ball par le haut retire l'ombrage restant, faces très plates ; lu par le bas, il rend les rainures blanches (piège d'interprétation prouvé) ; bilatéral et variation totale lissent le bruit mais gardent l'ombrage. (3 November 2026, 22:33:12 +0100)
+
+## 3 November 2026, 22:33:05 +0100 : Iteration
+
+<!-- feedback-event:e108f0839d514d1133805be8098c92442d67ec4b8df5b3767c010437f69c4aef (3 November 2026, 22:33:05 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 22:33:05 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:33:05 +0100)
+
+> Le test est fait. Je t'envoie la planche avec les trois options appliquées à ta génération check2 de la 6. (3 November 2026, 22:33:05 +0100)
+
+## 3 November 2026, 22:33:27 +0100 : Iteration
+
+<!-- feedback-event:04c0352a9d98f275596deb586d6edbf13ae1e81ef379d88d84edf7550d726396 (3 November 2026, 22:33:27 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 22:33:27 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:33:27 +0100)
+
+> J'ai traduit les trois propositions en équivalents Python et je les ai appliquées à ta génération check2 de la 6, après l'étape 3 (niveaux seuls). La planche montre surtout pourquoi ta crainte est fondée : une même consigne, lue dans le mauvais sens, casse tout. (3 November 2026, 22:33:27 +0100)
+>
+> **1. Rolling ball par le haut, mon choix.** C'est l'équivalent Python du Lighting Cancel : une boule glisse sur la surface pour estimer le fond d'ombrage, puis on le soustrait. C'est la seule des trois qui retire vraiment l'ombrage restant, et la tuile devient uniforme. Le piège est prouvé sur la deuxième colonne : si la boule roule par le bas, elle prend les rainures pour le sol et les rend blanches. La consigne doit donc dire le sens. (3 November 2026, 22:33:27 +0100)
+> > `Étape 4, seulement une fois l'image de l'étape 3 obtenue. En Python, sur cette image seulement : retire le fond d'ombrage par soustraction de fond façon rolling ball, la boule roulant par le haut, sur la surface, pour que les rainures et les creux restent sombres et ne soient jamais pris pour le fond. Même taille, PNG 16 bits. then redo with 99.9% precision in the composition.` (3 November 2026, 22:33:27 +0100)
+>
+> **2. Filtre bilatéral.** C'est un lissage qui épargne les arêtes : il adoucit le bruit des faces sans toucher aux rainures. Mesuré : il lisse, mais il garde l'ombrage. Il ne résout donc pas le problème de fond. (3 November 2026, 22:33:27 +0100)
+> > `Étape 4 [...] : lissage léger qui préserve les arêtes (filtre bilatéral) ; il adoucit le bruit des faces sans toucher aux rainures, aux creux ni aux reliefs. [...]` (3 November 2026, 22:33:27 +0100)
+>
+> **3. Variation totale.** C'est un débruitage qui tend vers des faces en plateaux. Il donne presque le même résultat que le bilatéral, avec des faces un peu plus plates, et l'ombrage reste lui aussi. (3 November 2026, 22:33:27 +0100)
+> > `Étape 4 [...] : débruitage léger par variation totale, pour des faces en plateaux ; rainures, creux et reliefs restent nets. [...]` (3 November 2026, 22:33:27 +0100)
+>
+> Les réglages sont les miens, et ChatGPT choisira les siens. Avec le rolling ball, les faces deviennent très plates : on perd aussi le bombé doux près des éclats. C'est le prix d'une tuile sans ombrage. (3 November 2026, 22:33:27 +0100)
+>
+> Fichiers : (3 November 2026, 22:33:27 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/final-step-options-3-November-2026/final_step_board.png](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/final-step-options-3-November-2026/final_step_board.png) (3 November 2026, 22:33:27 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Scripts/FinalStepOptions.py](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Scripts/FinalStepOptions.py) (3 November 2026, 22:33:27 +0100)
+
+## 3 November 2026, 22:34:16 +0100 : Prompt
+
+<!-- feedback-event:28a32f446c6d3841c81f6d9dd88538ab4d45da49bd3fe367fe8e97d48b1dffb6 (3 November 2026, 22:34:16 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:34:16 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:34:16 +0100)
+
+> Rolling ball par le haut, mon choix. ajoute le dans le prompt final. ... très bonne suggestion on va tester (3 November 2026, 22:34:16 +0100)
+
+## 3 November 2026, 22:34:27 +0100 : Prompt
+
+<!-- feedback-event:b4c900b3873eb79d0450edb6b3d9b11c08c9572df41cb61a571d0747e736d13d (3 November 2026, 22:34:27 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:34:27 +0100)
+
+> Rolling ball par le haut, mon choix. Ajoute-le dans le prompt final... très bonne suggestion, on va tester. (3 November 2026, 22:34:27 +0100)
+
+## 3 November 2026, 22:34:39 +0100 : Log
+
+<!-- feedback-event:350f5c3788a1a1fbca90ae5c8786d57984f662e59ea44acb3b48f9b6c2cbe5f3 (3 November 2026, 22:34:39 +0100) -->
+- Project: zorah-materials; kind: log. (3 November 2026, 22:34:39 +0100)
+
+> Correction (3 November 2026, 22:35 +0100) : l'entrée « 3 November 2026, 22:48 +0100 : test des 3 étapes finales » portait une heure estimée ; l'heure réelle du test est 22:33. Les en-têtes de Scripts/FinalStepOptions.py (22:40, 22:46) sont corrigés à 22:31 et 22:33. (3 November 2026, 22:34:39 +0100)
+
+## 3 November 2026, 22:34:51 +0100 : Iteration
+
+<!-- feedback-event:ee20c229298638f726f11cd3e436271d617f777b638f23b87f67970ea2917c42 (3 November 2026, 22:34:51 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 22:34:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:34:51 +0100)
+
+> Voici le prompt final en quatre étapes, à envoyer en un seul message avec le panneau découpé : (3 November 2026, 22:34:51 +0100)
+>
+> ``` (3 November 2026, 22:34:51 +0100)
+> Respecte absolument l'ordre de ce prompt, une étape après l'autre. (3 November 2026, 22:34:51 +0100)
+>
+> Étape 1. Fais la height map de cette image : même cadrage, chaque détail exactement à la même place, pixel pour pixel. Niveaux de gris : blanc = haut, noir = creux. Sans lumière, sans ombre, sans couleur. then redo with 99.9% precision in the composition. (3 November 2026, 22:34:51 +0100)
+> Pour cette étape, n'utilise pas la génération d'image. En Python, calcule la height map de cette image : niveaux de gris, puis retire l'éclairage de grande échelle par un filtre passe-haut, même taille, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 22:34:51 +0100)
+>
+> Étape 2, seulement une fois la height map de l'étape 1 obtenue. With AI gen create image : corrige les défauts d'ombrage de cette height map, sans rien changer d'autre. (3 November 2026, 22:34:51 +0100)
+>
+> Étape 3, seulement une fois l'image de l'étape 2 obtenue. En Python, pars de l'image de l'étape 2 et ajuste seulement ses niveaux de gris (gris moyen, contraste, plage) sur ceux de la height de l'étape 1. Le but de Python est de ne pas reproduire le problème d'ombrage de l'étape 1 : de l'étape 1, ne reprends que ses niveaux de gris, jamais ses pixels, ses détails ni son ombrage. Les reliefs et les creux de l'étape 2 restent tels quels. Même taille que l'étape 1, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 22:34:51 +0100)
+>
+> Étape 4, seulement une fois l'image de l'étape 3 obtenue. En Python, sur cette image seulement : retire le fond d'ombrage par soustraction de fond façon rolling ball, la boule roulant par le haut, sur la surface, pour que les rainures et les creux restent sombres et ne soient jamais pris pour le fond. Même taille, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 22:34:51 +0100)
+> ``` (3 November 2026, 22:34:51 +0100)
+>
+> Il est rangé, marqué « à tester », dans [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md). Je le consignerai dans le skill après ton test. (3 November 2026, 22:34:51 +0100)
+>
+> En rangeant, j'ai trouvé trois heures que j'avais estimées au lieu de les lire : celle du journal du test et deux en-têtes du script. Elles sont corrigées avec les heures réelles, et une entrée de correction datée est ajoutée au feedback. (3 November 2026, 22:34:51 +0100)
