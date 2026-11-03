@@ -5296,3 +5296,76 @@
 > - [Substance 3D Designer, node library (Adjustments)](https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html) (3 November 2026, 23:53:04 +0100)
 > - [Substance 3D Designer July 2024 release (Histogram Equalizer)](https://community.adobe.com/t5/substance-3d-designer-discussions/july-2024-substance-3d-designer-release/m-p/14774031) (3 November 2026, 23:53:04 +0100)
 > - [Substance 3D Sampler, Equalize filter](https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/equalize.html) (3 November 2026, 23:53:04 +0100)
+
+## 3 November 2026, 23:58:22 +0100 : Prompt
+
+<!-- feedback-event:6d1dc1a0a53c57bab3054d5dd57f3620b225243207ec87c21b29e71fc89d9149 (3 November 2026, 23:58:22 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 23:58:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 23:58:22 +0100)
+
+> Bah, testons alors le prompt, notamment via l'étape 4, où on met plutôt à la fois la V2, qui, à mon avis, il faut retenir cette version, et à la fois, du coup, le nouveau terme que tu as choisi, c'est-à-dire la correction de champ plat, flat field, et transfert de couleur Reinhard. Du coup, c'est pas en lab, parce que lab, c'était la V1, je crois. Et du coup, moi, ce que je pense en termes de color matching, le mieux parmi les trois, c'est surtout la V2, j'ai l'impression. Donc, adapte le prompt, il va falloir le modifier, du coup. Et je vais le tester, et on continuera uniquement quand j'ai testé. (3 November 2026, 23:58:22 +0100)
+
+## 3 November 2026, 23:58:41 +0100 : Prompt
+
+<!-- feedback-event:e1bdb2d9535d65c516a5f5d6cf39da21e4f443ab405e391b8d604e851722716a (3 November 2026, 23:58:41 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 23:58:41 +0100)
+
+> Testons le prompt base color avec une étape 4 en V2 (à retenir) : correction de champ plat (flat field) et transfert de couleur Reinhard. Adapter le prompt ; je teste, et on continue uniquement quand j'ai testé. (3 November 2026, 23:58:41 +0100)
+
+## 3 November 2026, 23:59:08 +0100 : Iteration
+
+<!-- feedback-event:37dd0e5b6558db835eea2cc8fbd3474aa378f26028e3f4bc37dba875e8be0a55 (3 November 2026, 23:59:08 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 23:59:08 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 23:59:08 +0100)
+
+> Voici le prompt base color, version 2. Seule l'étape 4 change, elle reprend la V2 du banc : (3 November 2026, 23:59:08 +0100)
+>
+> ```text (3 November 2026, 23:59:08 +0100)
+> Respecte absolument l'ordre de ce prompt, une étape après l'autre. Image 1 = la référence en couleur, éclairée. Image 2 = la height finale de la même surface. (3 November 2026, 23:59:08 +0100)
+>
+> Étape 1. Fais la base color flat de l'image 1, calée sur l'image 2 : même cadrage, chaque détail exactement à la même place que sur la height, pixel pour pixel. Couleur de la matière seulement. Sans lumière, sans ombre, sans relief. then redo with 99.9% precision in the composition. (3 November 2026, 23:59:08 +0100)
+> Pour cette étape, n'utilise pas la génération d'image. En Python, calcule la base color flat de l'image 1 : retire l'éclairage de grande échelle par un filtre passe-haut sur la luminance, en gardant les couleurs, même taille et même cadrage que l'image 2, PNG 8 bits. then redo with 99.9% precision in the composition. (3 November 2026, 23:59:08 +0100)
+>
+> Étape 2, seulement une fois la base color de l'étape 1 obtenue. With AI gen create image : corrige les défauts d'éclairage de cette base color (ombres, reflets, relief éclairé, taches de lumière), sans rien changer d'autre ; chaque détail de couleur reste à la place de son relief sur l'image 2. (3 November 2026, 23:59:08 +0100)
+>
+> Étape 3, seulement une fois l'image de l'étape 2 obtenue. En Python, pars de l'image de l'étape 2 et ajuste seulement ses couleurs (teinte moyenne, saturation, luminosité, contraste) sur celles de la base color de l'étape 1. Le but de Python est de ne pas reproduire le problème d'éclairage de l'étape 1 : de l'étape 1, ne reprends que ses couleurs et leur répartition, jamais ses pixels, ses ombres ni sa lumière. Les détails de l'étape 2 restent tels quels. Même taille que l'image 2, PNG 8 bits. then redo with 99.9% precision in the composition. (3 November 2026, 23:59:08 +0100)
+>
+> Étape 4, seulement une fois l'image de l'étape 3 obtenue. En Python, sur cette image seulement : d'abord une correction de champ plat (flat field) sur la luminance, c'est-à-dire la luminance divisée par son flou très large, pour retirer la lumière qui varie à l'échelle de toute l'image tout en gardant les différences de teinte entre les blocs ou les pierres ; puis un transfert de couleur Reinhard en Lab vers les couleurs moyennes et leur écart de l'étape 1, sans jamais reprendre ses pixels. Même taille, PNG 8 bits. then redo with 99.9% precision in the composition. (3 November 2026, 23:59:08 +0100)
+> ``` (3 November 2026, 23:59:08 +0100)
+>
+> Une précision sur Lab, puisque tu pensais que c'était la V1 : la V1 et la V2 font toutes les deux leur transfert Reinhard en Lab. Ce qui distingue la V2, c'est la correction de champ plat ajoutée avant ce transfert. J'ai donc gardé « en Lab », puisque c'est ce que le banc a mesuré. (3 November 2026, 23:59:08 +0100)
+>
+> J'ai ajouté deux garde-fous : (3 November 2026, 23:59:08 +0100)
+> - **« divisée par son flou très large »** empêche ChatGPT de prendre un flou trop serré, qui effacerait les teintes des blocs comme la rolling ball le faisait. (3 November 2026, 23:59:08 +0100)
+> - **« sans jamais reprendre ses pixels »** l'empêche de recopier la lumière de l'étape 1 en reprenant ses couleurs. (3 November 2026, 23:59:08 +0100)
+>
+> Le prompt est rangé, marqué « à tester », dans [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/basecolor-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/basecolor-prompt-zorah.md). La version validée de 23:27 reste dans le skill. J'attends ton test pour continuer. (3 November 2026, 23:59:08 +0100)
+
+## 4 November 2026, 00:02:04 +0100 : Prompt
+
+<!-- feedback-event:ea35539947624871dd40123c686a10aa5b1680fe2f13016ca00350be49879ad7 (4 November 2026, 00:02:04 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 00:02:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 00:02:04 +0100)
+
+> Mais du coup, est-ce que tu peux m'expliquer ce que ça veut dire Reinhardt Lab, du coup? ? je ne sais pas ce que c'est C'est lié à la 3D ou pas du tout? (4 November 2026, 00:02:04 +0100)
+
+## 4 November 2026, 00:02:22 +0100 : Iteration
+
+<!-- feedback-event:3059ad90120041dca5f9af5e67243fcb7824fd4771e879c11b282ec382dcede1 (4 November 2026, 00:02:22 +0100) -->
+- Project: zorah-materials; kind: iteration. (4 November 2026, 00:02:22 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 00:02:22 +0100)
+
+> Pas vraiment lié à la 3D : c'est du traitement d'image. Il y a deux mots dans l'expression. (4 November 2026, 00:02:22 +0100)
+>
+> **Lab** est un espace de couleur, défini par la CIE en 1976 (on écrit aussi CIELAB). Au lieu de décrire une couleur par son rouge, son vert et son bleu, il la décrit sur trois axes : (4 November 2026, 00:02:22 +0100)
+> - **L**, la clarté, du noir au blanc ; (4 November 2026, 00:02:22 +0100)
+> - **a**, du vert au rouge ; (4 November 2026, 00:02:22 +0100)
+> - **b**, du bleu au jaune. (4 November 2026, 00:02:22 +0100)
+>
+> L'intérêt, c'est que la lumière et la couleur y sont séparées. En RVB, assombrir une image touche les trois canaux à la fois. En Lab, on peut corriger la seule clarté sans toucher la teinte. C'est pour cette raison que la correction de champ plat ne s'applique qu'à L : elle retire la lumière sans déteindre la pierre. Lab est aussi construit pour qu'une même distance corresponde à peu près à une même différence perçue par l'œil. C'est de là que vient le « dE » de mes mesures : 2,75 dE, c'est un écart de couleur que l'œil remarque à peine. (4 November 2026, 00:02:22 +0100)
+>
+> **Reinhard**, c'est Erik Reinhard, un chercheur qui a publié en 2001 avec ses collègues la méthode de « transfert de couleur entre images ». L'idée est très simple. On passe les deux images dans un espace comme Lab, puis, axe par axe, on décale et on étire les valeurs de l'image à corriger. Sa moyenne et son écart finissent ainsi égaux à ceux de l'image modèle. (4 November 2026, 00:02:22 +0100)
+>
+> Imagine deux photos du même mur, l'une prise au soleil du matin, plus chaude, l'autre à l'ombre, plus froide. Le transfert de Reinhard rend à la seconde la même clarté moyenne, le même contraste et la même dominante de couleur que la première. Il ne déplace aucun pixel et ne touche à aucun détail. C'est exactement ce qu'on veut pour que a1, a2 et a3 portent la même couleur de matière. (4 November 2026, 00:02:22 +0100)
+>
+> Un piège de vocabulaire, puisque tu viens de la 3D : dans les moteurs de rendu, « Reinhard » désigne souvent tout autre chose. C'est le tone mapping de Reinhard, publié par le même chercheur en 2002, qui compresse les fortes lumières d'un rendu HDR pour l'afficher sur un écran. Les deux portent son nom, mais ce n'est pas la même opération. Dans ton prompt, il s'agit bien du transfert de couleur. (4 November 2026, 00:02:22 +0100)
