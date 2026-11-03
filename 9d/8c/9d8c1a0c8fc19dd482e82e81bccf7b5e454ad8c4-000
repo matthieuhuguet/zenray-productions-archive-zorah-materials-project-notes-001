@@ -3249,3 +3249,45 @@
 > La génération d'image, elle, comprend mieux ce qui est en creux, mais elle redessine, et c'est pour ça qu'elle déplace les détails. Teste les deux sur la même référence, puis passe chaque sortie dans `CheckAiHeight.py`. (3 November 2026, 19:42:38 +0100)
 >
 > Les deux prompts sont notés dans [height-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/height-prompt-zorah.md), avec la v2 gardée en historique. (3 November 2026, 19:42:38 +0100)
+
+## 3 November 2026, 19:56:18 +0100 : Prompt
+
+<!-- feedback-event:0e320e6e3b17384b01aa8cea48ef761f33093c6b6055c11667fcb710b39cd1cd (3 November 2026, 19:56:18 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 19:56:18 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 19:56:18 +0100)
+
+> En fait, c'est exactement ça. Il faut dire à ChatGPT d'utiliser un script Python et de faire et d'utiliser les deux en même temps, et ça fait une heatmap qui est quasi parfaite. Donc voilà, on a trouvé la solution, consigne là. Et voilà.  (3 November 2026, 19:56:18 +0100)
+>
+> prompt final = Fais la height map de cette image : même cadrage, chaque détail exactement à la même place, pixel pour pixel. Niveaux de gris : blanc = haut, noir = creux. Sans lumière, sans ombre, sans couleur. then redo with 99.9% precision in the composition. (3 November 2026, 19:56:18 +0100)
+> N'utilise pas la génération d'image. En Python, calcule la height map de cette image : niveaux de gris, puis retire l'éclairage de grande échelle par un filtre passe-haut, même taille, PNG 16 bits. then redo with 99.9% precision in the composition. (3 November 2026, 19:56:18 +0100)
+>
+> utilise evidemment l'horodatage pour consigner (3 November 2026, 19:56:18 +0100)
+
+## 3 November 2026, 19:58:12 +0100 : Prompt
+
+<!-- feedback-event:030c2b5fd80ffc1d0bed066bcb008b0da9eeb0705733b43467082a73d29041f8 (3 November 2026, 19:58:12 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 19:58:12 +0100)
+
+> Solution trouvée par Matthieu : dire à ChatGPT d'utiliser un script Python et les deux prompts en même temps donne une height quasi parfaite. Prompt final consigné à 19:56 +0100 dans Prompts/height-prompt-zorah.md, Analysis/ai-height-lighting-3-November-2026/PROMPT_FINAL.txt et le skill zenray-houdini. (3 November 2026, 19:56 +0100) (3 November 2026, 19:58:12 +0100)
+
+## 3 November 2026, 19:58:12 +0100 : Standing rule
+
+<!-- feedback-event:6667f2bfa4d02345be72581107a31ff1fd6cc18c4a18a2f504eab5b378f4b073 (3 November 2026, 19:58:12 +0100) -->
+- Project: zorah-materials; kind: rule. (3 November 2026, 19:58:12 +0100)
+
+> Height depuis une map : envoyer en un seul message les deux paragraphes du prompt final (génération d'image puis calcul Python, chacun terminé par « then redo with 99.9% precision in the composition. »), avec le carré plat découpé de la référence, puis contrôler par CheckAiHeight.py. Remplace les prompts v1, v2 et v3 du même jour. (3 November 2026, 19:56 +0100) (3 November 2026, 19:58:12 +0100)
+
+## 3 November 2026, 19:58:12 +0100 : Log
+
+<!-- feedback-event:040fb9675aba2843eee389a0b9b52a782e1b5b906accb53b49d611d2e5fc5f93 (3 November 2026, 19:58:12 +0100) -->
+- Project: zorah-materials; kind: log. (3 November 2026, 19:58:12 +0100)
+
+> Correction d'horodatage : les en-têtes de CheckAiHeight.py (18:56), AnalyseAiHeights.py (18:49), JointProfiles.py (18:55), CropPanels.py (19:41) et les titres des versions 2 (18:58) et 3 (19:42) portaient des heures estimées ; ils portent l'heure de création lue sur le fichier. (3 November 2026, 19:56 +0100) (3 November 2026, 19:58:12 +0100)
+
+## 3 November 2026, 19:58:12 +0100 : Iteration
+
+<!-- feedback-event:c7438fa2998f4683d587730aeba09c7b912f00efa027d92d1347f287b936f074 (3 November 2026, 19:58:12 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 19:58:12 +0100)
+- Source: checkpoint:claude:e3fcfc3d-2756-4ada-8b78-faa7ff7c168a. (3 November 2026, 19:58:12 +0100)
+
+> 3 November 2026, 19:56 +0100 : prompt height final validé par Matthieu (génération d image et calcul Python dans le même message, carré plat de la référence joint), height quasi parfaite selon son test ; consigné dans Prompts/height-prompt-zorah.md, Analysis/ai-height-lighting-3-November-2026, Rules.md et le skill zenray-houdini. Vérificateur CheckAiHeight.py disponible. Prochain geste : heights des huit carrés Zorah, contrôle, puis zoramaterials.hip. (3 November 2026, 19:58:12 +0100)
