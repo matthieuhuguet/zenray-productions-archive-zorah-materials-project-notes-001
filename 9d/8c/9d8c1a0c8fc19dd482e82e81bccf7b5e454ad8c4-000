@@ -4695,3 +4695,61 @@
 > Il est rangé, marqué « à tester », dans [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Prompts/shading-fix-prompt-zorah.md). Je le consignerai dans le skill après ton test. (3 November 2026, 22:34:51 +0100)
 >
 > En rangeant, j'ai trouvé trois heures que j'avais estimées au lieu de les lire : celle du journal du test et deux en-têtes du script. Elles sont corrigées avec les heures réelles, et une entrée de correction datée est ajoutée au feedback. (3 November 2026, 22:34:51 +0100)
+
+## 3 November 2026, 22:47:07 +0100 : Prompt
+
+<!-- feedback-event:555a503fbd05e93398d8a8dfa5c03c97b5dbd429697dd2edc8249ab382e75012 (3 November 2026, 22:47:07 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:47:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:47:07 +0100)
+
+> Insane le prompt consigne le vraiment partout c'est magique ! dans /zenray-houdini et dans /zenray-edit ultra fort un prompt de ce genre. surtout combiné à chatgpt. (3 November 2026, 22:47:07 +0100)
+
+## 3 November 2026, 22:47:55 +0100 : Iteration
+
+<!-- feedback-event:9458eb0d1a605b93e123097b4eb547fea833922248ae89ecdfb2c2825fb23977 (3 November 2026, 22:47:55 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 22:47:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:47:55 +0100)
+
+> J'ai repéré les emplacements : le skill zenray-houdini, son Copernicus2.md et un nouveau gabarit de prompt, puis une référence dédiée dans zenray-edit. J'écris maintenant. (3 November 2026, 22:47:55 +0100)
+
+## 3 November 2026, 22:49:03 +0100 : Prompt
+
+<!-- feedback-event:cf9f79bcda85114f1afa32666cd2c49646e082e93b27e8d28408640b66148a97 (3 November 2026, 22:49:03 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 22:49:03 +0100)
+
+> Insane le prompt, consigne-le vraiment partout, c'est magique ! Dans /zenray-houdini et dans /zenray-edit. Ultra fort, un prompt de ce genre, surtout combiné à ChatGPT. (3 November 2026, 22:49:03 +0100)
+
+## 3 November 2026, 22:49:03 +0100 : Standing rule
+
+<!-- feedback-event:a368a35e758a1dfd4bcf98dd4c59071d6ea64094f43d8a7827984cf7a1964e99 (3 November 2026, 22:49:03 +0100) -->
+- Project: zorah-materials; kind: rule. (3 November 2026, 22:49:03 +0100)
+
+> 3 November 2026, 22:47 +0100 : prompt height en quatre étapes VALIDÉ (Python passe-haut, génération qui corrige l'ombrage, niveaux de gris de l'étape 1 seulement, rolling ball par le haut), un seul message à ChatGPT. Source : zenray-houdini templates/zenray-height-from-map/prompt_height_chain.md ; méthode générale : zenray-edit references/ChatGptChainPrompts.md. (3 November 2026, 22:49:03 +0100)
+
+## 3 November 2026, 22:49:21 +0100 : Iteration
+
+<!-- feedback-event:411ca48cb68160c840ee3f95e7f2ce023c9cb02d288723be5a31545d6af71853 (3 November 2026, 22:49:21 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 22:49:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 22:49:21 +0100)
+
+> Le prompt est consigné partout, marqué validé, avec tes mots, et le skill est synchronisé vers Codex. (3 November 2026, 22:49:21 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (3 November 2026, 22:49:21 +0100)
+> |---|---|---| (3 November 2026, 22:49:21 +0100)
+> | Le prompt dans zenray-houdini | Oui | Il est dans un gabarit à copier tel quel, avec ses raisons et ses règles d'écriture. Le SKILL.md a une section de 22:47, et Copernicus2.md un renvoi en 14.9, juste avant ZenRay Height | (3 November 2026, 22:49:21 +0100)
+> | Le prompt dans zenray-edit | Oui | Une nouvelle référence explique la méthode générale des prompts chaînés génération et Python, avec ce prompt comme exemple. Elle est en tête du SKILL.md et dans l'index | (3 November 2026, 22:49:21 +0100)
+> | Que ce soit « vraiment partout » | Oui | La copie Codex contient les deux sections et les deux fichiers (vérifié). Le fichier de prompts du projet Zorah le marque validé | (3 November 2026, 22:49:21 +0100)
+>
+> Dans zenray-edit, j'ai noté la forme du prompt comme une méthode réutilisable, pas seulement comme une recette de height. Elle tient en quatre idées : (3 November 2026, 22:49:21 +0100)
+> - des étapes ordonnées, ouvertes chacune par « seulement une fois… obtenue » ; (3 November 2026, 22:49:21 +0100)
+> - Python pour garder chaque pixel à sa place, la génération pour corriger un défaut ; (3 November 2026, 22:49:21 +0100)
+> - le concept plutôt que la formule ; (3 November 2026, 22:49:21 +0100)
+> - des garde-fous qui disent ce qu'on reprend, ce qu'on ne reprend jamais et le sens d'une opération. (3 November 2026, 22:49:21 +0100)
+>
+> Les autres usages possibles (base color, retrait d'un logo, nettoyage d'une photo) y figurent comme hypothèses non testées. (3 November 2026, 22:49:21 +0100)
+>
+> Fichiers : (3 November 2026, 22:49:21 +0100)
+> - [/Users/zenray/.claude/skills/zenray-houdini/templates/zenray-height-from-map/prompt_height_chain.md](/Users/zenray/.claude/skills/zenray-houdini/templates/zenray-height-from-map/prompt_height_chain.md) (3 November 2026, 22:49:21 +0100)
+> - [/Users/zenray/.claude/skills/zenray-edit/references/ChatGptChainPrompts.md](/Users/zenray/.claude/skills/zenray-edit/references/ChatGptChainPrompts.md) (3 November 2026, 22:49:21 +0100)
+> - [/Users/zenray/.claude/skills/zenray-houdini/SKILL.md](/Users/zenray/.claude/skills/zenray-houdini/SKILL.md) (3 November 2026, 22:49:21 +0100)
+> - [/Users/zenray/.claude/skills/zenray-edit/SKILL.md](/Users/zenray/.claude/skills/zenray-edit/SKILL.md) (3 November 2026, 22:49:21 +0100)
