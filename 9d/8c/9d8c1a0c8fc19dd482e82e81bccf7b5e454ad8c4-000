@@ -5220,3 +5220,79 @@
 > En poussant, j'ai trouvé un verrou git vide de 15:47 sur Memory, alors qu'aucun processus ne l'utilisait. Je l'ai retiré : la sauvegarde automatique de Memory était probablement bloquée depuis 15:47, et elle a repris. (3 November 2026, 23:38:43 +0100)
 >
 > Quand les sessions auront fini, dis-le-moi : je rapatrierai leurs branches avec `Handoff.py pull`, puis j'appliquerai leurs instructions APPLY.md en local. (3 November 2026, 23:38:43 +0100)
+
+## 3 November 2026, 23:51:06 +0100 : Prompt
+
+<!-- feedback-event:458cd675cebaf9424265806b5a5903b45f5cc5076a46786f85c6a0d829313c35 (3 November 2026, 23:51:06 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 23:51:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 23:51:06 +0100)
+
+> [Image: original 1284x2250, displayed at 1141x2000. Multiply coordinates by 1.13 to map to original image.] (3 November 2026, 23:51:06 +0100)
+
+## 3 November 2026, 23:51:49 +0100 : Iteration
+
+<!-- feedback-event:86d301255ad2d9c18dd56c88a4fd6d5c82b477783bdc5d0d00f9dd468ee59eab (3 November 2026, 23:51:49 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 23:51:49 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 23:51:49 +0100)
+
+> J'envoie la planche, puis je consigne le script validé et le prompt base color dans la méthode ZenRay Height. (3 November 2026, 23:51:49 +0100)
+
+## 3 November 2026, 23:52:43 +0100 : Prompt
+
+<!-- feedback-event:1c27d784b27dd42ea55cce2e7ce3aacbe1565a6948d5459a8ce0ae5bf6a7dd9d (3 November 2026, 23:52:43 +0100) -->
+- Project: zorah-materials; kind: prompt. (3 November 2026, 23:52:43 +0100)
+
+> Je reviens au travail de tout à l'heure : le script qui harmonise les heights a1 a2 a3 à 0,80, je le valide totalement, à consigner dans la méthode ZenRay Height ; consigner aussi le prompt base color, il fonctionne très bien. Puis harmoniser trois base colors a1 a2 a3 : trouver l'équivalent de la rolling ball pour la base color et ses trois noms (Python, Copernicus, Substance Designer) ; est-ce vraiment la rolling ball qu'il faut pour une base color ? Tests visuels ici, en local, avant consignation. Consignation et index mapping impeccables : ZenRay Height dans ZenRay Houdini dans CLAUDE.md. (3 November 2026, 23:52:43 +0100)
+
+## 3 November 2026, 23:52:43 +0100 : Log
+
+<!-- feedback-event:297259ff6589c4053dc3da7260fc5178f406e785248fb0506afd87839182d39c (3 November 2026, 23:52:43 +0100) -->
+- Project: zorah-materials; kind: log. (3 November 2026, 23:52:43 +0100)
+
+> 3 November 2026, 23:52 +0100 : RollingBallTop.py VALIDÉ et prompt base color en 4 étapes VALIDÉ, consignés dans zenray-houdini (SKILL.md 23:52, templates prompt_basecolor_chain.md et prompt_height_chain.md, description du skill, MethodNames, Copernicus2) et zenray-edit. Banc base color : la rolling ball sur la luminance aplatit les blocs (76 % gardés) ; champ plat 1/8 + Reinhard Lab : écart 12,8 vers 2,75 dE, blocs 0,995, pente de lumière 2,31 vers 1,11. En attente du choix visuel de Matthieu. (3 November 2026, 23:52:43 +0100)
+
+## 3 November 2026, 23:53:04 +0100 : Iteration
+
+<!-- feedback-event:779fb7db2aec5246f1e613b1255887808fb873c7ee9361999b96084cebeb2c6f (3 November 2026, 23:53:04 +0100) -->
+- Project: zorah-materials; kind: iteration. (3 November 2026, 23:53:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (3 November 2026, 23:53:04 +0100)
+
+> Le script qui harmonisait tes heights à 0,80 s'appelle **`RollingBallTop.py`**, l'uniformiseur. Il est maintenant consigné comme validé dans la méthode ZenRay Height, et le prompt base color aussi. Ta question sur la base color était la bonne : la rolling ball n'y convient pas. (3 November 2026, 23:53:04 +0100)
+>
+> **Ce que la planche montre**, sur tes trois base colors de la 4 : (3 November 2026, 23:53:04 +0100)
+>
+> | Traitement | Écart de couleur entre a1, a2, a3 | Pente de lumière | Teintes des blocs gardées | (3 November 2026, 23:53:04 +0100)
+> |---|---|---|---| (3 November 2026, 23:53:04 +0100)
+> | Entrée | 12,8 dE | 2,31 | 100 % | (3 November 2026, 23:53:04 +0100)
+> | V1 transfert de couleur Reinhard | 2,85 dE | 2,05 | 100 % | (3 November 2026, 23:53:04 +0100)
+> | **V2 champ plat + Reinhard** (réglé à 1/8) | **2,75 dE** | **1,11** | **99,5 %** | (3 November 2026, 23:53:04 +0100)
+> | V3 histogramme commun | 4,15 dE | 3,34 | 97 %, contraste abîmé | (3 November 2026, 23:53:04 +0100)
+> | V4 rolling ball sur la luminance + Reinhard | 2,22 dE | 0,58 | **76 %** | (3 November 2026, 23:53:04 +0100)
+>
+> La rolling ball efface bien la lumière, mais elle prend les briques plus claires ou plus sombres pour de l'ombrage et les aplatit : on perd un quart de la vraie couleur de la matière. Pour une couleur, la lumière se comporte comme un multiplicateur. Le bon concept est donc la **correction de champ plat** : on divise la luminance par son flou très large. On la combine avec le **transfert de couleur**, qui aligne teinte, luminosité et saturation sur la moyenne des trois variantes. (3 November 2026, 23:53:04 +0100)
+>
+> **Les trois noms proposés** pour cette harmonisation : (3 November 2026, 23:53:04 +0100)
+> - **Python** : correction de champ plat (flat field) et transfert de couleur Reinhard en Lab. (3 November 2026, 23:53:04 +0100)
+> - **Substance Designer** : Color Match, avec Lighting Cancel Low Frequencies pour la lumière. (3 November 2026, 23:53:04 +0100)
+> - **Copernicus** : Color Correct, puis Blur et un Blend en Divide. Ces nœuds sont vérifiés dans ton Houdini 22.0.368. (3 November 2026, 23:53:04 +0100)
+>
+> Je n'ai trouvé aucun nœud Substance nommé « Color Equalizer ». Je ne range l'harmoniseur dans le skill et ses noms dans le résolveur qu'après ton choix sur la planche. (3 November 2026, 23:53:04 +0100)
+>
+> **Ce qui est consigné**, en petites boîtes reliées, de la description du skill zenray-houdini jusqu'à la méthode ZenRay Height : (3 November 2026, 23:53:04 +0100)
+> - l'ordre complet : panneau, prompt height, uniformiseur, `Reproduce.py`, prompt base color, harmonisation, `HeightToBaseColor.py` ; (3 November 2026, 23:53:04 +0100)
+> - les deux prompts en gabarits ; (3 November 2026, 23:53:04 +0100)
+> - le statut « validé » de l'uniformiseur dans `MethodNames.json` ; (3 November 2026, 23:53:04 +0100)
+> - la description du skill, qui nomme maintenant les prompts, l'uniformiseur et `FindMethod.py`, pour que n'importe quel prompt trouve la bonne porte. (3 November 2026, 23:53:04 +0100)
+>
+> Le prompt base color garde sa rolling ball en étape 4, puisque tu l'as validé tel quel. J'ai noté la mesure à côté, et une étape 4 en champ plat reste une variante à tester. (3 November 2026, 23:53:04 +0100)
+>
+> Fichiers : (3 November 2026, 23:53:04 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/basecolor-harmonise-3-November-2026/basecolor_harmonise_board.png](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/basecolor-harmonise-3-November-2026/basecolor_harmonise_board.png) (3 November 2026, 23:53:04 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Scripts/HarmoniseBaseColor.py](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Scripts/HarmoniseBaseColor.py) (3 November 2026, 23:53:04 +0100)
+> - [/Users/zenray/.claude/skills/zenray-houdini/templates/zenray-height-basecolor/prompt_basecolor_chain.md](/Users/zenray/.claude/skills/zenray-houdini/templates/zenray-height-basecolor/prompt_basecolor_chain.md) (3 November 2026, 23:53:04 +0100)
+> - [/Users/zenray/.claude/skills/zenray-houdini/scripts/height/RollingBallTop.py](/Users/zenray/.claude/skills/zenray-houdini/scripts/height/RollingBallTop.py) (3 November 2026, 23:53:04 +0100)
+>
+> Sources : (3 November 2026, 23:53:04 +0100)
+> - [Substance 3D Designer, node library (Adjustments)](https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html) (3 November 2026, 23:53:04 +0100)
+> - [Substance 3D Designer July 2024 release (Histogram Equalizer)](https://community.adobe.com/t5/substance-3d-designer-discussions/july-2024-substance-3d-designer-release/m-p/14774031) (3 November 2026, 23:53:04 +0100)
+> - [Substance 3D Sampler, Equalize filter](https://helpx.adobe.com/substance-3d-sampler/filters/adjustments/equalize.html) (3 November 2026, 23:53:04 +0100)
