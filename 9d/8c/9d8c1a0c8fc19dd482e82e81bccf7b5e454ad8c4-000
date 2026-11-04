@@ -7880,3 +7880,41 @@
 > | Finir de consigner le prompt et les étapes | Oui | Prompt V5, script, noms de méthode et bilan écrits, puis skill synchronisé | (4 November 2026, 21:31:20 +0100)
 > | Lancer toutes les gen height | En cours | Le journal montre ZorahMaterials01 qui avance couche par couche | (4 November 2026, 21:31:20 +0100)
 > | La 4 | Déjà faite | Même fichier d'entrée qu'au run de 0,9906 | (4 November 2026, 21:31:20 +0100)
+
+## 4 November 2026, 21:45:37 +0100 : Prompt
+
+<!-- feedback-event:73bc158c2ca019a0619bb9cae115cd750cece60ec1f56de6f6a43a6eb9ab447d (4 November 2026, 21:45:37 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 21:45:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 21:45:37 +0100)
+
+> met un watcher tant que pas fini (4 November 2026, 21:45:37 +0100)
+
+## 4 November 2026, 21:45:51 +0100 : Iteration
+
+<!-- feedback-event:f5cd56e6806936b4abd284311058d424a4092d46fddabd1aede0c5d5e931322e (4 November 2026, 21:45:51 +0100) -->
+- Project: zorah-materials; kind: iteration. (4 November 2026, 21:45:51 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 21:45:51 +0100)
+
+> The watcher is on. I'll be notified each time a texture starts or finishes, on every reported score and on every failure. It runs 30 minutes at a time, and I re-arm it until the log shows `ALL DONE`. On each event, I'll give you the score of the finished texture. (4 November 2026, 21:45:51 +0100)
+
+## 4 November 2026, 21:47:44 +0100 : Prompt
+
+<!-- feedback-event:7bf9085fca0f88f19de3c09e2c2e2d15744321c32f86ecf113d59d5d797e15f6 (4 November 2026, 21:47:44 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 21:47:44 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 21:47:44 +0100)
+
+> <task-notification> (4 November 2026, 21:47:44 +0100)
+> <task-id>bxadb73kr</task-id> (4 November 2026, 21:47:44 +0100)
+> <summary>Monitor event: "Zorah heights chain: start, end and failures per texture"</summary> (4 November 2026, 21:47:44 +0100)
+> <event>=== 21:47 ZorahMaterials01 done (4 November 2026, 21:47:44 +0100)
+> === 21:47 ZorahMaterials02 start</event> (4 November 2026, 21:47:44 +0100)
+> If this event is something the user would act on now, send a PushNotification. Routine or benign output doesn't need one. (4 November 2026, 21:47:44 +0100)
+> </task-notification> (4 November 2026, 21:47:44 +0100)
+
+## 4 November 2026, 21:47:59 +0100 : Iteration
+
+<!-- feedback-event:42920b57b518a267c79e4d005ea2e14870124846ccb1aaf59716624de22e9942 (4 November 2026, 21:47:59 +0100) -->
+- Project: zorah-materials; kind: iteration. (4 November 2026, 21:47:59 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 21:47:59 +0100)
+
+> Texture 1 finished at 21:47: 0.9386 after the full reproduction, 0.9435 after the L6 layer, then 0.986 after the pixel passes, which plateau from H5 on. Texture 2 is running; the watcher stays on. (4 November 2026, 21:47:59 +0100)
