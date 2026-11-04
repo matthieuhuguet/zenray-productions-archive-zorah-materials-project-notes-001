@@ -1,38 +1,38 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-04T21:04:22.885Z",
+ "scannedAt": "2026-11-04T21:17:19.908Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
-   "lines": 725,
+   "lines": 726,
    "work": 33,
    "prompts": 9,
    "first": "2026-11-03T16:20:22.810Z",
-   "last": "2026-11-04T20:47:52.928Z",
+   "last": "2026-11-04T21:15:52.640Z",
    "strength": "strong",
    "conversationId": "claude:e3fcfc3d-2756-4ada-8b78-faa7ff7c168a",
    "provider": "claude",
    "sessionId": "e3fcfc3d-2756-4ada-8b78-faa7ff7c168a",
    "title": "zorah materials",
-   "updatedAt": "2026-11-04T21:03:34.849Z",
-   "bytes": 38279,
+   "updatedAt": "2026-11-04T21:15:58.184Z",
+   "bytes": 38280,
    "boundProject": "zorah-materials"
   },
   {
    "projectId": "zorah-materials",
-   "lines": 4,
+   "lines": 5,
    "work": 0,
    "prompts": 0,
    "first": "2026-11-04T19:17:08.761Z",
-   "last": "2026-11-04T20:48:52.472Z",
+   "last": "2026-11-04T21:14:07.123Z",
    "strength": "weak",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-11-04T21:03:13.899Z",
-   "bytes": 48912,
+   "updatedAt": "2026-11-04T21:14:19.008Z",
+   "bytes": 49072,
    "boundProject": "zenray-meshes"
   },
   {
@@ -47,8 +47,8 @@
    "provider": "claude",
    "sessionId": "6800f4cb-0693-4309-9fee-622e37a3698e",
    "title": "Camion Gnomon reproduit dans Houdini",
-   "updatedAt": "2026-11-04T21:01:44.894Z",
-   "bytes": 98215556,
+   "updatedAt": "2026-11-04T21:04:25.650Z",
+   "bytes": 41437,
    "boundProject": null
   },
   {
