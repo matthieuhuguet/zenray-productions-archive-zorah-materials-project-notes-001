@@ -7676,3 +7676,103 @@
 - Project: zorah-materials; kind: prompt. (4 November 2026, 02:36:45 +0100)
 
 > Prompt 4 November 2026 : /Users/zenray/Downloads/e4check.png ; ce qu'on fait dans le prompt et le script Python ne marche pas du tout ; repartir de zéro : corriger la base color pour corriger le bug d'ombrage, puis obtenir le plus de détails depuis la base color, sans lighting ; faire le test soi-même puis adapter le prompt ; le prompt fait trop de variations qui changent complètement l'image, les couleurs ne sont pas bonnes ; faire une sheet pour tester ; tournoi depuis l'img ref pour obtenir le plus de détails de la base color (/zenray-methodology). (4 November 2026, 02:36:45 +0100)
+
+## 4 November 2026, 02:39:30 +0100 : Iteration
+
+<!-- feedback-event:0ac2aa7d5a94e252744fe2daa7ca47eed6e35b44787fee1370e0cc1f856a53a0 (4 November 2026, 02:39:30 +0100) -->
+- Project: zorah-materials; kind: iteration. (4 November 2026, 02:39:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 02:39:30 +0100)
+
+> The sixteen methods are running on the bench; I wait for the result. (4 November 2026, 02:39:30 +0100)
+
+## 4 November 2026, 02:39:39 +0100 : Iteration
+
+<!-- feedback-event:20a7fa458028d15bd6d817f9802c0d67dab592925846323c7b0ac1c61e7cb21f (4 November 2026, 02:39:39 +0100) -->
+- Project: zorah-materials; kind: iteration. (4 November 2026, 02:39:39 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 02:39:39 +0100)
+
+> Le tournoi tourne sur le banc (seize méthodes, quatre phases chacune) ; je reprends dès qu'il a fini pour vous envoyer les planches. (4 November 2026, 02:39:39 +0100)
+
+## 4 November 2026, 02:40:07 +0100 : Prompt
+
+<!-- feedback-event:78794a1ad5b8288ce53a5ab638668e408f6e9f6ff4c58caa527ee071856b0703 (4 November 2026, 02:40:07 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 02:40:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 02:40:07 +0100)
+
+> <task-notification> (4 November 2026, 02:40:07 +0100)
+> <task-id>bhs5t4gam</task-id> (4 November 2026, 02:40:07 +0100)
+> <tool-use-id>toolu_01HTRefR7a28tpVN8ixJ1dA3</tool-use-id> (4 November 2026, 02:40:07 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a/tasks/bhs5t4gam.output</output-file> (4 November 2026, 02:40:07 +0100)
+> <status>completed</status> (4 November 2026, 02:40:07 +0100)
+> <summary>Background command "Run the sixteen methods with four phases and the bracket" completed (exit code 0)</summary> (4 November 2026, 02:40:07 +0100)
+> </task-notification> (4 November 2026, 02:40:07 +0100)
+
+## 4 November 2026, 02:42:07 +0100 : Iteration
+
+<!-- feedback-event:abe3e570139a9439bcfe161eb0fc32da633f64bd823f30c5d233b8c6b8bad1e9 (4 November 2026, 02:42:07 +0100) -->
+- Project: zorah-materials; kind: iteration. (4 November 2026, 02:42:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 02:42:07 +0100)
+
+> Le deuxième tour tourne ; je reprends dès qu'il a fini. (4 November 2026, 02:42:07 +0100)
+
+## 4 November 2026, 02:42:55 +0100 : Prompt
+
+<!-- feedback-event:fce94ddb25b243f6df81a0d48f7972765a0afe717e8f8f9231a2bd3c8a0b2b74 (4 November 2026, 02:42:55 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 02:42:55 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 02:42:55 +0100)
+
+> <task-notification> (4 November 2026, 02:42:55 +0100)
+> <task-id>bso9hunsh</task-id> (4 November 2026, 02:42:55 +0100)
+> <tool-use-id>toolu_01YTDE6hVKXmqt9fEdre49Mq</tool-use-id> (4 November 2026, 02:42:55 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a/tasks/bso9hunsh.output</output-file> (4 November 2026, 02:42:55 +0100)
+> <status>completed</status> (4 November 2026, 02:42:55 +0100)
+> <summary>Background command "Run round two of the de-lighting tournament" completed (exit code 0)</summary> (4 November 2026, 02:42:55 +0100)
+> </task-notification> (4 November 2026, 02:42:55 +0100)
+
+## 4 November 2026, 02:44:04 +0100 : Iteration
+
+<!-- feedback-event:f37c282ce68e51832fb9a7c7719cf2970533f247c5435db0ef0765bd8ad21572 (4 November 2026, 02:44:04 +0100) -->
+- Project: zorah-materials; kind: iteration. (4 November 2026, 02:44:04 +0100)
+
+> Itération 4 November 2026, 02:44 : tournoi de délighting sans IA depuis le panneau, banc à vérité connue (DelightTournament.py, DelightTournament2.py) ; tour 1 vainqueur M11, tour 2 (bandes nettes, M17 et M18 nouvelles) vainqueur M04 bilatéral 0,848 devant M13 0,840 ; à l'œil M04 efface la bande en gardant le détail, M17 seule à garder les teintes des blocs mais avec des marches entre blocs ; planches finalists.png et sheet2_real_panel.png envoyées ; verdict de Matthieu attendu. (4 November 2026, 02:44:04 +0100)
+
+## 4 November 2026, 02:44:25 +0100 : Iteration
+
+<!-- feedback-event:89f4714c7c3c62987ce350ca5c1197d5fbb0b05d30de2bf976584db4627053b2 (4 November 2026, 02:44:25 +0100) -->
+- Project: zorah-materials; kind: iteration. (4 November 2026, 02:44:25 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 02:44:25 +0100)
+
+> Le tournoi est fait, et il a été joué sans génération d'image : seize méthodes, quatre réglages chacune, deux tours. Il en sort deux candidates. M04 (bilatéral) gagne le banc d'essai. M17 (Poisson des joints) est la seule qui efface la bande d'ombre en gardant les couleurs propres de chaque bloc. Aucune des deux n'est encore réglée, et le prompt n'est pas réécrit : je règle seulement la méthode que vous choisissez. (4 November 2026, 02:44:25 +0100)
+>
+> **Le banc d'essai.** Pour pouvoir noter les méthodes, il fallait une base color dont on connaît la vraie réponse. J'ai pris la base color d2 harmonisée et je l'ai éclairée comme le panneau : bandes d'ombre nettes, spot, et relief éclairé tiré de la height. Chaque méthode doit retrouver cette base color de départ. Le juge marche dans les deux sens : la vraie base color obtient 1,0, et le panneau éclairé non corrigé 0,69. (4 November 2026, 02:44:25 +0100)
+>
+> **Ce que vaut e4check.** Il est presque identique au panneau, bandes de lumière comprises. La génération d'image ne retire pas la lumière ; en revanche, elle modifie la composition et les couleurs. (4 November 2026, 02:44:25 +0100)
+>
+> **Résultat du banc.** M04 (bilatéral, qui estime la lumière en gardant ses bords) gagne la finale contre M13 (régions d'ombre rééclairées), 0,848 contre 0,840. Presque toutes les méthodes gardent le détail fin : 0,99 de corrélation avec la vraie base color. (4 November 2026, 02:44:25 +0100)
+>
+> **Sur le vrai panneau, à l'œil :** (4 November 2026, 02:44:25 +0100)
+> - **M04** efface presque toute la bande et garde le détail, mais les teintes des blocs s'aplatissent un peu. (4 November 2026, 02:44:25 +0100)
+> - **M13 et M15** laissent encore une trace de la bande. (4 November 2026, 02:44:25 +0100)
+> - **M17** est la seule qui efface la bande en gardant les couleurs propres de chaque bloc. Elle part de la height : la lumière continue d'un bloc à l'autre à travers les joints, alors que la couleur de la pierre change d'un bloc à l'autre. En revanche, elle crée des marches de clarté entre blocs dans les coins sombres. (4 November 2026, 02:44:25 +0100)
+> - **M09 et M10** cassent l'image, et les méthodes fondées sur les normales perdent du détail fin. (4 November 2026, 02:44:25 +0100)
+>
+> **Pour le prompt.** La base color doit se faire en Python seulement, avec la méthode gagnante, parce que c'est l'étape d'IA qui changeait les couleurs. Une fois la méthode choisie, je la règle, puis je réécris le prompt sans étape de génération d'image. (4 November 2026, 02:44:25 +0100)
+>
+> | Ce que vous vouliez | Fait ? | Comment je le sais | (4 November 2026, 02:44:25 +0100)
+> |---|---|---| (4 November 2026, 02:44:25 +0100)
+> | Repartir de zéro et corriger l'ombrage de la base color | En cours | Seize méthodes jouées depuis le panneau, sans IA, chacune notée face à une base color connue | (4 November 2026, 02:44:25 +0100)
+> | Garder le plus de détails | Oui pour les finalistes | Le détail fin reste corrélé à 0,99 avec la vraie base color pour M04, M13 et M17 | (4 November 2026, 02:44:25 +0100)
+> | Une planche pour tester | Oui | Les finalistes en grand, plus la planche complète des seize méthodes sur le vrai panneau | (4 November 2026, 02:44:25 +0100)
+> | Adapter le prompt | Pas encore | Le prompt attend votre choix de méthode | (4 November 2026, 02:44:25 +0100)
+>
+> Fichiers : (4 November 2026, 02:44:25 +0100)
+> - Finalistes : [finalists.png](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/delight-tournament-4-November-2026/finalists.png) (4 November 2026, 02:44:25 +0100)
+> - Seize méthodes sur le panneau : [sheet2_real_panel.png](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/delight-tournament-4-November-2026/sheet2_real_panel.png) (4 November 2026, 02:44:25 +0100)
+> - Feuille des méthodes et défaites : [METHODS.md](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Analysis/delight-tournament-4-November-2026/METHODS.md) (4 November 2026, 02:44:25 +0100)
+> - Scripts : [DelightTournament.py](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Scripts/DelightTournament.py) et [DelightTournament2.py](/Users/zenray/.claude/tmp/tmp-zorah-materials-3-november-2026/Scripts/DelightTournament2.py) (4 November 2026, 02:44:25 +0100)
+>
+> Le choix visuel vous revient ; vérifiez et fiez-vous à votre for intérieur. (4 November 2026, 02:44:25 +0100)
+>
+> Reformulation plus courte de votre demande : « Fais un tournoi de méthodes, sans IA, qui retire la lumière du panneau en gardant tout le détail de couleur, montre-le sur une planche, puis on adapte le prompt. » (4 November 2026, 02:44:25 +0100)
+> - **Délighting** : retirer d'une image la lumière et les ombres pour ne garder que la couleur propre de la matière. (4 November 2026, 02:44:25 +0100)
+> - **Filtre bilatéral** : un flou qui s'arrête aux bords marqués, ici pour estimer la lumière sans effacer la limite de l'ombre. (4 November 2026, 02:44:25 +0100)
