@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-04T21:17:19.908Z",
+ "scannedAt": "2026-11-04T21:24:17.112Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
@@ -15,8 +15,8 @@
    "provider": "claude",
    "sessionId": "e3fcfc3d-2756-4ada-8b78-faa7ff7c168a",
    "title": "zorah materials",
-   "updatedAt": "2026-11-04T21:15:58.184Z",
-   "bytes": 38280,
+   "updatedAt": "2026-11-04T21:22:56.654Z",
+   "bytes": 38275,
    "boundProject": "zorah-materials"
   },
   {
