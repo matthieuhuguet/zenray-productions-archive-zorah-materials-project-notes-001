@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-04T07:55:23.789Z",
+ "scannedAt": "2026-11-04T13:56:37.133Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
@@ -18,6 +18,54 @@
    "updatedAt": "2026-11-04T01:53:29.924Z",
    "bytes": 38359,
    "boundProject": "zorah-materials"
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-04T12:10:30.695Z",
+   "last": "2026-11-04T12:10:30.695Z",
+   "strength": "weak",
+   "conversationId": "claude:a1fda4e5-399d-437b-9e9e-c21bc6b9973f",
+   "provider": "claude",
+   "sessionId": "a1fda4e5-399d-437b-9e9e-c21bc6b9973f",
+   "title": "Skill ZenRay Build Nintendo Games",
+   "updatedAt": "2026-11-04T13:43:18.407Z",
+   "bytes": 37949,
+   "boundProject": null
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-04T12:50:54.363Z",
+   "last": "2026-11-04T12:50:54.363Z",
+   "strength": "weak",
+   "conversationId": "claude:ab8eb886-c8c8-4907-9217-d36f0dd11c49",
+   "provider": "claude",
+   "sessionId": "ab8eb886-c8c8-4907-9217-d36f0dd11c49",
+   "title": "Libération d'espace disque Mac",
+   "updatedAt": "2026-11-04T13:19:44.787Z",
+   "bytes": 37948,
+   "boundProject": null
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-04T12:37:31.310Z",
+   "last": "2026-11-04T12:37:31.310Z",
+   "strength": "weak",
+   "conversationId": "claude:c0e93d26-8268-4475-97b4-0c4c7af585f8",
+   "provider": "claude",
+   "sessionId": "c0e93d26-8268-4475-97b4-0c4c7af585f8",
+   "title": "Zelda Twilight Princess ROM parts renaming",
+   "updatedAt": "2026-11-04T12:37:58.069Z",
+   "bytes": 37896,
+   "boundProject": null
   },
   {
    "projectId": "zorah-materials",
