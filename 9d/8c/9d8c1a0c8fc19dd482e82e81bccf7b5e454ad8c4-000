@@ -7449,3 +7449,230 @@
 > Reformulation plus courte de votre demande : « Donne un prompt base color complet qui retire seulement l'ombrage et garde toute l'information de couleur, en tirant la leçon de C3 contre D2. » (4 November 2026, 02:16:35 +0100)
 > - **Balance des blancs** : un réglage par canal qui corrige la teinte d'ensemble sans toucher aux écarts entre zones. (4 November 2026, 02:16:35 +0100)
 > - **Lumière linéaire** : les valeurs de couleur avant la courbe d'affichage, là où la lumière s'additionne et se multiplie correctement. (4 November 2026, 02:16:35 +0100)
+
+## 4 November 2026, 02:35:41 +0100 : Prompt
+
+<!-- feedback-event:78b7ed76e8cfddc2d001e98229cf503caa99f90051915d6794b04b3c03702e57 (4 November 2026, 02:35:41 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 02:35:41 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 02:35:41 +0100)
+
+> /Users/zenray/Downloads/e4check.png Le problème, c'est que actuellement, ce qu'on fait, à mon avis, dans le prompt et dans le script Python, ça marche pas du tout. Donc en fait, ce qu'il faut, c'est simplement corriger la base color. Repartons de zéro. En fait, ce qu'il faut, c'est corriger la base color afin de corriger le bug d'ombrage, puis d'essayer d'obtenir le plus de détails depuis la base color, mais sans lighting, etc. Donc il faudrait que tu fasses le test de toi-même et ensuite on adaptera le prompt. Mais là actuellement le prompt il fait trop de variations qui changent complètement l'image et du coup on n'obtient pas les bonnes couleurs, etc. Donc faisons une sheet qui nous permette de tester des choses et je sais pas trop quoi faire. testons un tournoi depuis l'img ref pour obtenir le plus de détails de la base color /zenray-methodology (4 November 2026, 02:35:41 +0100)
+
+## 4 November 2026, 02:36:34 +0100 : Prompt
+
+<!-- feedback-event:f92ba50cc8174ff217f6642fa7ef45a2c3ec53a7721e81e70578e8911e820871 (4 November 2026, 02:36:34 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 02:36:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 02:36:34 +0100)
+
+> (Re-invocation of /zenray-methodology — the skill instructions were previously loaded; the arguments or dynamic output below are new.) (4 November 2026, 02:36:34 +0100)
+
+## 4 November 2026, 02:36:34 +0100 : Prompt
+
+<!-- feedback-event:47f2a1ac2b0791bc283739c7659e86d0c3e4b23239cad50a82b7306bd6ba274b (4 November 2026, 02:36:34 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 02:36:34 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 02:36:34 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-methodology (4 November 2026, 02:36:34 +0100)
+>
+> # Méthodologie : itérer sur la méthode, pas sur le résultat (10 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> Ce skill fixe la conduite à tenir lorsqu'un travail bloque. Il vaut pour toute tâche où un résultat ne vient pas, qu'il s'agisse d'une image, d'un code, d'un modèle 3D, d'une texture, d'une mise en page ou de données (10 October 2026). (4 November 2026, 02:36:34 +0100)
+>
+> Il ne remplace ni `debug-par-la-preuve`, qui remonte d'un symptôme à la cause d'un bug, ni `tasks-sequence`, qui découpe une demande en étapes. Il répond à une autre question, celle de la méthode à construire (10 October 2026). (4 November 2026, 02:36:34 +0100)
+>
+> ## Le principe (10 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> - Un réglage ne modifie que des valeurs, jamais la forme de ce qu'on construit. Si la structure de la méthode est fausse, aucune valeur ne peut la sauver (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - Quand on bloque, on n'itère donc pas sur le résultat d'une seule méthode. On itère sur la méthode elle-même, jusqu'à en trouver une qui débloque, et l'on ne règle finement que celle-là (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - Une comparaison aide à le comprendre : une clé qui ne tourne pas dans une serrure ne se lime pas indéfiniment. On en essaie une autre, on garde celle qui ouvre, puis on ajuste (10 October 2026). (4 November 2026, 02:36:34 +0100)
+>
+> ## La procédure (10 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> 1. Il faut d'abord cesser de retoucher les valeurs de la méthode bloquée, puis nommer le blocage par un symptôme précis et mesuré (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> 2. Ensuite, on dresse la liste d'au moins seize méthodes différentes qui pourraient fonctionner. Chacune repose sur un principe distinct, et non sur un simple autre réglage. Ces méthodes se consignent dans la feuille du chantier (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> 3. On ne teste alors que les quatre premières phases de chaque méthode. Une phase est un pas de la méthode, tandis qu'une passe désigne un essai complet du graphe, construit d'un seul coup. Chaque phase donne une planche et une mesure (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> 4. Les masques noir et blanc servent à mesurer. Leur seuil provient de la seule référence, et ils désignent la prochaine itération. Aucun score ne sert de porte, et la référence ne se copie jamais dans le graphe (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> 5. Il reste à comparer les planches côte à côte, à l'œil, avant toute conclusion (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> 6. On tranche alors selon le critère que Matthieu fixe après les quatre phases (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> 7. Seulement après, on règle la méthode retenue par ses paramètres (10 October 2026). (4 November 2026, 02:36:34 +0100)
+>
+> ## Garde-fous (10 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> - Le nombre de passes ne constitue pas une méthode. Dès lors, pour une passe donnée, il faut chercher le nombre maximal de couches qu'elle peut porter : on teste 4096, 2048, 1024, puis 512, en mesurant le temps de calcul et les plantages (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - Chaque méthode est limitée à trente-deux passes. Au-delà, on change radicalement de méthode, car une simple variante de la même ne sauve rien (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - Lorsqu'une itération s'étire, résiste ou tourne sans gain mesurable, on suspend la boucle. On cherche alors pourquoi la méthode coince, on relit les consignes pour vérifier qu'on ne les trahit pas, puis l'on propose une méthode meilleure avant de reprendre (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - Après deux essais ratés par le texte, on demande plutôt une capture annotée, qui débloque souvent plus vite qu'une description détaillée (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - La voie la plus rapide passe en premier : une mesure, une capture de la vue ou un rendu léger, plutôt qu'une longue attente. Une relance planifiée ne descend pas sous soixante secondes. Lorsque la consigne fixe une durée, on ne s'arrête pas après chaque passe (10 October 2026). (4 November 2026, 02:36:34 +0100)
+>
+> ## Le registre (10 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> - Chaque chantier tient une feuille explicative qui recense chaque méthode, son résultat et la raison de son abandon. Une piste écartée ne se rejoue jamais (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - Chaque demande de Matthieu se consigne dans le FEEDBACK du projet, sous un identifiant d'événement stable (10 October 2026). (4 November 2026, 02:36:34 +0100)
+>
+> ## Le lien avec le HDA (10 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> - La méthode joue le rôle de la définition, puisqu'elle porte la structure. Les paramètres en sont les instances, que l'on règle seulement après avoir choisi la bonne définition (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - En revanche, une valeur se modifie en un seul endroit, et l'on ne paramètre que ce qui varie déjà (10 October 2026). (4 November 2026, 02:36:34 +0100)
+>
+> ## La preuve (10 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> - Chaque méthode dispose d'une planche et d'une mesure. Un vérificateur se teste dans les deux sens : il doit rendre le vert sur un cas juste, la référence comparée à elle-même (IoU de 1, zéro erreur), et le rouge sur un cas cassé, la référence inversée (IoU de 0). L'IoU, ou intersection sur union, mesure le recouvrement de deux masques (10 October 2026). (4 November 2026, 02:36:34 +0100)
+>
+> ## Exemple vécu : la fenêtre de Louisiana Bayou (10 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> - Feuille de suivi : [WindowMethodSheet.md](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/WindowMethodSheet.md) (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - Mesure par masques : [MaskMeasure.py](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/Scripts/MaskMeasure.py). Lanceur par passe : [PassLoop.py](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/Scripts/PassLoop.py) (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - Saturation mesurée : 256 familles de peinture, sur 512 au total, couvraient 85 % du canevas à l'union par max. Une couverture calibrée pour chaque famille ramène cette part à 34 % (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - Recalcul mesuré : 512 familles de type absolu ont pris 31,7 s, contre 16,1 s pour 256, d'où une limite propre à chaque type de famille (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - Capacité mesurée : 4136 nœuds recalculés en 8,25 s, puis 8232 nœuds en 66,8 s (10 October 2026). (4 November 2026, 02:36:34 +0100)
+>
+> ## Voir aussi (10 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> - `zenray-houdini` : outillage Houdini, avec un renvoi vers ce skill en tête de sa section PRIORITÉ 0 (10 October 2026). (4 November 2026, 02:36:34 +0100)
+> - `progress` : consigner chaque méthode testée et son verdict dans le journal (10 October 2026). (4 November 2026, 02:36:34 +0100)
+>
+> ## 10 October 2026 : méthode complète de la boucle M01 (consigne de Matthieu, 23:58) (4 November 2026, 02:36:34 +0100)
+>
+> - 10 October 2026 : CORRECTION de la règle 4, « Aucun score ne sert de porte ». Le score sert désormais de critère d'arrêt de la boucle et règle la couverture de chaque région ; la décision finale reste visuelle, et elle se consigne à côté du score. (10 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 10 October 2026 : CORRECTION de la règle « trente-deux passes par méthode ». La boucle M01 va au moins à 96 passes, avec un plafond de sécurité de 300. (10 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 10 October 2026 : N et M sont des indications que la boucle détermine. Pour la fenêtre : N = 512 familles, soit 4096 nodes ; M = au moins 96 passes, puis arrêt au verdict ou au plateau. (10 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 10 October 2026 : vérification par cellules : grille de 4 lignes et 2 colonnes, seuils provisoires de 0,01 par cellule et 0,02 par région, à tester contre le verdict à l'œil. (10 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 10 October 2026 : un essai qui empire est consigné puis désactivé. La passe P10 (768 familles, profondeur pilotée) est passée de 0,076 à 0,175 ; elle ne se refait pas sans étude. (10 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 10 October 2026 : relance par processus en arrière-plan, avec une pause de 15 secondes entre deux passes. Le cron est exclu : son minimum est une minute. (10 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 10 October 2026 : la boucle s'arrête seule et s'annonce quand elle piétine (plateau), conformément à la pause réflexive du 06 October 2026. (10 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> ## 11 October 2026 : CORRECTION, piétinement alternant et pivot autonome (boucle M01) (4 November 2026, 02:36:34 +0100)
+>
+> - 11 October 2026 : PIÉTINEMENT. Une boucle dont la répartition des familles se recalcule à chaque passe peut alterner entre deux états : bon, mauvais, bon, mauvais (P11 à P16 : 0,07 puis 0,15). Un gain plus faible ne suffit pas à le supprimer. (11 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 11 October 2026 : PIVOT, selon la règle de pause réflexive. On fige la variable qui oscille (répartition égale par compartiment) et on ne laisse varier que la couverture, avec un gain amorti. Après le pivot, les passes P17 à P19 sont stables à 0,060. (11 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 11 October 2026 : la profondeur de trou devient une variable de la boucle, bornée à 0,10 et 0,45. C'est le seul levier qui fait monter la part sombre de la zone « haut » ; la couverture seule plafonne. (11 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 11 October 2026 : N, nombre de familles, est le plus grand nombre dont la cuisson reste sous 20 s (règle de Matthieu). Un essai à une seule passe ne tranche pas ; il faut plusieurs passes avant de juger. (11 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> ## 11 October 2026 : renvoi, bilan de la fenêtre et méthode par composantes (4 November 2026, 02:36:34 +0100)
+>
+> - 11 October 2026 : le bilan complet et daté est dans `~/.claude/skills/zenray-houdini/references/WindowBilan1.md`. Il contient les seize méthodes, la boucle de P9 à P38, le score à 12 composantes et la méthode proposée. (11 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 11 October 2026 : le score (`Metrics2.py`) n'est plus seulement un journal. Il devient la mesure qui guide les paramètres : chaque composante en écart pilote un paramètre dédié, la répartition est figée, les réglages sont amortis. Le seul contrôleur par fractions plafonne. (11 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> ## 11 October 2026 : test des leviers, couplage mesuré, plan d'expérience proposé (4 November 2026, 02:36:34 +0100)
+>
+> - 11 October 2026 : un levier par composante ne suffit pas. L'étirement horizontal pilote l'anisotropie et l'orientation, mais il fait fusionner les taches et baisser l'énergie des bords. Mesuré : EQUIV de 0,552 à 0,562 seulement. (11 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 11 October 2026 : méthode suivante proposée : un plan d'expérience (huit à seize passes) pour mesurer la sensibilité des douze composantes à quatre paramètres, puis un pas amorti. Détail et chiffres dans `~/.claude/skills/zenray-houdini/references/WindowBilan1.md`, section 11. (11 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+> ## 26 October 2026 : arbre en tournoi, une seule méthode vainqueur (consigne de Matthieu) (4 November 2026, 02:36:34 +0100)
+>
+> - 26 October 2026 : mots de Matthieu (grammaire seule) : « le but, c'est de comparer beaucoup de méthodes et de faire comme un tournoi dans Dragon Ball Z pour gagner uniquement la méthode vainqueur. » Le tournoi ne réduit pas le nombre de méthodes : on en aligne toujours au moins seize, de principes distincts, comme la procédure le prévoit. (26 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 26 October 2026 : l'arbre est un tableau à élimination directe. Chaque tour oppose les méthodes deux à deux sur la même mesure (masques, planche côte à côte, verdict à l'œil) : 16 → 8 → 4 → 2 → 1. Le perdant sort et se consigne dans la feuille du chantier avec la raison de sa défaite ; il ne se rejoue jamais. (26 October 2026) (4 November 2026, 02:36:34 +0100)
+> - 26 October 2026 : chaque méthode passe ses quatre phases comme la procédure le prévoit, puis le tableau se joue sur leurs planches et leurs mesures. Seule la méthode vainqueur passe ensuite au réglage de ses paramètres. (26 October 2026) (4 November 2026, 02:36:34 +0100)
+>
+>
+> ARGUMENTS: tournoi depuis l'image de référence pour obtenir le plus de détails de la base color sans lighting (4 November 2026, 02:36:34 +0100)
+
+## 4 November 2026, 02:36:38 +0100 : Prompt
+
+<!-- feedback-event:5973d7ce2dcf49c19ef56030e02c1dba5a940103ea8df54969ff1ad7172ad85c (4 November 2026, 02:36:38 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 02:36:38 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 02:36:38 +0100)
+
+> (Re-invocation of /zenray-methodology — the skill instructions were previously loaded; the arguments or dynamic output below are new.) (4 November 2026, 02:36:38 +0100)
+>
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-methodology (4 November 2026, 02:36:38 +0100)
+>
+> # Méthodologie : itérer sur la méthode, pas sur le résultat (10 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> Ce skill fixe la conduite à tenir lorsqu'un travail bloque. Il vaut pour toute tâche où un résultat ne vient pas, qu'il s'agisse d'une image, d'un code, d'un modèle 3D, d'une texture, d'une mise en page ou de données (10 October 2026). (4 November 2026, 02:36:38 +0100)
+>
+> Il ne remplace ni `debug-par-la-preuve`, qui remonte d'un symptôme à la cause d'un bug, ni `tasks-sequence`, qui découpe une demande en étapes. Il répond à une autre question, celle de la méthode à construire (10 October 2026). (4 November 2026, 02:36:38 +0100)
+>
+> ## Le principe (10 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> - Un réglage ne modifie que des valeurs, jamais la forme de ce qu'on construit. Si la structure de la méthode est fausse, aucune valeur ne peut la sauver (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - Quand on bloque, on n'itère donc pas sur le résultat d'une seule méthode. On itère sur la méthode elle-même, jusqu'à en trouver une qui débloque, et l'on ne règle finement que celle-là (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - Une comparaison aide à le comprendre : une clé qui ne tourne pas dans une serrure ne se lime pas indéfiniment. On en essaie une autre, on garde celle qui ouvre, puis on ajuste (10 October 2026). (4 November 2026, 02:36:38 +0100)
+>
+> ## La procédure (10 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> 1. Il faut d'abord cesser de retoucher les valeurs de la méthode bloquée, puis nommer le blocage par un symptôme précis et mesuré (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> 2. Ensuite, on dresse la liste d'au moins seize méthodes différentes qui pourraient fonctionner. Chacune repose sur un principe distinct, et non sur un simple autre réglage. Ces méthodes se consignent dans la feuille du chantier (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> 3. On ne teste alors que les quatre premières phases de chaque méthode. Une phase est un pas de la méthode, tandis qu'une passe désigne un essai complet du graphe, construit d'un seul coup. Chaque phase donne une planche et une mesure (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> 4. Les masques noir et blanc servent à mesurer. Leur seuil provient de la seule référence, et ils désignent la prochaine itération. Aucun score ne sert de porte, et la référence ne se copie jamais dans le graphe (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> 5. Il reste à comparer les planches côte à côte, à l'œil, avant toute conclusion (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> 6. On tranche alors selon le critère que Matthieu fixe après les quatre phases (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> 7. Seulement après, on règle la méthode retenue par ses paramètres (10 October 2026). (4 November 2026, 02:36:38 +0100)
+>
+> ## Garde-fous (10 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> - Le nombre de passes ne constitue pas une méthode. Dès lors, pour une passe donnée, il faut chercher le nombre maximal de couches qu'elle peut porter : on teste 4096, 2048, 1024, puis 512, en mesurant le temps de calcul et les plantages (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - Chaque méthode est limitée à trente-deux passes. Au-delà, on change radicalement de méthode, car une simple variante de la même ne sauve rien (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - Lorsqu'une itération s'étire, résiste ou tourne sans gain mesurable, on suspend la boucle. On cherche alors pourquoi la méthode coince, on relit les consignes pour vérifier qu'on ne les trahit pas, puis l'on propose une méthode meilleure avant de reprendre (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - Après deux essais ratés par le texte, on demande plutôt une capture annotée, qui débloque souvent plus vite qu'une description détaillée (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - La voie la plus rapide passe en premier : une mesure, une capture de la vue ou un rendu léger, plutôt qu'une longue attente. Une relance planifiée ne descend pas sous soixante secondes. Lorsque la consigne fixe une durée, on ne s'arrête pas après chaque passe (10 October 2026). (4 November 2026, 02:36:38 +0100)
+>
+> ## Le registre (10 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> - Chaque chantier tient une feuille explicative qui recense chaque méthode, son résultat et la raison de son abandon. Une piste écartée ne se rejoue jamais (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - Chaque demande de Matthieu se consigne dans le FEEDBACK du projet, sous un identifiant d'événement stable (10 October 2026). (4 November 2026, 02:36:38 +0100)
+>
+> ## Le lien avec le HDA (10 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> - La méthode joue le rôle de la définition, puisqu'elle porte la structure. Les paramètres en sont les instances, que l'on règle seulement après avoir choisi la bonne définition (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - En revanche, une valeur se modifie en un seul endroit, et l'on ne paramètre que ce qui varie déjà (10 October 2026). (4 November 2026, 02:36:38 +0100)
+>
+> ## La preuve (10 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> - Chaque méthode dispose d'une planche et d'une mesure. Un vérificateur se teste dans les deux sens : il doit rendre le vert sur un cas juste, la référence comparée à elle-même (IoU de 1, zéro erreur), et le rouge sur un cas cassé, la référence inversée (IoU de 0). L'IoU, ou intersection sur union, mesure le recouvrement de deux masques (10 October 2026). (4 November 2026, 02:36:38 +0100)
+>
+> ## Exemple vécu : la fenêtre de Louisiana Bayou (10 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> - Feuille de suivi : [WindowMethodSheet.md](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/WindowMethodSheet.md) (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - Mesure par masques : [MaskMeasure.py](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/Scripts/MaskMeasure.py). Lanceur par passe : [PassLoop.py](/Users/zenray/Create/Build/Productions/ZenRayHoudini/LouisianaBayou/Heights/Scripts/PassLoop.py) (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - Saturation mesurée : 256 familles de peinture, sur 512 au total, couvraient 85 % du canevas à l'union par max. Une couverture calibrée pour chaque famille ramène cette part à 34 % (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - Recalcul mesuré : 512 familles de type absolu ont pris 31,7 s, contre 16,1 s pour 256, d'où une limite propre à chaque type de famille (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - Capacité mesurée : 4136 nœuds recalculés en 8,25 s, puis 8232 nœuds en 66,8 s (10 October 2026). (4 November 2026, 02:36:38 +0100)
+>
+> ## Voir aussi (10 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> - `zenray-houdini` : outillage Houdini, avec un renvoi vers ce skill en tête de sa section PRIORITÉ 0 (10 October 2026). (4 November 2026, 02:36:38 +0100)
+> - `progress` : consigner chaque méthode testée et son verdict dans le journal (10 October 2026). (4 November 2026, 02:36:38 +0100)
+>
+> ## 10 October 2026 : méthode complète de la boucle M01 (consigne de Matthieu, 23:58) (4 November 2026, 02:36:38 +0100)
+>
+> - 10 October 2026 : CORRECTION de la règle 4, « Aucun score ne sert de porte ». Le score sert désormais de critère d'arrêt de la boucle et règle la couverture de chaque région ; la décision finale reste visuelle, et elle se consigne à côté du score. (10 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 10 October 2026 : CORRECTION de la règle « trente-deux passes par méthode ». La boucle M01 va au moins à 96 passes, avec un plafond de sécurité de 300. (10 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 10 October 2026 : N et M sont des indications que la boucle détermine. Pour la fenêtre : N = 512 familles, soit 4096 nodes ; M = au moins 96 passes, puis arrêt au verdict ou au plateau. (10 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 10 October 2026 : vérification par cellules : grille de 4 lignes et 2 colonnes, seuils provisoires de 0,01 par cellule et 0,02 par région, à tester contre le verdict à l'œil. (10 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 10 October 2026 : un essai qui empire est consigné puis désactivé. La passe P10 (768 familles, profondeur pilotée) est passée de 0,076 à 0,175 ; elle ne se refait pas sans étude. (10 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 10 October 2026 : relance par processus en arrière-plan, avec une pause de 15 secondes entre deux passes. Le cron est exclu : son minimum est une minute. (10 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 10 October 2026 : la boucle s'arrête seule et s'annonce quand elle piétine (plateau), conformément à la pause réflexive du 06 October 2026. (10 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> ## 11 October 2026 : CORRECTION, piétinement alternant et pivot autonome (boucle M01) (4 November 2026, 02:36:38 +0100)
+>
+> - 11 October 2026 : PIÉTINEMENT. Une boucle dont la répartition des familles se recalcule à chaque passe peut alterner entre deux états : bon, mauvais, bon, mauvais (P11 à P16 : 0,07 puis 0,15). Un gain plus faible ne suffit pas à le supprimer. (11 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 11 October 2026 : PIVOT, selon la règle de pause réflexive. On fige la variable qui oscille (répartition égale par compartiment) et on ne laisse varier que la couverture, avec un gain amorti. Après le pivot, les passes P17 à P19 sont stables à 0,060. (11 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 11 October 2026 : la profondeur de trou devient une variable de la boucle, bornée à 0,10 et 0,45. C'est le seul levier qui fait monter la part sombre de la zone « haut » ; la couverture seule plafonne. (11 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 11 October 2026 : N, nombre de familles, est le plus grand nombre dont la cuisson reste sous 20 s (règle de Matthieu). Un essai à une seule passe ne tranche pas ; il faut plusieurs passes avant de juger. (11 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> ## 11 October 2026 : renvoi, bilan de la fenêtre et méthode par composantes (4 November 2026, 02:36:38 +0100)
+>
+> - 11 October 2026 : le bilan complet et daté est dans `~/.claude/skills/zenray-houdini/references/WindowBilan1.md`. Il contient les seize méthodes, la boucle de P9 à P38, le score à 12 composantes et la méthode proposée. (11 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 11 October 2026 : le score (`Metrics2.py`) n'est plus seulement un journal. Il devient la mesure qui guide les paramètres : chaque composante en écart pilote un paramètre dédié, la répartition est figée, les réglages sont amortis. Le seul contrôleur par fractions plafonne. (11 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> ## 11 October 2026 : test des leviers, couplage mesuré, plan d'expérience proposé (4 November 2026, 02:36:38 +0100)
+>
+> - 11 October 2026 : un levier par composante ne suffit pas. L'étirement horizontal pilote l'anisotropie et l'orientation, mais il fait fusionner les taches et baisser l'énergie des bords. Mesuré : EQUIV de 0,552 à 0,562 seulement. (11 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 11 October 2026 : méthode suivante proposée : un plan d'expérience (huit à seize passes) pour mesurer la sensibilité des douze composantes à quatre paramètres, puis un pas amorti. Détail et chiffres dans `~/.claude/skills/zenray-houdini/references/WindowBilan1.md`, section 11. (11 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+> ## 26 October 2026 : arbre en tournoi, une seule méthode vainqueur (consigne de Matthieu) (4 November 2026, 02:36:38 +0100)
+>
+> - 26 October 2026 : mots de Matthieu (grammaire seule) : « le but, c'est de comparer beaucoup de méthodes et de faire comme un tournoi dans Dragon Ball Z pour gagner uniquement la méthode vainqueur. » Le tournoi ne réduit pas le nombre de méthodes : on en aligne toujours au moins seize, de principes distincts, comme la procédure le prévoit. (26 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 26 October 2026 : l'arbre est un tableau à élimination directe. Chaque tour oppose les méthodes deux à deux sur la même mesure (masques, planche côte à côte, verdict à l'œil) : 16 → 8 → 4 → 2 → 1. Le perdant sort et se consigne dans la feuille du chantier avec la raison de sa défaite ; il ne se rejoue jamais. (26 October 2026) (4 November 2026, 02:36:38 +0100)
+> - 26 October 2026 : chaque méthode passe ses quatre phases comme la procédure le prévoit, puis le tableau se joue sur leurs planches et leurs mesures. Seule la méthode vainqueur passe ensuite au réglage de ses paramètres. (26 October 2026) (4 November 2026, 02:36:38 +0100)
+>
+>
+> ARGUMENTS: tournoi depuis l'image de référence pour obtenir le plus de détails de la base color sans lighting (4 November 2026, 02:36:38 +0100)
+
+## 4 November 2026, 02:36:45 +0100 : Prompt
+
+<!-- feedback-event:ee48be3253c8c89dc244dd8a0810f471dad6fdc2dd2110b4eb8bedab5ef12372 (4 November 2026, 02:36:45 +0100) -->
+- Project: zorah-materials; kind: prompt. (4 November 2026, 02:36:45 +0100)
+
+> Prompt 4 November 2026 : /Users/zenray/Downloads/e4check.png ; ce qu'on fait dans le prompt et le script Python ne marche pas du tout ; repartir de zéro : corriger la base color pour corriger le bug d'ombrage, puis obtenir le plus de détails depuis la base color, sans lighting ; faire le test soi-même puis adapter le prompt ; le prompt fait trop de variations qui changent complètement l'image, les couleurs ne sont pas bonnes ; faire une sheet pour tester ; tournoi depuis l'img ref pour obtenir le plus de détails de la base color (/zenray-methodology). (4 November 2026, 02:36:45 +0100)

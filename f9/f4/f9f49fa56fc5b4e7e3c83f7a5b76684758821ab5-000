@@ -1,23 +1,39 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-04T01:16:49.031Z",
+ "scannedAt": "2026-11-04T01:37:20.547Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
-   "lines": 654,
-   "work": 26,
+   "lines": 660,
+   "work": 27,
    "prompts": 8,
    "first": "2026-11-03T16:20:22.810Z",
-   "last": "2026-11-04T01:15:59.730Z",
+   "last": "2026-11-04T01:36:52.727Z",
    "strength": "strong",
    "conversationId": "claude:e3fcfc3d-2756-4ada-8b78-faa7ff7c168a",
    "provider": "claude",
    "sessionId": "e3fcfc3d-2756-4ada-8b78-faa7ff7c168a",
    "title": "zorah materials",
-   "updatedAt": "2026-11-04T01:16:13.593Z",
-   "bytes": 38066,
+   "updatedAt": "2026-11-04T01:36:52.837Z",
+   "bytes": 93806925,
    "boundProject": "zorah-materials"
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-04T01:29:24.759Z",
+   "last": "2026-11-04T01:29:24.759Z",
+   "strength": "weak",
+   "conversationId": "claude:57bf6970-5289-409f-a946-08738bf3dd84",
+   "provider": "claude",
+   "sessionId": "57bf6970-5289-409f-a946-08738bf3dd84",
+   "title": "gt america = clean font easy to read",
+   "updatedAt": "2026-11-04T01:31:57.209Z",
+   "bytes": 42941,
+   "boundProject": null
   }
  ]
 }
