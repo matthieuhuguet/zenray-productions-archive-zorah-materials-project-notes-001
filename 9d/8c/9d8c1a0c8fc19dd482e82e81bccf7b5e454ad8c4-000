@@ -8212,3 +8212,340 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (4 November 2026, 23:16:03 +0100)
 
 > Je ne relance pas la surveillance : la chaîne est finie depuis 23:06, et les six heights sont prêtes. (4 November 2026, 23:16:03 +0100)
+
+## 5 November 2026, 03:20:21 +0100 : Prompt
+
+<!-- feedback-event:1e018e2ac031daa478bdae73ef8b67d5b02e81c5dc514d14b288c9d17b4c2337 (5 November 2026, 03:20:21 +0100) -->
+- Project: zorah-materials; kind: prompt. (5 November 2026, 03:20:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (5 November 2026, 03:20:21 +0100)
+
+> <task-notification> (5 November 2026, 03:20:21 +0100)
+> <task-id>bxadb73kr</task-id> (5 November 2026, 03:20:21 +0100)
+> <task-id>btm2uumg0</task-id> (5 November 2026, 03:20:21 +0100)
+> <task-id>bmkhjfa0g</task-id> (5 November 2026, 03:20:21 +0100)
+> <task-id>__orphan_summary__:shell</task-id> (5 November 2026, 03:20:21 +0100)
+> <status>stopped</status> (5 November 2026, 03:20:21 +0100)
+> <summary>3 background shell command tasks didn't finish before the previous session ended. Task ids: bxadb73kr, btm2uumg0, bmkhjfa0g.</summary> (5 November 2026, 03:20:21 +0100)
+> <note>No completion record was found for them in the previous session. They may have been stopped (via the UI, Monitor timeout, or agent teardown — these leave no transcript marker), or they may have been running when the previous Claude Code process exited. They have been marked stopped. Task ids in this notification beginning with "__orphan_summary" are internal scan markers, not tasks.</note> (5 November 2026, 03:20:21 +0100)
+> </task-notification> (5 November 2026, 03:20:21 +0100)
+
+## 5 November 2026, 11:47:02 +0100 : Prompt
+
+<!-- feedback-event:c8d711859119563ec2a6558c5f0cc32b1409d4a90c242200be546f2bb29e8076 (5 November 2026, 11:47:02 +0100) -->
+- Project: zorah-materials; kind: prompt. (5 November 2026, 11:47:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (5 November 2026, 11:47:02 +0100)
+
+> https://claude.ai/code/cshk_01M5CzrR1uiCSvmDu71UzmtWXANPFz1WcWkrJUxMWbAgPa (5 November 2026, 11:47:02 +0100)
+> https://claude.ai/code/cshk_01M5CzrT9wxENqN3AjJQGznA9tBJxDysfdhkSck39AKbrZ (5 November 2026, 11:47:02 +0100)
+>
+> on finit leur travail organise le travail et fini le en local puis save /ctrl-s (5 November 2026, 11:47:02 +0100)
+
+## 5 November 2026, 11:49:21 +0100 : Iteration
+
+<!-- feedback-event:8c1af8846131d564f45f70df7f41f0c55fc3f690a408133a97896a687a7e04cb (5 November 2026, 11:49:21 +0100) -->
+- Project: zorah-materials; kind: iteration. (5 November 2026, 11:49:21 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (5 November 2026, 11:49:21 +0100)
+
+> Je déclare maintenant la synthèse Zorah comme article du projet dans ZenRay Assets, puis je la publie et l'archive dans le cloud. (5 November 2026, 11:49:21 +0100)
+
+## 5 November 2026, 11:50:37 +0100 : Iteration
+
+<!-- feedback-event:375172e3cb0b810f18c4026d6cc00cd9a08958353aa6f66f47fa0b3943b5458f (5 November 2026, 11:50:37 +0100) -->
+- Project: zorah-materials; kind: iteration. (5 November 2026, 11:50:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (5 November 2026, 11:50:37 +0100)
+
+> Le service ZenRay Assets, qui doit recevoir l'article, ne tourne pas sur le Mac ; je cherche pourquoi il ne démarre pas. (5 November 2026, 11:50:37 +0100)
+
+## 5 November 2026, 11:51:06 +0100 : Iteration
+
+<!-- feedback-event:514717bdf441f1216e163b97f5a6018f9b64c8b7f16b4ed22211c633f65c8f80 (5 November 2026, 11:51:06 +0100) -->
+- Project: zorah-materials; kind: iteration. (5 November 2026, 11:51:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (5 November 2026, 11:51:06 +0100)
+
+> Le service ne tourne pas pour une raison voulue : il s'arrête de lui-même quand l'application ZenRay Assets est fermée. J'ouvre l'application pour publier. (5 November 2026, 11:51:06 +0100)
+
+## 5 November 2026, 11:54:59 +0100 : Iteration
+
+<!-- feedback-event:00b4e97fff613d75a903b3b072574f930eaa208c3c66cf5bba7f2d3ef40d230f (5 November 2026, 11:54:59 +0100) -->
+- Project: zorah-materials; kind: iteration. (5 November 2026, 11:54:59 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (5 November 2026, 11:54:59 +0100)
+
+> Le dossier daté est maintenant relié au projet Assets, et l'archive est lancée. La déclaration de l'article est refusée ; je lis la règle de validation, puis je passe au Cloud Bridge. (5 November 2026, 11:54:59 +0100)
+
+## 5 November 2026, 11:56:01 +0100 : Iteration
+
+<!-- feedback-event:380f155e662cec6650afc7fdb15bc7b0d3e13d12b33091d36456f51410e15424 (5 November 2026, 11:56:01 +0100) -->
+- Project: zorah-materials; kind: iteration. (5 November 2026, 11:56:01 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (5 November 2026, 11:56:01 +0100)
+
+> L'article Zorah est déclaré dans Assets et son archive tourne. Je passe au Cloud Bridge : je teste d'abord sa branche dans un dossier séparé, sans toucher à `main`. (5 November 2026, 11:56:01 +0100)
+
+## 5 November 2026, 12:02:40 +0100 : Iteration
+
+<!-- feedback-event:e11adfa49adf031fa57282eb2d246c10864d7380c2eac3ed58e24d7fd01b2c92 (5 November 2026, 12:02:40 +0100) -->
+- Project: zorah-materials; kind: iteration. (5 November 2026, 12:02:40 +0100)
+
+> Itération 5 November 2026 : travail des deux sessions cloud appliqué en local (synthèse et règle SVG, Cloud Bridge fusionné dans main 5bcd04f9) ; article Synthesis.html déclaré dans Assets, archive en cours ; déploiement du site et aller-retour réel du bridge à décider. (5 November 2026, 12:02:40 +0100)
+
+## 5 November 2026, 12:00:56 +0100 : Iteration
+
+<!-- feedback-event:07e813b8fccedc36504b2907cff4f2e857006d4e1f12fb918de16f4b25365cba (5 November 2026, 12:00:56 +0100) -->
+- Project: zorah-materials; kind: iteration. (5 November 2026, 12:00:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (5 November 2026, 12:00:56 +0100)
+
+> Les deux skills sont à jour et synchronisés, et le premier index du Cloud Bridge est poussé. Je vérifie l'archive Assets de Zorah, puis je fais la sauvegarde. (5 November 2026, 12:00:56 +0100)
+
+## 5 November 2026, 12:02:30 +0100 : Prompt
+
+<!-- feedback-event:1ee7060b0c996bcc71d0d2f829f3d0dd06f22135e53203fe42e2c5e346982046 (5 November 2026, 12:02:30 +0100) -->
+- Project: zorah-materials; kind: prompt. (5 November 2026, 12:02:30 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (5 November 2026, 12:02:30 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/ctrl-s (5 November 2026, 12:02:30 +0100)
+>
+> # Ctrl-S (5 November 2026, 12:02:30 +0100)
+>
+> Le geste répond à une seule question : (5 November 2026, 12:02:30 +0100)
+>
+> > Où faut-il écrire ce que nous venons d'apprendre pour que cela serve encore dans six mois ? (5 November 2026, 12:02:30 +0100)
+>
+> La réponse comporte parfois deux écritures, dont les rôles ne se doublonnent jamais : (5 November 2026, 12:02:30 +0100)
+>
+> - le fichier `*1.md` garde la connaissance durable du projet ; (5 November 2026, 12:02:30 +0100)
+> - `/Users/zenray/.claude/PROGRESS.md` garde la trace datée de l'action et pointe vers cette source. (5 November 2026, 12:02:30 +0100)
+>
+> ## Architecture canonique (5 November 2026, 12:02:30 +0100)
+>
+> | Question | Source unique | (5 November 2026, 12:02:30 +0100)
+> |---|---| (5 November 2026, 12:02:30 +0100)
+> | Quand, quoi, quel agent, quelle preuve, quelle suite ? | `~/.claude/PROGRESS.md` via le skill `progress` | (5 November 2026, 12:02:30 +0100)
+> | Que sait durablement un projet ou un domaine ? | `Memory/<domaine>/<Nom>1.md` | (5 November 2026, 12:02:30 +0100)
+> | Comment retrouver une section dans un gros fichier ? | skill routeur de contexte | (5 November 2026, 12:02:30 +0100)
+> | Quelle méthode réutiliser ? | `~/.claude/skills/<méthode>/` | (5 November 2026, 12:02:30 +0100)
+> | Quelle loi vaut encore demain ? | `CLAUDE.md` global ou du projet | (5 November 2026, 12:02:30 +0100)
+> | Pourquoi cette ligne de code surprenante existe-t-elle ? | commentaire au point exact | (5 November 2026, 12:02:30 +0100)
+> | Quel plan ou état de chantier détaillé reprendre ? | fichier dédié dans le projet | (5 November 2026, 12:02:30 +0100)
+> | Où vit un secret ? | section autorisée de `Identity/Matthieu1.md`, jamais ailleurs | (5 November 2026, 12:02:30 +0100)
+>
+> Une information, un seul endroit. Le journal cite la source durable ; il n'en recopie pas le contenu. (5 November 2026, 12:02:30 +0100)
+>
+> ## Arbre de décision (5 November 2026, 12:02:30 +0100)
+>
+> 1. **Secret** : utiliser seulement la valeur nécessaire depuis `Identity/Matthieu1.md`. Ne jamais l'afficher, (5 November 2026, 12:02:30 +0100)
+>    la journaliser ni la mettre dans un commit. (5 November 2026, 12:02:30 +0100)
+> 2. **Connaissance durable d'un projet ou de Matthieu** : trouver son `*1.md` avec le routeur correspondant, (5 November 2026, 12:02:30 +0100)
+>    puis ajouter une section datée sans effacer l'historique. (5 November 2026, 12:02:30 +0100)
+> 3. **Méthode réutilisable** : créer ou corriger le skill source dans `~/.claude/skills/`, puis le synchroniser. (5 November 2026, 12:02:30 +0100)
+> 4. **Loi transversale** : modifier `~/.claude/CLAUDE.md`. Une loi propre à un dépôt va dans son `CLAUDE.md`. (5 November 2026, 12:02:30 +0100)
+> 5. **Cause locale d'un code surprenant** : commenter au point exact, avec symptôme, cause, fausse piste et risque. (5 November 2026, 12:02:30 +0100)
+> 6. **Plan ou chantier long** : utiliser `KANBAN.md`, `PROTOCOLE.md`, `docs/<sujet>-design.md` ou le fichier déjà (5 November 2026, 12:02:30 +0100)
+>    en vigueur dans le projet. (5 November 2026, 12:02:30 +0100)
+> 7. **Chronologie** : appeler le skill `progress` dans tous les cas notables, avec un pointeur vers la source (5 November 2026, 12:02:30 +0100)
+>    durable quand les étapes précédentes ont écrit ailleurs. (5 November 2026, 12:02:30 +0100)
+>
+> ## Bases Memory (5 November 2026, 12:02:30 +0100)
+>
+> Les gros fichiers restent entiers. Un skill court sert d'index dynamique et ne charge que la section utile. (5 November 2026, 12:02:30 +0100)
+>
+> - `matthieu-context` route vers `/Users/zenray/.claude/Memory1/Identity/Matthieu1.md` ; (5 November 2026, 12:02:30 +0100)
+> - `japanese-context` route vers `/Users/zenray/.claude/Memory1/Japanese/Japanese1.md` ; (5 November 2026, 12:02:30 +0100)
+> - `zenrayshards-context` route vers `/Users/zenray/.claude/Memory1/ZenRayShards/ZenRayShards1.md` ; (5 November 2026, 12:02:30 +0100)
+> - les autres domaines suivent le même contrat, par exemple `Design/Design1.md`, `Houdini/Houdini1.md`, (5 November 2026, 12:02:30 +0100)
+>   `UnrealEngine/UnrealEngine1.md`, `AudioProductions/Audio1.md`. (5 November 2026, 12:02:30 +0100)
+>
+> Avant d'écrire, chercher les titres avec `rg -n '^#{1,4} '` et la notion avec `rg -n -i '<termes>'`. Ajouter (5 November 2026, 12:02:30 +0100)
+> dans la section concernée avec la date. Une correction nouvelle annule explicitement l'ancienne sans l'effacer. (5 November 2026, 12:02:30 +0100)
+>
+> Un fait ne va dans un `*1.md` que s'il change ce que le projet saura encore dans six mois. Une simple commande (5 November 2026, 12:02:30 +0100)
+> exécutée, un build vert ou une étape intermédiaire restent dans le journal global. (5 November 2026, 12:02:30 +0100)
+>
+> ## Journal global (5 November 2026, 12:02:30 +0100)
+>
+> Ne jamais créer ni compléter un `PROGRESS.md` dans le projet courant. Appeler : (5 November 2026, 12:02:30 +0100)
+>
+> ```zsh (5 November 2026, 12:02:30 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs append \ (5 November 2026, 12:02:30 +0100)
+>   --project "Nom du projet" \ (5 November 2026, 12:02:30 +0100)
+>   --fait "Résultat factuel" \ (5 November 2026, 12:02:30 +0100)
+>   --verifie "Preuve réelle" \ (5 November 2026, 12:02:30 +0100)
+>   --source-durable "/chemin/vers/Projet1.md" \ (5 November 2026, 12:02:30 +0100)
+>   --prochain "Action suivante" (5 November 2026, 12:02:30 +0100)
+> ``` (5 November 2026, 12:02:30 +0100)
+>
+> Champs disponibles : `Mesuré`, `Décision`, `Échoué`, `Écarté`, `Apprentissage`, `Vérifié`, `Source durable`, (5 November 2026, 12:02:30 +0100)
+> `Prochain`, `Blocage`. `Fait` est obligatoire. Un chiffre porte son unité, sa méthode et sa date. (5 November 2026, 12:02:30 +0100)
+>
+> Le script `progress` est obligatoire parce que deux instances, Claude Code et Codex, peuvent écrire au même (5 November 2026, 12:02:30 +0100)
+> instant. Il verrouille l'append, relève l'agent et le modèle depuis l'hôte et masque les secrets. Ne jamais (5 November 2026, 12:02:30 +0100)
+> pré-rédiger un résultat avant la commande qui le prouve. (5 November 2026, 12:02:30 +0100)
+>
+> ## Agent et modèle (5 November 2026, 12:02:30 +0100)
+>
+> L'infrastructure se déduit de l'hôte, jamais d'une introspection du modèle : (5 November 2026, 12:02:30 +0100)
+>
+> - session avec métadonnées Codex : `Codex Desktop`, modèle et effort lus dans le dernier `turn_context` ; (5 November 2026, 12:02:30 +0100)
+> - session Claude Code : `Claude Code Desktop`, modèle lu dans les métadonnées ou le transcript seulement s'il (5 November 2026, 12:02:30 +0100)
+>   y apparaît ; (5 November 2026, 12:02:30 +0100)
+> - donnée absente : écrire `non exposé par l'hôte`. (5 November 2026, 12:02:30 +0100)
+>
+> Les noms configurés ou attendus ne deviennent pas automatiquement le modèle de la session, car une sélection (5 November 2026, 12:02:30 +0100)
+> dans l'interface ou une option de lancement peut les surcharger. (5 November 2026, 12:02:30 +0100)
+>
+> ## Reprise (5 November 2026, 12:02:30 +0100)
+>
+> Au début d'une session, lire trois entrées, éventuellement filtrées par projet : (5 November 2026, 12:02:30 +0100)
+>
+> ```zsh (5 November 2026, 12:02:30 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs tail --count 3 (5 November 2026, 12:02:30 +0100)
+> node /Users/zenray/.claude/skills/progress/scripts/progress.mjs tail --project "ZenRayShards" --count 3 (5 November 2026, 12:02:30 +0100)
+> ``` (5 November 2026, 12:02:30 +0100)
+>
+> Résumer ces trois entrées en trois lignes maximum et annoncer la dernière action `Prochain`. Ne jamais charger (5 November 2026, 12:02:30 +0100)
+> le journal entier pour une reprise ordinaire ; le détail vient ensuite du skill routeur et du `*1.md` concerné. (5 November 2026, 12:02:30 +0100)
+>
+> ## Journaux legacy (5 November 2026, 12:02:30 +0100)
+>
+> Les sept anciens `PROGRESS.md` sont retirés le 2026-08-22 après audit complet et validation explicite. Ne jamais (5 November 2026, 12:02:30 +0100)
+> les recréer. Si un autre journal legacy est découvert, le skill `progress` l’importe de façon idempotente dans (5 November 2026, 12:02:30 +0100)
+> le global, masque les secrets dans la copie et conserve son chemin et sa ligne avant toute suppression autorisée. (5 November 2026, 12:02:30 +0100)
+>
+> ## Déclencheurs (5 November 2026, 12:02:30 +0100)
+>
+> Sauvegarder automatiquement lorsqu'une tâche significative finit, qu'une décision se tranche, qu'une mesure (5 November 2026, 12:02:30 +0100)
+> produit un chiffre, qu'une piste échoue ou s'écarte, qu'un blocage apparaît ou se lève, qu'un fichier important (5 November 2026, 12:02:30 +0100)
+> change de rôle, qu'un agent rend un résultat, que le contexte va se compacter, ou que Matthieu marque une pause. (5 November 2026, 12:02:30 +0100)
+>
+> Ne rien sauvegarder quand l'état se reconstruit en trois secondes, qu'aucune décision n'en dépend et qu'aucune (5 November 2026, 12:02:30 +0100)
+> session future n'en bénéficiera. Écrire trop enterre autant qu'écrire au mauvais endroit. (5 November 2026, 12:02:30 +0100)
+>
+> ## Le cas japonais — ce qu'un Ctrl-S doit produire pour que la leçon apparaisse sur le site (5 November 2026, 12:02:30 +0100)
+>
+> Depuis le 2026-08-27, une leçon japonaise n'est plus seulement archivée : elle est **affichée**, par la vue (5 November 2026, 12:02:30 +0100)
+> ZenRayJapanese de ZenRayProgress (zone Learn, nav Japanese). Cette vue ne lit rien d'autre que ce que le Ctrl-S (5 November 2026, 12:02:30 +0100)
+> écrit, si bien qu'une leçon mal rangée ne disparaît pas, elle devient invisible, ce qui est pire. (5 November 2026, 12:02:30 +0100)
+>
+> La règle d'or reste la même : **une information, un seul endroit**. `Memory/Japanese/Japanese1.md` demeure la (5 November 2026, 12:02:30 +0100)
+> source unique et append-only ; `Memory/Japanese/Site/japanese.json` n'en est que l'index dérivé, produit par un (5 November 2026, 12:02:30 +0100)
+> script, jamais écrit à la main. Modifier l'index sans modifier le corpus fabrique une seconde vérité qui sera (5 November 2026, 12:02:30 +0100)
+> écrasée à la première régénération. (5 November 2026, 12:02:30 +0100)
+>
+> ### Le routage, section par section (5 November 2026, 12:02:30 +0100)
+>
+> La vue possède quatre sections, et chacune se remplit par une FORME d'écriture précise dans le corpus. Écrire (5 November 2026, 12:02:30 +0100)
+> la bonne chose sous la mauvaise forme la range dans le carnet papier plutôt que sur le site. (5 November 2026, 12:02:30 +0100)
+>
+> | Ce qu'on vient d'enseigner | La forme à écrire dans `Japanese1.md` | Où cela apparaît | (5 November 2026, 12:02:30 +0100)
+> |---|---|---| (5 November 2026, 12:02:30 +0100)
+> | Une leçon entière | un titre `## L<n> — <AAAA-MM-JJ> — <titre>` | onglet **Leçons**, une carte | (5 November 2026, 12:02:30 +0100)
+> | Un point de grammaire | un titre `### Grammaire — ~point` **ou** une ligne de tableau `\| Point \| Sens \|` | onglet **Grammaire** | (5 November 2026, 12:02:30 +0100)
+> | Du vocabulaire | un tableau à deux colonnes `\| Mot \| Sens \|` | onglet **Vocabulaire** | (5 November 2026, 12:02:30 +0100)
+> | Un kanji | une fiche `Lessons/KanjiCards/<plage>/NNN 漢 Kun On.html` | onglet **Kanji** | (5 November 2026, 12:02:30 +0100)
+> | Un nouvel état chiffré | la ligne `### État mesuré au <AAAA-MM-JJ>` puis sa phrase `N5 : x% enseigné, ~y% consolidé. N4 : …` | la **jauge** en tête | (5 November 2026, 12:02:30 +0100)
+>
+> Trois pièges, tous payés au moins une fois : (5 November 2026, 12:02:30 +0100)
+>
+> Le vocabulaire dicté en prose (« il a recopié はし, みず, えき ») n'atteint JAMAIS le site : seul un tableau est (5 November 2026, 12:02:30 +0100)
+> lu. C'est exactement l'écart que la vue affiche elle-même sous la jauge, trois cent douze mots tabulés contre (5 November 2026, 12:02:30 +0100)
+> sept cents comptés, et cet écart est de la matière perdue, pas une imprécision d'affichage. (5 November 2026, 12:02:30 +0100)
+>
+> Un tableau d'exercice (`\| # \| Question \| Réponse Matthieu \| Verdict \|`) est délibérément écarté du (5 November 2026, 12:02:30 +0100)
+> vocabulaire : y ranger un mot nouveau revient à le cacher. (5 November 2026, 12:02:30 +0100)
+>
+> La jauge n'est jamais calculée, elle est RELUE. Tant que la ligne « État mesuré au … » n'est pas mise à jour, (5 November 2026, 12:02:30 +0100)
+> les pourcentages du site restent ceux du dernier comptage, quelle que soit la quantité de leçons ajoutées (5 November 2026, 12:02:30 +0100)
+> depuis. C'est voulu : le corpus distingue **enseigné** et **consolidé**, et seul un drill réel produit le second. (5 November 2026, 12:02:30 +0100)
+>
+> ### La séquence, dans l'ordre (5 November 2026, 12:02:30 +0100)
+>
+> ```zsh (5 November 2026, 12:02:30 +0100)
+> # 1. la leçon s'ajoute au corpus, en append, jamais en réécriture (5 November 2026, 12:02:30 +0100)
+> #    (édition de /Users/zenray/.claude/Memory1/Japanese/Japanese1.md) (5 November 2026, 12:02:30 +0100)
+>
+> # 2. l'index se régénère depuis le corpus (5 November 2026, 12:02:30 +0100)
+> cd /Users/zenray/.claude/Memory1/Japanese (5 November 2026, 12:02:30 +0100)
+> python3 Scripts/build-japanese-index.py (5 November 2026, 12:02:30 +0100)
+>
+> # 3. le contrôle échoue si l'index et le corpus divergent (5 November 2026, 12:02:30 +0100)
+> python3 Scripts/build-japanese-index.py --verify (5 November 2026, 12:02:30 +0100)
+>
+> # 4. publication (5 November 2026, 12:02:30 +0100)
+> cd /Users/zenray/.claude/Memory1 (5 November 2026, 12:02:30 +0100)
+> git add -- Japanese/Japanese1.md Japanese/Site/japanese.json (5 November 2026, 12:02:30 +0100)
+> git commit -m "japonais : L<n> — <titre>" && git push (5 November 2026, 12:02:30 +0100)
+> ``` (5 November 2026, 12:02:30 +0100)
+>
+> Le site lit ensuite le dépôt Memory par son API. Compter jusqu'à cinq minutes de cache CDN avant que la (5 November 2026, 12:02:30 +0100)
+> nouvelle leçon n'apparaisse : un rechargement immédiat qui montre l'ancien compte n'est pas une panne, et (5 November 2026, 12:02:30 +0100)
+> l'écart se vérifie en interrogeant l'API plutôt qu'en rechargeant la page en boucle. (5 November 2026, 12:02:30 +0100)
+>
+> ### Ce qui reste interdit (5 November 2026, 12:02:30 +0100)
+>
+> La vue est en **lecture seule**, et c'est une décision, pas une limite technique : un journal append-only qu'on (5 November 2026, 12:02:30 +0100)
+> pourrait retoucher depuis une page web cesserait de dire ce qu'on croyait à l'époque, ce qui est justement ce (5 November 2026, 12:02:30 +0100)
+> qu'on vient y chercher. Une correction s'écrit donc comme une nouvelle entrée qui cite l'ancienne, jamais comme (5 November 2026, 12:02:30 +0100)
+> une réécriture, exactement comme dans le journal global. (5 November 2026, 12:02:30 +0100)
+>
+> ## Contrôle avant de rendre (5 November 2026, 12:02:30 +0100)
+>
+> 1. La connaissance durable se trouve dans un seul `*1.md`. (5 November 2026, 12:02:30 +0100)
+> 2. La chronologie se trouve uniquement dans le global. (5 November 2026, 12:02:30 +0100)
+> 3. Toute mesure a une preuve ; toute hypothèse porte son incertitude. (5 November 2026, 12:02:30 +0100)
+> 4. Les échecs et les options écartées disent pourquoi. (5 November 2026, 12:02:30 +0100)
+> 5. `Prochain` est une action unique avec le chemin utile. (5 November 2026, 12:02:30 +0100)
+> 6. Aucun secret n'apparaît. (5 November 2026, 12:02:30 +0100)
+> 7. Les modifications sont commitées dans leur dépôt source. (5 November 2026, 12:02:30 +0100)
+>
+> Le test final tient en une phrase : la session suivante peut-elle reprendre sans relire cette conversation ? (5 November 2026, 12:02:30 +0100)
+>
+> ## 23 October 2026 : consigner, c'est aussi l'article et le cloud (5 November 2026, 12:02:30 +0100)
+>
+> - Mots de Matthieu (23 October 2026) : « quand je te dis consigner, ça veut dire qu'il faut que tu bind tout et que tu push tout ». Un Ctrl-S sur un skill qui a `ARTICLE.json` passe par `sync-skill.sh` (article reconstruit et publié), puis `refresh-skill-article.mjs <skill> --check` vert, puis commit et push de `~/.claude` (chemins explicites) et de Memory1. Rien n'est « consigné » tant que l'article dit autre chose que le skill. (23 October 2026) (5 November 2026, 12:02:30 +0100)
+>
+> ## 3 November 2026 : fin de travail = synthèse, article, index mapping et push ZenRay Assets (5 November 2026, 12:02:30 +0100)
+>
+> - Mots de Matthieu (3 November 2026) : « à chaque fois, il faut que tu conclues le travail par un document de synthèse et par le fait de push dans ZenRay Assets ». Tout Ctrl-S de fin de projet ou de chantier applique systématiquement le protocole complet : (5 November 2026, 12:02:30 +0100)
+>   1. **Document de synthèse et Article** : générer le document HTML autonome (`Articles/index.html` et `Synthesis.html` / `index.html` avec GT Ultra inliné, figures base64, résumé au ton neutre et tableau d'inventaire complet replié) selon `/Users/zenray/.claude/skills/zenray-edit/references/ProjectSynthesis.md` ; (5 November 2026, 12:02:30 +0100)
+>   2. **Index Mapping et révisions** : produire `IndexMapping.json` (fichiers, rôles, chemins, empreintes SHA256) et `ProjectInfo.json` (révisions datées, résumés et sourceDigest) ; (5 November 2026, 12:02:30 +0100)
+>   3. **Déclaration de l'article Assets** : lier l'article au projet via `requestAssets({ action: 'set-article', projectId, article: { fileId: 'workshop:Articles/index.html', title, sha256, thumbnailUrl } })` ; (5 November 2026, 12:02:30 +0100)
+>   4. **Publication et archivage cloud** : déclencher la publication des métadonnées (`action: 'publish'`) et l'archivage cloud des fichiers (`action: 'archive'`). Une tâche n'est pas réputée achevée tant que l'article n'est pas consultable dans ZenRay Assets et que les fichiers ne sont pas sécurisés dans le cloud. (3 November 2026) (5 November 2026, 12:02:30 +0100)
+>
+>
+> ARGUMENTS: Fin du travail des deux sessions cloud appliqué en local : synthèse Zorah et règle SVG consignées (ProjectSynthesis, ZenRayProjects1, prompt_height_chain, value-chain.svg, pointeur CLAUDE.md, bloc typo déplacé vers Typography1), Cloud Bridge fusionné dans main (5bcd04f9), index poussé, skills zenray-cloud-handoff et zenray-progress à jour ; article Zorah déclaré dans Assets, archive en file ; déploiement du site et aller-retour réel du bridge restent à décider. (5 November 2026, 12:02:30 +0100)
+
+## 5 November 2026, 12:02:43 +0100 : Iteration
+
+<!-- feedback-event:38e7a3f8864c3abe78d68c6aa01e22cab387f764e9228fbe5155c1e4bc89a333 (5 November 2026, 12:02:43 +0100) -->
+- Project: zorah-materials; kind: iteration. (5 November 2026, 12:02:43 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (5 November 2026, 12:02:43 +0100)
+
+> Il reste à enregistrer dans git les derniers fichiers modifiés, puis à vérifier que les deux dépôts sont poussés. (5 November 2026, 12:02:43 +0100)
+
+## 5 November 2026, 12:03:26 +0100 : Iteration
+
+<!-- feedback-event:9028d0a7fff0b60cde38006dd46f97b2e5b7da9592014565d5707397a993154b (5 November 2026, 12:03:26 +0100) -->
+- Project: zorah-materials; kind: iteration. (5 November 2026, 12:03:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray-Library-Application-Support-Claude-scratch-workspaces-a28d2458-e55b-4cf3-acec-322cb0778c40-e410da62-b0cb-4839-aece-40580ca951ac-scratch-2026-11-03-678c8e/e3fcfc3d-2756-4ada-8b78-faa7ff7c168a.jsonl. (5 November 2026, 12:03:26 +0100)
+
+> Le travail des deux sessions cloud est fini en local, commité et poussé. Deux choses restent ouvertes : l'archive cloud de l'article Zorah tourne encore, et le site n'est pas redéployé. (5 November 2026, 12:03:26 +0100)
+>
+> **La synthèse Zorah et la règle SVG.** La synthèse et son schéma de la chaîne sont validés : son contrôle passe 35 points sur 35, et son autotest est vert sur la vraie version et rouge sur les cinq copies cassées. La règle « un diagramme SVG très simple pour chaque chaîne de valeur et chaque synthèse » est consignée à quatre endroits : (5 November 2026, 12:03:26 +0100)
+> - le contrat des synthèses de zenray-edit (`ProjectSynthesis.md`) ; (5 November 2026, 12:03:26 +0100)
+> - les règles des projets (`ZenRayProjects1.md`) ; (5 November 2026, 12:03:26 +0100)
+> - la chaîne height de zenray-houdini, avec le schéma à côté ; (5 November 2026, 12:03:26 +0100)
+> - une ligne de renvoi dans CLAUDE.md. (5 November 2026, 12:03:26 +0100)
+>
+> **CLAUDE.md.** Il faisait 65 490 octets et ne pouvait plus accueillir cette ligne sous la limite de 65 536. J'ai déplacé le bloc typographique du 26 October, texte intact, dans `Typography1.md` ; CLAUDE.md fait maintenant 63 872 octets. Les copies pour Codex et Gemini sont régénérées. (5 November 2026, 12:03:26 +0100)
+>
+> **Le Cloud Bridge.** Je l'ai testé à part avant de l'intégrer à `main` de ZenRayProgress (`5bcd04f9`) : 14 contrôles d'autotest et 52 tests verts, et le site se construit. Le premier index des envois et retours est poussé, et les skills zenray-cloud-handoff et zenray-progress sont à jour. (5 November 2026, 12:03:26 +0100)
+>
+> **Ce qui reste à finir ou à décider :** (5 November 2026, 12:03:26 +0100)
+> - **Article Zorah dans Assets.** Le projet pointait vers un ancien dossier vide ; j'ai ajouté le dossier daté `tmp-zorah-materials-3-november-2026` comme nouvelle source et déclaré l'article. Le service était arrêté parce que l'application ZenRay Assets était fermée ; je l'ai ouverte. L'archive est en file, mais le service, occupé, ne répond pas encore aux demandes de publication : la sauvegarde cloud n'est pas confirmée. (5 November 2026, 12:03:26 +0100)
+> - **Aller-retour réel du bridge.** Il demande d'ouvrir une nouvelle session cloud ; je ne l'ai pas lancé. (5 November 2026, 12:03:26 +0100)
+> - **Déploiement du site.** Il fera apparaître la vue Cloud Bridge dans la sidebar ; il attend votre accord. Les instructions du cloud le réservaient à votre décision. (5 November 2026, 12:03:26 +0100)
+>
+> | Ce que vous vouliez | Fait ? | Comment je le sais | (5 November 2026, 12:03:26 +0100)
+> |---|---|---| (5 November 2026, 12:03:26 +0100)
+> | Finir le travail des deux sessions en local | Oui | Synthèse validée, bridge vert, tout poussé sur `main` | (5 November 2026, 12:03:26 +0100)
+> | Organiser le travail | Oui | Leurs deux listes d'étapes jouées dans l'ordre ; l'aller-retour réel et le déploiement mis de côté | (5 November 2026, 12:03:26 +0100)
+> | Sauvegarder (ctrl-s) | Oui | Journal, FEEDBACK, ~/.claude et Memory poussés | (5 November 2026, 12:03:26 +0100)
+> | Article Zorah dans le cloud | Pas vérifié | Archive en file, non confirmée | (5 November 2026, 12:03:26 +0100)
