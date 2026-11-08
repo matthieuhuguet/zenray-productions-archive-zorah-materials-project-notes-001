@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-06T05:22:48.615Z",
+ "scannedAt": "2026-11-08T18:27:49.689Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
@@ -82,6 +82,22 @@
    "updatedAt": "2026-11-06T00:46:16.004Z",
    "bytes": 43524,
    "boundProject": "zenray-meshes"
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-07T23:01:28.675Z",
+   "last": "2026-11-07T23:01:28.675Z",
+   "strength": "weak",
+   "conversationId": "claude:e8ea2178-33dd-484a-8fb4-198702093ebf",
+   "provider": "claude",
+   "sessionId": "e8ea2178-33dd-484a-8fb4-198702093ebf",
+   "title": "past.dev setup et intégration",
+   "updatedAt": "2026-11-08T00:10:33.534Z",
+   "bytes": 39680,
+   "boundProject": null
   },
   {
    "projectId": "zorah-materials",
