@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-09T12:05:52.033Z",
+ "scannedAt": "2026-11-09T18:07:18.994Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
@@ -37,6 +37,38 @@
   },
   {
    "projectId": "zorah-materials",
+   "lines": 8,
+   "work": 4,
+   "prompts": 0,
+   "first": "2026-11-09T14:41:43.211Z",
+   "last": "2026-11-09T17:44:27.995Z",
+   "strength": "strong",
+   "conversationId": "codex:01a1b880-053e-79d2-a657-256ca3f2e083",
+   "provider": "codex",
+   "sessionId": "01a1b880-053e-79d2-a657-256ca3f2e083",
+   "title": "Conversation codex 01a1b880",
+   "updatedAt": "2026-11-09T17:57:36.479Z",
+   "bytes": 36324724,
+   "boundProject": "zenray-progress"
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 9,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-05T18:27:08.735Z",
+   "last": "2026-11-09T15:47:00.105Z",
+   "strength": "weak",
+   "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
+   "provider": "claude",
+   "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
+   "title": "zenray meshes v3",
+   "updatedAt": "2026-11-09T18:06:31.676Z",
+   "bytes": 61767947,
+   "boundProject": "zenray-meshes"
+  },
+  {
+   "projectId": "zorah-materials",
    "lines": 9,
    "work": 0,
    "prompts": 0,
@@ -48,7 +80,7 @@
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes dragon sculpt",
    "updatedAt": "2026-11-05T15:38:15.829Z",
-   "bytes": 58286,
+   "bytes": 58287,
    "boundProject": "zenray-meshes"
   },
   {
@@ -72,32 +104,64 @@
    "lines": 4,
    "work": 0,
    "prompts": 0,
-   "first": "2026-11-05T18:27:08.735Z",
-   "last": "2026-11-05T23:14:35.753Z",
+   "first": "2026-11-04T12:50:54.363Z",
+   "last": "2026-11-09T13:39:53.061Z",
    "strength": "weak",
-   "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
+   "conversationId": "claude:ab8eb886-c8c8-4907-9217-d36f0dd11c49",
    "provider": "claude",
-   "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
-   "title": "zenray meshes v2",
-   "updatedAt": "2026-11-06T00:46:16.004Z",
-   "bytes": 43524,
-   "boundProject": "zenray-meshes"
+   "sessionId": "ab8eb886-c8c8-4907-9217-d36f0dd11c49",
+   "title": "zenray disk space",
+   "updatedAt": "2026-11-09T18:05:46.514Z",
+   "bytes": 276830,
+   "boundProject": null
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 4,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-07T23:01:28.675Z",
+   "last": "2026-11-09T14:03:52.868Z",
+   "strength": "weak",
+   "conversationId": "claude:e8ea2178-33dd-484a-8fb4-198702093ebf",
+   "provider": "claude",
+   "sessionId": "e8ea2178-33dd-484a-8fb4-198702093ebf",
+   "title": "zenray past + typo",
+   "updatedAt": "2026-11-09T16:08:51.807Z",
+   "bytes": 40398,
+   "boundProject": "zenray-past"
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 4,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-09T13:49:40.707Z",
+   "last": "2026-11-09T14:00:50.745Z",
+   "strength": "weak",
+   "conversationId": "claude:fdce96ce-c0fd-4b6e-8530-957817ed13c2",
+   "provider": "claude",
+   "sessionId": "fdce96ce-c0fd-4b6e-8530-957817ed13c2",
+   "title": "zenray documents",
+   "updatedAt": "2026-11-09T15:03:20.176Z",
+   "bytes": 38048,
+   "boundProject": null
   },
   {
    "projectId": "zorah-materials",
    "lines": 2,
    "work": 0,
    "prompts": 0,
-   "first": "2026-11-07T23:01:28.675Z",
-   "last": "2026-11-07T23:01:28.675Z",
+   "first": "2026-11-09T15:23:26.189Z",
+   "last": "2026-11-09T15:23:26.189Z",
    "strength": "weak",
-   "conversationId": "claude:e8ea2178-33dd-484a-8fb4-198702093ebf",
+   "conversationId": "claude:db59f75b-cccf-46e4-a3ce-27e1c3aebd7b",
    "provider": "claude",
-   "sessionId": "e8ea2178-33dd-484a-8fb4-198702093ebf",
-   "title": "zenray past",
-   "updatedAt": "2026-11-09T12:05:30.938Z",
-   "bytes": 5419629,
-   "boundProject": "zenray-past"
+   "sessionId": "db59f75b-cccf-46e4-a3ce-27e1c3aebd7b",
+   "title": "Auditer le prompt Gemini de ZenRay Knight",
+   "updatedAt": "2026-11-09T15:31:29.723Z",
+   "bytes": 42059,
+   "boundProject": null
   },
   {
    "projectId": "zorah-materials",
@@ -110,9 +174,9 @@
    "conversationId": "claude:6af72161-967c-4826-aab6-8fed6ea2efc6",
    "provider": "claude",
    "sessionId": "6af72161-967c-4826-aab6-8fed6ea2efc6",
-   "title": "zenray liberty",
-   "updatedAt": "2026-11-09T11:54:45.978Z",
-   "bytes": 2808268,
+   "title": "zenray knight",
+   "updatedAt": "2026-11-09T13:51:18.651Z",
+   "bytes": 39009,
    "boundProject": "conversation-claude-5316aef55aa94522e805fa65"
   },
   {
@@ -128,24 +192,8 @@
    "sessionId": "2fa7a2c2-2e3a-4858-97ca-fca574273ab2",
    "title": "how to be rich",
    "updatedAt": "2026-11-05T15:42:19.290Z",
-   "bytes": 39705,
+   "bytes": 39706,
    "boundProject": "conversation-claude-82aa3d4efb9aa834817ad361"
-  },
-  {
-   "projectId": "zorah-materials",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-11-04T12:50:54.363Z",
-   "last": "2026-11-04T12:50:54.363Z",
-   "strength": "weak",
-   "conversationId": "claude:ab8eb886-c8c8-4907-9217-d36f0dd11c49",
-   "provider": "claude",
-   "sessionId": "ab8eb886-c8c8-4907-9217-d36f0dd11c49",
-   "title": "Libération d'espace disque Mac",
-   "updatedAt": "2026-11-04T23:52:01.228Z",
-   "bytes": 37939,
-   "boundProject": null
   },
   {
    "projectId": "zorah-materials",
@@ -160,7 +208,7 @@
    "sessionId": "a1fda4e5-399d-437b-9e9e-c21bc6b9973f",
    "title": "Skill ZenRay Build Nintendo Games",
    "updatedAt": "2026-11-04T13:43:18.407Z",
-   "bytes": 37949,
+   "bytes": 37950,
    "boundProject": null
   },
   {
@@ -193,6 +241,22 @@
    "title": "gt america = clean font easy to read",
    "updatedAt": "2026-11-04T01:31:57.209Z",
    "bytes": 42942,
+   "boundProject": null
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 1,
+   "work": 0,
+   "prompts": 1,
+   "first": "2026-11-09T17:45:23.041Z",
+   "last": "2026-11-09T17:45:23.041Z",
+   "strength": "weak",
+   "conversationId": "codex:01a1c165-5341-75a2-b2c7-f7a880368e55",
+   "provider": "codex",
+   "sessionId": "01a1c165-5341-75a2-b2c7-f7a880368e55",
+   "title": "Conversation codex 01a1c165",
+   "updatedAt": "2026-11-09T17:53:39.048Z",
+   "bytes": 707636,
    "boundProject": null
   }
  ]
