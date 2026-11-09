@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-09T06:29:53.699Z",
+ "scannedAt": "2026-11-09T12:05:52.033Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
@@ -94,10 +94,26 @@
    "conversationId": "claude:e8ea2178-33dd-484a-8fb4-198702093ebf",
    "provider": "claude",
    "sessionId": "e8ea2178-33dd-484a-8fb4-198702093ebf",
-   "title": "past.dev setup et intégration",
-   "updatedAt": "2026-11-08T00:10:33.534Z",
-   "bytes": 39680,
-   "boundProject": null
+   "title": "zenray past",
+   "updatedAt": "2026-11-09T12:05:30.938Z",
+   "bytes": 5419629,
+   "boundProject": "zenray-past"
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-09T11:34:30.864Z",
+   "last": "2026-11-09T11:34:30.864Z",
+   "strength": "weak",
+   "conversationId": "claude:6af72161-967c-4826-aab6-8fed6ea2efc6",
+   "provider": "claude",
+   "sessionId": "6af72161-967c-4826-aab6-8fed6ea2efc6",
+   "title": "zenray liberty",
+   "updatedAt": "2026-11-09T11:54:45.978Z",
+   "bytes": 2808268,
+   "boundProject": "conversation-claude-5316aef55aa94522e805fa65"
   },
   {
    "projectId": "zorah-materials",
