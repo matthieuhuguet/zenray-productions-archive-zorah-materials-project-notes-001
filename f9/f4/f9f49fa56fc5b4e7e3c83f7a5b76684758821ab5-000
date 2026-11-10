@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-10T06:09:48.067Z",
+ "scannedAt": "2026-11-10T12:10:56.997Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
@@ -53,18 +53,18 @@
   },
   {
    "projectId": "zorah-materials",
-   "lines": 15,
+   "lines": 19,
    "work": 0,
    "prompts": 0,
    "first": "2026-11-05T18:27:08.735Z",
-   "last": "2026-11-10T02:48:39.090Z",
+   "last": "2026-11-10T10:41:16.085Z",
    "strength": "weak",
    "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v4",
-   "updatedAt": "2026-11-10T06:09:26.697Z",
-   "bytes": 281924,
+   "updatedAt": "2026-11-10T11:33:37.993Z",
+   "bytes": 280469,
    "boundProject": "zenray-meshes"
   },
   {
@@ -144,8 +144,24 @@
    "sessionId": "e8ea2178-33dd-484a-8fb4-198702093ebf",
    "title": "zenray past + typo",
    "updatedAt": "2026-11-09T16:08:51.807Z",
-   "bytes": 40398,
+   "bytes": 276856,
    "boundProject": "zenray-past"
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-10T11:19:00.844Z",
+   "last": "2026-11-10T11:19:00.844Z",
+   "strength": "weak",
+   "conversationId": "claude:9f60abf3-0c2f-475e-8ef7-607c3a691ab9",
+   "provider": "claude",
+   "sessionId": "9f60abf3-0c2f-475e-8ef7-607c3a691ab9",
+   "title": "3D Fable 5.2",
+   "updatedAt": "2026-11-10T11:53:28.658Z",
+   "bytes": 276102,
+   "boundProject": "car-blank-method-10-november-2026"
   },
   {
    "projectId": "zorah-materials",
@@ -176,7 +192,7 @@
    "sessionId": "db59f75b-cccf-46e4-a3ce-27e1c3aebd7b",
    "title": "Auditer le prompt Gemini de ZenRay Knight",
    "updatedAt": "2026-11-09T15:31:29.723Z",
-   "bytes": 42059,
+   "bytes": 279050,
    "boundProject": null
   },
   {
