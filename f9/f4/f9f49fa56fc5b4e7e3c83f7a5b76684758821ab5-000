@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-10T12:10:56.997Z",
+ "scannedAt": "2026-11-10T18:12:02.092Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
@@ -63,8 +63,8 @@
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v4",
-   "updatedAt": "2026-11-10T11:33:37.993Z",
-   "bytes": 280469,
+   "updatedAt": "2026-11-10T17:59:43.326Z",
+   "bytes": 280668,
    "boundProject": "zenray-meshes"
   },
   {
@@ -95,8 +95,8 @@
    "provider": "claude",
    "sessionId": "ab8eb886-c8c8-4907-9217-d36f0dd11c49",
    "title": "zenray disk space",
-   "updatedAt": "2026-11-09T23:37:32.358Z",
-   "bytes": 276186,
+   "updatedAt": "2026-11-10T18:08:37.267Z",
+   "bytes": 274458,
    "boundProject": null
   },
   {
