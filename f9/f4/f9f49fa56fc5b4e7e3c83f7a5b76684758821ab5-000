@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-10T18:12:02.092Z",
+ "scannedAt": "2026-11-11T00:14:41.530Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
@@ -53,18 +53,18 @@
   },
   {
    "projectId": "zorah-materials",
-   "lines": 19,
+   "lines": 22,
    "work": 0,
    "prompts": 0,
    "first": "2026-11-05T18:27:08.735Z",
-   "last": "2026-11-10T10:41:16.085Z",
+   "last": "2026-11-10T21:07:01.088Z",
    "strength": "weak",
    "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v4",
-   "updatedAt": "2026-11-10T17:59:43.326Z",
-   "bytes": 280668,
+   "updatedAt": "2026-11-11T00:13:07.221Z",
+   "bytes": 280521,
    "boundProject": "zenray-meshes"
   },
   {
@@ -96,7 +96,7 @@
    "sessionId": "ab8eb886-c8c8-4907-9217-d36f0dd11c49",
    "title": "zenray disk space",
    "updatedAt": "2026-11-10T18:08:37.267Z",
-   "bytes": 274458,
+   "bytes": 274521,
    "boundProject": null
   },
   {
@@ -146,6 +146,22 @@
    "updatedAt": "2026-11-09T16:08:51.807Z",
    "bytes": 276856,
    "boundProject": "zenray-past"
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-10T21:29:52.423Z",
+   "last": "2026-11-10T21:29:52.423Z",
+   "strength": "weak",
+   "conversationId": "claude:710b33e1-dfb3-4203-8a30-468c937e1175",
+   "provider": "claude",
+   "sessionId": "710b33e1-dfb3-4203-8a30-468c937e1175",
+   "title": "TPM 2.0 activation B460M",
+   "updatedAt": "2026-11-10T21:33:41.317Z",
+   "bytes": 275973,
+   "boundProject": null
   },
   {
    "projectId": "zorah-materials",
