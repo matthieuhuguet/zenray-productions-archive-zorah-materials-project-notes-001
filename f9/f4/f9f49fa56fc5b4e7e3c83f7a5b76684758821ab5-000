@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-11T00:14:41.530Z",
+ "scannedAt": "2026-11-11T11:52:23.295Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
@@ -63,8 +63,8 @@
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v4",
-   "updatedAt": "2026-11-11T00:13:07.221Z",
-   "bytes": 280521,
+   "updatedAt": "2026-11-11T00:49:17.149Z",
+   "bytes": 280517,
    "boundProject": "zenray-meshes"
   },
   {
