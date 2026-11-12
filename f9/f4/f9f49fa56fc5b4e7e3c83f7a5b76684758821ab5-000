@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-11T23:54:20.273Z",
+ "scannedAt": "2026-11-12T05:55:34.314Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
@@ -53,18 +53,18 @@
   },
   {
    "projectId": "zorah-materials",
-   "lines": 27,
+   "lines": 31,
    "work": 0,
    "prompts": 0,
    "first": "2026-11-05T18:27:08.735Z",
-   "last": "2026-11-11T14:47:46.395Z",
+   "last": "2026-11-12T01:23:53.580Z",
    "strength": "weak",
    "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
-   "updatedAt": "2026-11-11T19:30:32.504Z",
-   "bytes": 280567,
+   "updatedAt": "2026-11-12T01:48:10.686Z",
+   "bytes": 280718,
    "boundProject": "zenray-meshes"
   },
   {
@@ -146,6 +146,22 @@
    "updatedAt": "2026-11-09T16:08:51.807Z",
    "bytes": 276856,
    "boundProject": "zenray-past"
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-12T01:00:28.961Z",
+   "last": "2026-11-12T01:00:28.961Z",
+   "strength": "weak",
+   "conversationId": "claude:e7a595ee-68f1-4379-b8a2-2a7a1305728d",
+   "provider": "claude",
+   "sessionId": "e7a595ee-68f1-4379-b8a2-2a7a1305728d",
+   "title": "excellent zenray audio et fonts",
+   "updatedAt": "2026-11-12T01:21:16.852Z",
+   "bytes": 276339,
+   "boundProject": "audio-fonts-gallery-12-november-2026"
   },
   {
    "projectId": "zorah-materials",
