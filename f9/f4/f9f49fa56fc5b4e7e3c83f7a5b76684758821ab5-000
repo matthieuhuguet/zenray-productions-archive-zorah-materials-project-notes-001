@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zorah-materials",
- "scannedAt": "2026-11-12T05:55:34.314Z",
+ "scannedAt": "2026-11-12T11:56:43.916Z",
  "conversations": [
   {
    "projectId": "zorah-materials",
@@ -53,18 +53,18 @@
   },
   {
    "projectId": "zorah-materials",
-   "lines": 31,
+   "lines": 33,
    "work": 0,
    "prompts": 0,
    "first": "2026-11-05T18:27:08.735Z",
-   "last": "2026-11-12T01:23:53.580Z",
+   "last": "2026-11-12T10:01:58.683Z",
    "strength": "weak",
    "conversationId": "claude:0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "provider": "claude",
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
-   "updatedAt": "2026-11-12T01:48:10.686Z",
-   "bytes": 280718,
+   "updatedAt": "2026-11-12T11:24:34.152Z",
+   "bytes": 286627,
    "boundProject": "zenray-meshes"
   },
   {
@@ -152,6 +152,38 @@
    "lines": 2,
    "work": 0,
    "prompts": 0,
+   "first": "2026-11-12T11:07:01.700Z",
+   "last": "2026-11-12T11:07:01.700Z",
+   "strength": "weak",
+   "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "provider": "claude",
+   "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "title": "Car2 : chantier avant (ZenRay Meshes V5)",
+   "updatedAt": "2026-11-12T11:23:42.358Z",
+   "bytes": 281202,
+   "boundProject": null
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-12T11:07:36.457Z",
+   "last": "2026-11-12T11:07:36.457Z",
+   "strength": "weak",
+   "conversationId": "claude:e264aec9-490e-425d-a307-fecde33ce3c0",
+   "provider": "claude",
+   "sessionId": "e264aec9-490e-425d-a307-fecde33ce3c0",
+   "title": "Car2 : chantier profil gauche (ZenRay Meshes V5)",
+   "updatedAt": "2026-11-12T11:23:30.143Z",
+   "bytes": 281020,
+   "boundProject": null
+  },
+  {
+   "projectId": "zorah-materials",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-11-12T01:00:28.961Z",
    "last": "2026-11-12T01:00:28.961Z",
    "strength": "weak",
@@ -160,7 +192,7 @@
    "sessionId": "e7a595ee-68f1-4379-b8a2-2a7a1305728d",
    "title": "excellent zenray audio et fonts",
    "updatedAt": "2026-11-12T01:21:16.852Z",
-   "bytes": 276339,
+   "bytes": 277477,
    "boundProject": "audio-fonts-gallery-12-november-2026"
   },
   {
